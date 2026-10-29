@@ -1,0 +1,11 @@
+{
+  "name": "blockfl-audit-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": { "compile": "node compile.cjs" },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.4.0",
+    "solc": "0.8.24"
+  }
+}

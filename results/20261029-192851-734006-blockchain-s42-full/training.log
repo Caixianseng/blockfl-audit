@@ -1,0 +1,53 @@
+2026-10-29 19:29:00,251 INFO Preparing CIFAR-10 (blockchain), four logical clients, device=cuda
+2026-10-29 19:29:01,911 INFO Data ready: train=50000 test=10000 partition_hash=337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9 initial_hash=e16a6a7c724d22f395922dff186ffff8251c5d4d1cee3faaee684568024e956d
+2026-10-29 19:29:04,096 INFO Round 1/10 client 0: samples=12500 loss=2.24539 training=0.773s hash=c76683a2aafa246b25df817ad8bde04847c2ee5d54397d9ce6ad487488e0ba23
+2026-10-29 19:29:05,177 INFO Round 1/10 client 1: samples=12500 loss=2.25296 training=0.404s hash=5ddbbe98f7329a2753730b91751bce672fd4057460aa82485c565e2f1169817d
+2026-10-29 19:29:06,147 INFO Round 1/10 client 2: samples=12500 loss=2.24633 training=0.422s hash=7bdfe6f8d8a110332a45674e5b55c0e949d03a910a251045c11bb85ff3b31d90
+2026-10-29 19:29:07,279 INFO Round 1/10 client 3: samples=12500 loss=2.24828 training=0.396s hash=04766b93528cc77cc179f71d30fe1ccaa69b5962ed113f5f08ba32d2c7e214d2
+2026-10-29 19:29:08,522 INFO Round 1 complete: accuracy=0.2674 loss=2.03678 total=6.606s audit=3.983s
+2026-10-29 19:29:10,191 INFO Round 2/10 client 0: samples=12500 loss=1.89918 training=0.530s hash=41f1c348534b13101035494f967c48a38ae753ae7a8bd0833a2890fe394e09e3
+2026-10-29 19:29:11,140 INFO Round 2/10 client 1: samples=12500 loss=1.88615 training=0.423s hash=ae28971d38e38aa30f494a11069d419ce7f65bad6121dca99902168d8548a7d8
+2026-10-29 19:29:12,252 INFO Round 2/10 client 2: samples=12500 loss=1.88792 training=0.431s hash=d24b84d7f363ed140d2bf44dda2f2fff729b6deee0f4065a41b6f4c55bf6c4e3
+2026-10-29 19:29:13,159 INFO Round 2/10 client 3: samples=12500 loss=1.89086 training=0.427s hash=9242fe60c3dc6469418d66408489a76b09443db97735d4549ae6481e52143355
+2026-10-29 19:29:14,544 INFO Round 2 complete: accuracy=0.3937 loss=1.66362 total=6.017s audit=3.748s
+2026-10-29 19:29:16,242 INFO Round 3/10 client 0: samples=12500 loss=1.65636 training=0.527s hash=88665b448cdfd4989fc9f9e89c07975dcc4eba12686dd225922bafc67c659f93
+2026-10-29 19:29:17,141 INFO Round 3/10 client 1: samples=12500 loss=1.66339 training=0.430s hash=3d9785d08d93fafbf1bb1fc92c4fa50c091c05e045d9a5c24de1347fa2aaa217
+2026-10-29 19:29:18,254 INFO Round 3/10 client 2: samples=12500 loss=1.66750 training=0.436s hash=ae2026d736baed43389a9b41acf97a6e38ebdd8c3ec2c0d117d52b95a11418e4
+2026-10-29 19:29:19,112 INFO Round 3/10 client 3: samples=12500 loss=1.66944 training=0.530s hash=ac1070c6e1faa100cb8ba6aac7d4f72d37516464414b9101a2b61f5a363c59fb
+2026-10-29 19:29:20,358 INFO Round 3 complete: accuracy=0.4369 loss=1.53806 total=5.811s audit=3.509s
+2026-10-29 19:29:22,083 INFO Round 4/10 client 0: samples=12500 loss=1.55289 training=0.557s hash=cb71d604eadedf5f76d754a7a9426abc9a4be17561ef352c83544713962fef28
+2026-10-29 19:29:23,186 INFO Round 4/10 client 1: samples=12500 loss=1.56387 training=0.423s hash=3d8b46e147abdaec2532a8c2972bfcbe668b9782d5561a4082f608967194ed90
+2026-10-29 19:29:24,288 INFO Round 4/10 client 2: samples=12500 loss=1.56464 training=0.427s hash=dbe7d87963e36aceb25a6bd258eb5130ff84b10f1416293f16f4a99904717774
+2026-10-29 19:29:25,283 INFO Round 4/10 client 3: samples=12500 loss=1.54929 training=0.464s hash=cf47e14b7ea9c5faa33b71335a30e78140f40e334ef9251672c39afedcc59efe
+2026-10-29 19:29:26,333 INFO Round 4 complete: accuracy=0.4736 loss=1.45493 total=5.970s audit=3.707s
+2026-10-29 19:29:28,211 INFO Round 5/10 client 0: samples=12500 loss=1.48951 training=0.560s hash=1074e67583a50716efc0fb145ab8773033f21e48671516c9a2583575334e6762
+2026-10-29 19:29:29,157 INFO Round 5/10 client 1: samples=12500 loss=1.47320 training=0.420s hash=dcfc3d807a345eedc381af0ddfd669b6e419b992e1beba33c676654f5479e058
+2026-10-29 19:29:30,147 INFO Round 5/10 client 2: samples=12500 loss=1.48450 training=0.455s hash=093e8bf6b099ba753f3021876ccf4c32f6ec811ccb8615531240383cf5493c49
+2026-10-29 19:29:31,140 INFO Round 5/10 client 3: samples=12500 loss=1.49255 training=0.521s hash=4cc9a22d40dab75c7cd3d496a75ec5bf213b106c248a6bb5d7743385f50d4b97
+2026-10-29 19:29:32,506 INFO Round 5 complete: accuracy=0.4914 loss=1.41162 total=6.115s audit=3.712s
+2026-10-29 19:29:34,142 INFO Round 6/10 client 0: samples=12500 loss=1.41104 training=0.523s hash=ba6ed3766503b358e12c5fea733be206a865df34a93c45d7ae3c943e84c9419c
+2026-10-29 19:29:35,271 INFO Round 6/10 client 1: samples=12500 loss=1.41422 training=0.454s hash=0a7f6356f7f207fcd498c712bee476faad4c3f69d505ad6aac4860df06e5cc0b
+2026-10-29 19:29:36,251 INFO Round 6/10 client 2: samples=12500 loss=1.40876 training=0.507s hash=76aa93caf2df2d510bb0bb4c27cfd6c54471f1a05f0efa8b4a21f72596913390
+2026-10-29 19:29:37,103 INFO Round 6/10 client 3: samples=12500 loss=1.41431 training=0.529s hash=ff08b230be4e54f31246453bd57e720c346ef96089898d38f923e5a932b359d0
+2026-10-29 19:29:38,361 INFO Round 6 complete: accuracy=0.5226 loss=1.32960 total=5.850s audit=3.496s
+2026-10-29 19:29:40,109 INFO Round 7/10 client 0: samples=12500 loss=1.36467 training=0.582s hash=ea71e97ff130f03f2f9beb1d6dc92f6c19d29a2bf8a5aa079ec45cda5c963fca
+2026-10-29 19:29:41,222 INFO Round 7/10 client 1: samples=12500 loss=1.36429 training=0.440s hash=dfac73e167ed3bccfabf75676b09bcd55fab5c396ebddf49ece9472037370fdc
+2026-10-29 19:29:42,194 INFO Round 7/10 client 2: samples=12500 loss=1.35732 training=0.447s hash=15c97618f9539080a8b60cb231d0be487c6dfa8b70847e06b68ada79b195b1a7
+2026-10-29 19:29:43,121 INFO Round 7/10 client 3: samples=12500 loss=1.37406 training=0.455s hash=01df23fdc83bc4156dbe8a299505835a9c354e13e9a87cc9e1dc23c9b1bc24f5
+2026-10-29 19:29:44,376 INFO Round 7 complete: accuracy=0.5378 loss=1.29052 total=6.011s audit=3.690s
+2026-10-29 19:29:46,097 INFO Round 8/10 client 0: samples=12500 loss=1.29663 training=0.552s hash=93389505a687c5aaeb6c109c32c47fc307f9f9b777921e73cbe4454f1e880b03
+2026-10-29 19:29:47,231 INFO Round 8/10 client 1: samples=12500 loss=1.32536 training=0.407s hash=6ca7950256caa51011d77c45a8d42d2f862078dfede7c10a2cf95bcb14540631
+2026-10-29 19:29:48,225 INFO Round 8/10 client 2: samples=12500 loss=1.31785 training=0.468s hash=fe57aa035157dc33c8477719c621a802ea177bf2c519cc95adc175740f0c20ae
+2026-10-29 19:29:49,262 INFO Round 8/10 client 3: samples=12500 loss=1.32053 training=0.508s hash=beb74961ea94399dab4b5cf650e83c2bdd0a624ae5b235cb4149815de2a9f66d
+2026-10-29 19:29:50,384 INFO Round 8 complete: accuracy=0.5546 loss=1.25212 total=5.949s audit=3.497s
+2026-10-29 19:29:52,140 INFO Round 9/10 client 0: samples=12500 loss=1.27151 training=0.584s hash=7cb46d26bfaa8e12faee43d592b2cff5e1da295001abb814841b1a68dbc6ea5f
+2026-10-29 19:29:53,102 INFO Round 9/10 client 1: samples=12500 loss=1.26719 training=0.441s hash=9a4f381a0a3996a2d5ea69404667f8a83b2adbbb821128a4881fcfd6656fecc9
+2026-10-29 19:29:54,192 INFO Round 9/10 client 2: samples=12500 loss=1.27930 training=0.423s hash=1f1eba4fc208ee22ab598fc9446d16fdfd720ee6a2f7e5b12821fe26ccb38c3c
+2026-10-29 19:29:55,211 INFO Round 9/10 client 3: samples=12500 loss=1.26376 training=0.497s hash=4b9fd8162f405a80ddc751ba49b571d85ab0252104cc1f32415da49536c89f44
+2026-10-29 19:29:56,294 INFO Round 9 complete: accuracy=0.5637 loss=1.21392 total=5.905s audit=3.526s
+2026-10-29 19:29:58,218 INFO Round 10/10 client 0: samples=12500 loss=1.22323 training=0.605s hash=40cdd65003bc43a17e5b24b65876ac7fd539b2f6535852a3549b0ce64a1b3e4f
+2026-10-29 19:29:59,165 INFO Round 10/10 client 1: samples=12500 loss=1.21658 training=0.424s hash=9bc733197e28432ddcaea0675b515074fd4381fbffca43acb34c97e470d4c379
+2026-10-29 19:30:00,158 INFO Round 10/10 client 2: samples=12500 loss=1.23865 training=0.470s hash=419ee6c4870dabb357c80fc2a80a308e2ea207d307399ea033851998cdeb5ea1
+2026-10-29 19:30:01,143 INFO Round 10/10 client 3: samples=12500 loss=1.24225 training=0.450s hash=d263bfeac8b387415859b91a42004fc46f9029638c4d0abd70916f09f14f22d5
+2026-10-29 19:30:02,464 INFO Round 10 complete: accuracy=0.5731 loss=1.19040 total=6.107s audit=3.703s
+2026-10-29 19:30:02,470 INFO Completed: {"mode": "blockchain", "seed": 42, "rounds": 10, "client_count": 4, "train_samples": 50000, "test_samples": 10000, "final_accuracy": 0.5731, "final_loss": 1.1903989810943603, "total_seconds": 60.55437140000868, "mean_round_seconds": 6.0340905700009895, "total_audit_seconds": 36.571580400079256, "total_model_bytes_up": 10022480, "total_model_bytes_down": 10022480, "initial_hash": "e16a6a7c724d22f395922dff186ffff8251c5d4d1cee3faaee684568024e956d", "final_hash": "9992d4a98ed97ddb8d361c078de4b93a5ab05d480cab6dd1322f7cb52beeb672", "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9", "resolved_device": "cuda", "deployment": "in_process_logical_clients", "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead", "finished_at": "2026-10-29T11:30:02.465459+00:00"}

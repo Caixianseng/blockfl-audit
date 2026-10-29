@@ -1,0 +1,25 @@
+{
+  "pid": 71028,
+  "create_time": 1793273331.7376537,
+  "started_at": "2026-10-29T11:28:51.739988+00:00",
+  "argv": [
+    "F:\\项目\\区块链\\blockfl-audit\\.venv\\Scripts\\python.exe",
+    "-u",
+    "-m",
+    "experiments.run",
+    "--mode",
+    "blockchain",
+    "--rounds",
+    "10",
+    "--seed",
+    "42",
+    "--train-limit",
+    "0",
+    "--test-limit",
+    "0",
+    "--output",
+    "F:\\项目\\区块链\\blockfl-audit\\results\\20261029-192851-734006-blockchain-s42-full",
+    "--manage-network"
+  ],
+  "source": "dashboard"
+}

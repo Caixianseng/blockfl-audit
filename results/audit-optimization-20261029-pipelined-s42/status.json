@@ -1,0 +1,4 @@
+{
+  "state": "failed",
+  "error": "RuntimeError: Node 1 returned an invalid QBFT validator list"
+}

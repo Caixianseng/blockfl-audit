@@ -1,0 +1,882 @@
+{
+  "generated_at": "2026-10-29T11:23:59.902853+00:00",
+  "run_prefix": "full-study-20261029-",
+  "run_count": 6,
+  "runs": [
+    {
+      "name": "full-study-20261029-baseline-s42",
+      "mode": "baseline",
+      "seed": 42,
+      "rounds": 10,
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.5731,
+      "final_loss": 1.1903989810943603,
+      "total_seconds": 22.13768830000481,
+      "mean_round_seconds": 2.2030303999985335,
+      "total_audit_seconds": 0.0,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e16a6a7c724d22f395922dff186ffff8251c5d4d1cee3faaee684568024e956d",
+      "final_hash": "9992d4a98ed97ddb8d361c078de4b93a5ab05d480cab6dd1322f7cb52beeb672",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T11:07:26.524840+00:00",
+      "audit_setup_seconds": 0,
+      "workflow_wall_seconds": 37.26356520000263,
+      "ledger_growth_bytes_all_nodes": 0,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": null,
+      "end_block": null
+    },
+    {
+      "name": "full-study-20261029-blockchain-s42",
+      "mode": "blockchain",
+      "seed": 42,
+      "rounds": 10,
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.5731,
+      "final_loss": 1.1903989810943603,
+      "total_seconds": 62.18098089999694,
+      "mean_round_seconds": 6.186183070001425,
+      "total_audit_seconds": 37.502439900054014,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e16a6a7c724d22f395922dff186ffff8251c5d4d1cee3faaee684568024e956d",
+      "final_hash": "9992d4a98ed97ddb8d361c078de4b93a5ab05d480cab6dd1322f7cb52beeb672",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T11:06:48.317155+00:00",
+      "audit_setup_seconds": 0.5726922000030754,
+      "workflow_wall_seconds": 71.32002070000453,
+      "ledger_growth_bytes_all_nodes": 1557557,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": 212,
+      "end_block": 282,
+      "confirmed_audit_transactions": 61,
+      "application_audit_tps": 0.879106128691089,
+      "application_audit_tps_scope": "first submission to last receipt; includes run creation and preparation gaps; not saturated TPS",
+      "mean_confirmation_seconds": 0.5941716983595188,
+      "reverted_audit_transactions": 0,
+      "application_audit_window_seconds": 69.38866424560547
+    },
+    {
+      "name": "full-study-20261029-baseline-s43",
+      "mode": "baseline",
+      "seed": 43,
+      "rounds": 10,
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.565,
+      "final_loss": 1.224778145980835,
+      "total_seconds": 20.595154399998137,
+      "mean_round_seconds": 2.054703860000882,
+      "total_audit_seconds": 0.0,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e69964f5f4927efb9311e2511353af631cfb77858869f09f4fae581f048eda0d",
+      "final_hash": "609902253b220ba7729afb141bd71414e02e98a39f77acf579166f47c7324720",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T11:08:02.857992+00:00",
+      "audit_setup_seconds": 0,
+      "workflow_wall_seconds": 35.32837990000553,
+      "ledger_growth_bytes_all_nodes": 0,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": null,
+      "end_block": null
+    },
+    {
+      "name": "full-study-20261029-blockchain-s43",
+      "mode": "blockchain",
+      "seed": 43,
+      "rounds": 10,
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.565,
+      "final_loss": 1.224778145980835,
+      "total_seconds": 60.64445110000088,
+      "mean_round_seconds": 6.026616449997528,
+      "total_audit_seconds": 36.13020679997862,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e69964f5f4927efb9311e2511353af631cfb77858869f09f4fae581f048eda0d",
+      "final_hash": "609902253b220ba7729afb141bd71414e02e98a39f77acf579166f47c7324720",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T11:09:32.357267+00:00",
+      "audit_setup_seconds": 1.4885775000002468,
+      "workflow_wall_seconds": 88.5671391000069,
+      "ledger_growth_bytes_all_nodes": 1604596,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": 283,
+      "end_block": 353,
+      "confirmed_audit_transactions": 61,
+      "reverted_audit_transactions": 0,
+      "application_audit_window_seconds": 69.46118879318237,
+      "application_audit_tps": 0.8781882524588632,
+      "application_audit_tps_scope": "first submission to last receipt; includes run creation and preparation gaps; not saturated TPS",
+      "mean_confirmation_seconds": 0.5827962475407537
+    },
+    {
+      "name": "full-study-20261029-baseline-s44",
+      "mode": "baseline",
+      "seed": 44,
+      "rounds": 10,
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.568,
+      "final_loss": 1.209170673751831,
+      "total_seconds": 22.862169799991534,
+      "mean_round_seconds": 2.275462349997542,
+      "total_audit_seconds": 0.0,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e61f0c02cd7fa8ad26f7dc035837aa8ecf1117109af320cc0126210f49f38cc9",
+      "final_hash": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T11:11:25.805839+00:00",
+      "audit_setup_seconds": 0,
+      "workflow_wall_seconds": 37.950877900002524,
+      "ledger_growth_bytes_all_nodes": 0,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": null,
+      "end_block": null
+    },
+    {
+      "name": "full-study-20261029-blockchain-s44",
+      "mode": "blockchain",
+      "seed": 44,
+      "rounds": 10,
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.568,
+      "final_loss": 1.209170673751831,
+      "total_seconds": 61.003926600009436,
+      "mean_round_seconds": 6.064726790001441,
+      "total_audit_seconds": 34.53507160001027,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e61f0c02cd7fa8ad26f7dc035837aa8ecf1117109af320cc0126210f49f38cc9",
+      "final_hash": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T11:10:46.645856+00:00",
+      "audit_setup_seconds": 0.5841207000048598,
+      "workflow_wall_seconds": 73.02480529999593,
+      "ledger_growth_bytes_all_nodes": 1652623,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": 356,
+      "end_block": 427,
+      "confirmed_audit_transactions": 61,
+      "reverted_audit_transactions": 0,
+      "application_audit_window_seconds": 70.53424620628357,
+      "application_audit_tps": 0.8648281264905018,
+      "application_audit_tps_scope": "first submission to last receipt; includes run creation and preparation gaps; not saturated TPS",
+      "mean_confirmation_seconds": 0.5458209147547051
+    }
+  ],
+  "mode_statistics": {
+    "baseline": {
+      "final_accuracy": {
+        "n": 3,
+        "mean": 0.5687,
+        "sample_sd": 0.004095119045888712,
+        "min": 0.565,
+        "max": 0.5731
+      },
+      "final_loss": {
+        "n": 3,
+        "mean": 1.2081159336090088,
+        "sample_sd": 0.017213834614911147,
+        "min": 1.1903989810943603,
+        "max": 1.224778145980835
+      },
+      "total_seconds": {
+        "n": 3,
+        "mean": 21.86500416666483,
+        "sample_sd": 1.1578459238531436,
+        "min": 20.595154399998137,
+        "max": 22.862169799991534
+      },
+      "mean_round_seconds": {
+        "n": 3,
+        "mean": 2.177732203332319,
+        "sample_sd": 0.11253255880998714,
+        "min": 2.054703860000882,
+        "max": 2.275462349997542
+      },
+      "workflow_wall_seconds": {
+        "n": 3,
+        "mean": 36.84760766667023,
+        "sample_sd": 1.3598306667188536,
+        "min": 35.32837990000553,
+        "max": 37.950877900002524
+      },
+      "total_audit_seconds": {
+        "n": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "total_model_bytes_up": {
+        "n": 3,
+        "mean": 10022480.0,
+        "sample_sd": 0.0,
+        "min": 10022480.0,
+        "max": 10022480.0
+      },
+      "total_model_bytes_down": {
+        "n": 3,
+        "mean": 10022480.0,
+        "sample_sd": 0.0,
+        "min": 10022480.0,
+        "max": 10022480.0
+      },
+      "ledger_growth_bytes_all_nodes": {
+        "n": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "blockchain": {
+      "final_accuracy": {
+        "n": 3,
+        "mean": 0.5687,
+        "sample_sd": 0.004095119045888712,
+        "min": 0.565,
+        "max": 0.5731
+      },
+      "final_loss": {
+        "n": 3,
+        "mean": 1.2081159336090088,
+        "sample_sd": 0.017213834614911147,
+        "min": 1.1903989810943603,
+        "max": 1.224778145980835
+      },
+      "total_seconds": {
+        "n": 3,
+        "mean": 61.27645286666908,
+        "sample_sd": 0.803700118877413,
+        "min": 60.64445110000088,
+        "max": 62.18098089999694
+      },
+      "mean_round_seconds": {
+        "n": 3,
+        "mean": 6.092508770000132,
+        "sample_sd": 0.08333219884506061,
+        "min": 6.026616449997528,
+        "max": 6.186183070001425
+      },
+      "workflow_wall_seconds": {
+        "n": 3,
+        "mean": 77.63732170000246,
+        "sample_sd": 9.503802077651443,
+        "min": 71.32002070000453,
+        "max": 88.5671391000069
+      },
+      "total_audit_seconds": {
+        "n": 3,
+        "mean": 36.055906100014305,
+        "sample_sd": 1.485078820311406,
+        "min": 34.53507160001027,
+        "max": 37.502439900054014
+      },
+      "total_model_bytes_up": {
+        "n": 3,
+        "mean": 10022480.0,
+        "sample_sd": 0.0,
+        "min": 10022480.0,
+        "max": 10022480.0
+      },
+      "total_model_bytes_down": {
+        "n": 3,
+        "mean": 10022480.0,
+        "sample_sd": 0.0,
+        "min": 10022480.0,
+        "max": 10022480.0
+      },
+      "ledger_growth_bytes_all_nodes": {
+        "n": 3,
+        "mean": 1604925.3333333333,
+        "sample_sd": 47533.85566449805,
+        "min": 1557557.0,
+        "max": 1652623.0
+      },
+      "application_audit_tps": {
+        "n": 3,
+        "mean": 0.8740408358801514,
+        "sample_sd": 0.007991629052829205,
+        "min": 0.8648281264905018,
+        "max": 0.879106128691089
+      },
+      "application_audit_window_seconds": {
+        "n": 3,
+        "mean": 69.79469974835713,
+        "sample_sd": 0.6414917576040692,
+        "min": 69.38866424560547,
+        "max": 70.53424620628357
+      },
+      "mean_confirmation_seconds": {
+        "n": 3,
+        "mean": 0.5742629535516591,
+        "sample_sd": 0.02527968351321111,
+        "min": 0.5458209147547051,
+        "max": 0.5941716983595188
+      }
+    }
+  },
+  "pairs": [
+    {
+      "seed": 42,
+      "final_accuracy": 0.5731,
+      "baseline_seconds": 22.13768830000481,
+      "blockchain_seconds": 62.18098089999694,
+      "added_seconds": 40.04329259999213,
+      "ratio": 2.808829000450938,
+      "initial_hash_equal": true,
+      "data_indices_equal": true,
+      "all_ten_global_hashes_equal": true
+    },
+    {
+      "seed": 43,
+      "final_accuracy": 0.565,
+      "baseline_seconds": 20.595154399998137,
+      "blockchain_seconds": 60.64445110000088,
+      "added_seconds": 40.04929670000274,
+      "ratio": 2.944598031273141,
+      "initial_hash_equal": true,
+      "data_indices_equal": true,
+      "all_ten_global_hashes_equal": true
+    },
+    {
+      "seed": 44,
+      "final_accuracy": 0.568,
+      "baseline_seconds": 22.862169799991534,
+      "blockchain_seconds": 61.003926600009436,
+      "added_seconds": 38.1417568000179,
+      "ratio": 2.668334945182326,
+      "initial_hash_equal": true,
+      "data_indices_equal": true,
+      "all_ten_global_hashes_equal": true
+    }
+  ],
+  "paired_added_seconds": {
+    "n": 3,
+    "mean": 39.41144870000426,
+    "sample_sd": 1.0995895384062435,
+    "min": 38.1417568000179,
+    "max": 40.04929670000274
+  },
+  "ratio_of_mean_training_loop_seconds": 2.8024898783276044,
+  "transaction_categories": {
+    "begin_round": {
+      "count": 30,
+      "n": 30,
+      "mean": 0.6922433966654353,
+      "sample_sd": 0.1334913053201646,
+      "min": 0.4263601999991806,
+      "max": 1.0340118000021903
+    },
+    "commit_aggregate": {
+      "count": 30,
+      "n": 30,
+      "mean": 0.9371306666672656,
+      "sample_sd": 0.10326068222043762,
+      "min": 0.8227935000031721,
+      "max": 1.0368177999916952
+    },
+    "create_run": {
+      "count": 3,
+      "n": 3,
+      "mean": 0.784437266663493,
+      "sample_sd": 0.5158151278820307,
+      "min": 0.4820057999895653,
+      "max": 1.380025199992815
+    },
+    "submit_update": {
+      "count": 120,
+      "n": 120,
+      "mean": 0.4487965566665177,
+      "sample_sd": 0.18211995923818808,
+      "min": 0.21375359999365173,
+      "max": 1.4388866999943275
+    }
+  },
+  "pooled_transaction_latency": {
+    "n": 183,
+    "mean": 0.5742629535516591,
+    "sample_sd": 0.2534854957747058,
+    "min": 0.21375359999365173,
+    "max": 1.4388866999943275,
+    "median": 0.42670510000607464,
+    "p95": 1.033979540002474
+  },
+  "per_process_resources": [
+    {
+      "run": "full-study-20261029-baseline-s42",
+      "mode": "baseline",
+      "seed": 42,
+      "role": "training",
+      "samples": 46,
+      "mean_cpu_percent": 35.34347826086957,
+      "peak_cpu_percent": 75.7,
+      "mean_rss_mib": 1260.429347826087,
+      "peak_rss_mib": 1310.6953125
+    },
+    {
+      "run": "full-study-20261029-blockchain-s42",
+      "mode": "blockchain",
+      "seed": 42,
+      "role": "training",
+      "samples": 124,
+      "mean_cpu_percent": 17.62822580645161,
+      "peak_cpu_percent": 78.7,
+      "mean_rss_mib": 1305.266349546371,
+      "peak_rss_mib": 1336.296875
+    },
+    {
+      "run": "full-study-20261029-blockchain-s42",
+      "mode": "blockchain",
+      "seed": 42,
+      "role": "validator_1",
+      "samples": 124,
+      "mean_cpu_percent": 3.861290322580645,
+      "peak_cpu_percent": 37.5,
+      "mean_rss_mib": 426.27980090725805,
+      "peak_rss_mib": 433.45703125
+    },
+    {
+      "run": "full-study-20261029-blockchain-s42",
+      "mode": "blockchain",
+      "seed": 42,
+      "role": "validator_2",
+      "samples": 124,
+      "mean_cpu_percent": 3.4725806451612904,
+      "peak_cpu_percent": 43.8,
+      "mean_rss_mib": 417.59271043346774,
+      "peak_rss_mib": 441.15234375
+    },
+    {
+      "run": "full-study-20261029-blockchain-s42",
+      "mode": "blockchain",
+      "seed": 42,
+      "role": "validator_3",
+      "samples": 124,
+      "mean_cpu_percent": 3.44274193548387,
+      "peak_cpu_percent": 51.5,
+      "mean_rss_mib": 416.4680884576613,
+      "peak_rss_mib": 432.828125
+    },
+    {
+      "run": "full-study-20261029-blockchain-s42",
+      "mode": "blockchain",
+      "seed": 42,
+      "role": "validator_4",
+      "samples": 124,
+      "mean_cpu_percent": 2.728225806451613,
+      "peak_cpu_percent": 33.4,
+      "mean_rss_mib": 413.7532132056452,
+      "peak_rss_mib": 429.5546875
+    },
+    {
+      "run": "full-study-20261029-baseline-s43",
+      "mode": "baseline",
+      "seed": 43,
+      "role": "training",
+      "samples": 43,
+      "mean_cpu_percent": 38.06976744186046,
+      "peak_cpu_percent": 63.6,
+      "mean_rss_mib": 1257.1028343023256,
+      "peak_rss_mib": 1310.82421875
+    },
+    {
+      "run": "full-study-20261029-blockchain-s43",
+      "mode": "blockchain",
+      "seed": 43,
+      "role": "training",
+      "samples": 122,
+      "mean_cpu_percent": 19.422950819672128,
+      "peak_cpu_percent": 71.9,
+      "mean_rss_mib": 1309.2526575307377,
+      "peak_rss_mib": 1336.5546875
+    },
+    {
+      "run": "full-study-20261029-blockchain-s43",
+      "mode": "blockchain",
+      "seed": 43,
+      "role": "validator_1",
+      "samples": 122,
+      "mean_cpu_percent": 4.816393442622951,
+      "peak_cpu_percent": 69.6,
+      "mean_rss_mib": 404.57008837090166,
+      "peak_rss_mib": 432.8828125
+    },
+    {
+      "run": "full-study-20261029-blockchain-s43",
+      "mode": "blockchain",
+      "seed": 43,
+      "role": "validator_2",
+      "samples": 122,
+      "mean_cpu_percent": 4.026229508196722,
+      "peak_cpu_percent": 36.3,
+      "mean_rss_mib": 396.4149910348361,
+      "peak_rss_mib": 425.109375
+    },
+    {
+      "run": "full-study-20261029-blockchain-s43",
+      "mode": "blockchain",
+      "seed": 43,
+      "role": "validator_3",
+      "samples": 122,
+      "mean_cpu_percent": 4.127049180327869,
+      "peak_cpu_percent": 53.1,
+      "mean_rss_mib": 399.1542648565574,
+      "peak_rss_mib": 423.70703125
+    },
+    {
+      "run": "full-study-20261029-blockchain-s43",
+      "mode": "blockchain",
+      "seed": 43,
+      "role": "validator_4",
+      "samples": 122,
+      "mean_cpu_percent": 4.565573770491803,
+      "peak_cpu_percent": 69.6,
+      "mean_rss_mib": 400.32040855532784,
+      "peak_rss_mib": 428.19140625
+    },
+    {
+      "run": "full-study-20261029-baseline-s44",
+      "mode": "baseline",
+      "seed": 44,
+      "role": "training",
+      "samples": 48,
+      "mean_cpu_percent": 30.818749999999994,
+      "peak_cpu_percent": 60.6,
+      "mean_rss_mib": 1264.2408854166667,
+      "peak_rss_mib": 1310.5078125
+    },
+    {
+      "run": "full-study-20261029-blockchain-s44",
+      "mode": "blockchain",
+      "seed": 44,
+      "role": "training",
+      "samples": 123,
+      "mean_cpu_percent": 16.436585365853656,
+      "peak_cpu_percent": 48.4,
+      "mean_rss_mib": 1304.6532964939024,
+      "peak_rss_mib": 1335.03515625
+    },
+    {
+      "run": "full-study-20261029-blockchain-s44",
+      "mode": "blockchain",
+      "seed": 44,
+      "role": "validator_1",
+      "samples": 123,
+      "mean_cpu_percent": 3.3593495934959354,
+      "peak_cpu_percent": 42.5,
+      "mean_rss_mib": 424.5066692073171,
+      "peak_rss_mib": 435.05859375
+    },
+    {
+      "run": "full-study-20261029-blockchain-s44",
+      "mode": "blockchain",
+      "seed": 44,
+      "role": "validator_2",
+      "samples": 123,
+      "mean_cpu_percent": 2.6089430894308947,
+      "peak_cpu_percent": 40.6,
+      "mean_rss_mib": 411.2469829776423,
+      "peak_rss_mib": 427.03125
+    },
+    {
+      "run": "full-study-20261029-blockchain-s44",
+      "mode": "blockchain",
+      "seed": 44,
+      "role": "validator_3",
+      "samples": 123,
+      "mean_cpu_percent": 2.53739837398374,
+      "peak_cpu_percent": 24.3,
+      "mean_rss_mib": 412.5165142276423,
+      "peak_rss_mib": 427.9921875
+    },
+    {
+      "run": "full-study-20261029-blockchain-s44",
+      "mode": "blockchain",
+      "seed": 44,
+      "role": "validator_4",
+      "samples": 123,
+      "mean_cpu_percent": 2.5056910569105693,
+      "peak_cpu_percent": 30.3,
+      "mean_rss_mib": 417.271500254065,
+      "peak_rss_mib": 432.50390625
+    }
+  ],
+  "validator_resource_sums": [
+    {
+      "run": "full-study-20261029-blockchain-s42",
+      "sampling_cycles": 124,
+      "maximum_within_cycle_timestamp_spread_seconds": 0.016000000003266734,
+      "mean_cpu_percent_sum": 13.504838709677419,
+      "peak_cpu_percent_sum": 87.8,
+      "mean_rss_sum_mib": 1674.0938130040322,
+      "peak_rss_sum_mib": 1713.2734375
+    },
+    {
+      "run": "full-study-20261029-blockchain-s43",
+      "sampling_cycles": 122,
+      "maximum_within_cycle_timestamp_spread_seconds": 0.0,
+      "mean_cpu_percent_sum": 17.53524590163934,
+      "peak_cpu_percent_sum": 148.29999999999998,
+      "mean_rss_sum_mib": 1600.459752817623,
+      "peak_rss_sum_mib": 1701.87109375
+    },
+    {
+      "run": "full-study-20261029-blockchain-s44",
+      "sampling_cycles": 123,
+      "maximum_within_cycle_timestamp_spread_seconds": 0.0,
+      "mean_cpu_percent_sum": 11.011382113821135,
+      "peak_cpu_percent_sum": 63.599999999999994,
+      "mean_rss_sum_mib": 1665.5416666666667,
+      "peak_rss_sum_mib": 1716.83203125
+    }
+  ],
+  "resource_statistics": {
+    "baseline_training": {
+      "mean_cpu_percent": {
+        "n": 3,
+        "mean": 34.743998567576675,
+        "sample_sd": 3.662491694535851,
+        "min": 30.818749999999994,
+        "max": 38.06976744186046
+      },
+      "peak_cpu_percent": {
+        "n": 3,
+        "mean": 66.63333333333334,
+        "sample_sd": 7.993956050250298,
+        "min": 60.6,
+        "max": 75.7
+      },
+      "mean_rss_mib": {
+        "n": 3,
+        "mean": 1260.5910225150265,
+        "sample_sd": 3.5717709132192947,
+        "min": 1257.1028343023256,
+        "max": 1264.2408854166667
+      },
+      "peak_rss_mib": {
+        "n": 3,
+        "mean": 1310.67578125,
+        "sample_sd": 0.15910478011262735,
+        "min": 1310.5078125,
+        "max": 1310.82421875
+      }
+    },
+    "blockchain_training": {
+      "mean_cpu_percent": {
+        "n": 3,
+        "mean": 17.829253997325797,
+        "sample_sd": 1.5032976771367383,
+        "min": 16.436585365853656,
+        "max": 19.422950819672128
+      },
+      "peak_cpu_percent": {
+        "n": 3,
+        "mean": 66.33333333333334,
+        "sample_sd": 15.898532427030283,
+        "min": 48.4,
+        "max": 78.7
+      },
+      "mean_rss_mib": {
+        "n": 3,
+        "mean": 1306.3907678570038,
+        "sample_sd": 2.497352175756191,
+        "min": 1304.6532964939024,
+        "max": 1309.2526575307377
+      },
+      "peak_rss_mib": {
+        "n": 3,
+        "mean": 1335.9622395833333,
+        "sample_sd": 0.8131601634963409,
+        "min": 1335.03515625,
+        "max": 1336.5546875
+      }
+    },
+    "blockchain_all_validators": {
+      "mean_cpu_percent_sum": {
+        "n": 3,
+        "mean": 14.017155575045964,
+        "sample_sd": 3.2919676651521366,
+        "min": 11.011382113821135,
+        "max": 17.53524590163934
+      },
+      "peak_cpu_percent_sum": {
+        "n": 3,
+        "mean": 99.89999999999999,
+        "sample_sd": 43.627170433114266,
+        "min": 63.599999999999994,
+        "max": 148.29999999999998
+      },
+      "mean_rss_sum_mib": {
+        "n": 3,
+        "mean": 1646.6984108294407,
+        "sample_sd": 40.27151502978626,
+        "min": 1600.459752817623,
+        "max": 1674.0938130040322
+      },
+      "peak_rss_sum_mib": {
+        "n": 3,
+        "mean": 1710.6588541666667,
+        "sample_sd": 7.815653985747763,
+        "min": 1701.87109375,
+        "max": 1716.83203125
+      }
+    }
+  },
+  "source_files": [
+    {
+      "path": "results\\full-study-20261029-baseline-s42\\config.json",
+      "sha256": "0f49d8c2bd287b85bc89de5cc29cf8b031f46942920be46425baab8894e1c0bc"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s42\\summary.json",
+      "sha256": "30a47ca04d85bdd3d84ca81a01cb0d5163c30641d97f9c36dc75a17fafee6d42"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s42\\rounds.csv",
+      "sha256": "6b75250b507083384b554187f00d4000c05fb7c85b4c3104b7b055b8b12a16e1"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s42\\resources.csv",
+      "sha256": "5c23de17cb2d5275062a130262cae1cf0d711fd8c93a43b57b256f2d8dd07da4"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s42\\config.json",
+      "sha256": "1862a0561ab713e57191be50e94cb4cdc8a660b6c98348c6cc1161d7fb75d466"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s42\\summary.json",
+      "sha256": "fd553fa711208e349f1cc91dfb1a7836ffc3e093ad93fb7062b3f691ae0952d2"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s42\\rounds.csv",
+      "sha256": "d33843020bbc8a20cc85ba0eca94366b5bf20caa78971ab8cbc89673260a2d8d"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s42\\resources.csv",
+      "sha256": "36845cd8920b42305a32cf52550b764fbfd71c5af41a128737d6c787ccbe93af"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s42\\transactions.jsonl",
+      "sha256": "f2f1b93e373148d465c2ed5234767a0a6e4bf3cc5ca5bfdd18901e4599e37013"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s42\\verifications.jsonl",
+      "sha256": "5350bee26c9412cc68bb178b3750b7deebeaeccb0122e34e31d3811ff04459cd"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s43\\config.json",
+      "sha256": "65dddc7bacfecf8a82905dcf21e2fcdc82dd2c7024dc67a44265afe8e36c0496"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s43\\summary.json",
+      "sha256": "c57e9ca895190888433bb54b5aea4570f52309c65f997c6795ac07b02a6ed751"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s43\\rounds.csv",
+      "sha256": "3971eb024fcec5c4fa3e5c8729245e1032a75d61d67b33a9af7e757df19683e6"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s43\\resources.csv",
+      "sha256": "2c7c9388ab27cfcb18994c4bd522190246593cffa3ea3a7f8486d60821692682"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s43\\config.json",
+      "sha256": "dc1c31cdf5d45fdc103c936147214af9b86d661949be0de4c58745949c788e11"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s43\\summary.json",
+      "sha256": "4c6279d6ab5f8ebda7fcac631c8e128227e3005b80ea7b34b795b6e10e7f3a43"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s43\\rounds.csv",
+      "sha256": "28776c090df69ef945a2ebbc51d2849368775f41eb441884af9709af01af680e"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s43\\resources.csv",
+      "sha256": "39a4d10dba4c733ee875e34795980f554be2d3d28c611f97e0b4ae89b581e830"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s43\\transactions.jsonl",
+      "sha256": "b00fd473148d872ceb5376e3360f74d0cef78d521b00015d37fe2ad8a19aa70f"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s43\\verifications.jsonl",
+      "sha256": "d8acd98bef8dfcb13769cd5c7f59f16c7005b97e17de83acc304f36c55f805c9"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s44\\config.json",
+      "sha256": "257d2f50048a58a9e4275879492b68b52c42dc9be3a85d14da1469a4ec688350"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s44\\summary.json",
+      "sha256": "dbc4ac8bb91c34c40815d4b5c201a8ad7d6cefcf91cf0477590e48b5e0ae7d8d"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s44\\rounds.csv",
+      "sha256": "635d6c5d7d693e6414de741f4a9040c97c425e1c46d7034136ca88844ecc1d70"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s44\\resources.csv",
+      "sha256": "768e11ba1ddb525c579fffd88280ac16db8ec0d84d59f10c2514ac04aa13c96c"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s44\\config.json",
+      "sha256": "008597e4c17483d4811e213894aa00c8f66aaba58ec5eab2e62f7d9a4061e2aa"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s44\\summary.json",
+      "sha256": "adb78f568246d8acb1d2b154d7a15627ed2342608a405bbc7938008b1b685128"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s44\\rounds.csv",
+      "sha256": "14883d67ac0e524c75ae535ecff2355014ecac37a056142a9bcb4812740c8766"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s44\\resources.csv",
+      "sha256": "5fe2de9f5ca626e1795a4faad9b391bf1077ca862e2cd9db325edb81f36c8f8e"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s44\\transactions.jsonl",
+      "sha256": "b448f8cd36b8bc464213d04ae2e4b8a193776f50fef2126e417f18e4b3585a55"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s44\\verifications.jsonl",
+      "sha256": "f27acca435be42720b8d94f9a7f0248606969be85d8199c818edcdf2bdb2e95d"
+    }
+  ],
+  "statistical_scope": "Descriptive means and sample SD across three whole runs per mode. Pooled transaction latency is not an independent-run uncertainty estimate."
+}

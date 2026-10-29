@@ -1,0 +1,742 @@
+{
+  "document": "report.md",
+  "checked_at_utc": "2026-10-29T11:25:55.076661+00:00",
+  "agent": "Codex",
+  "human_verified": false,
+  "submission_ready": false,
+  "bibliographic_records": [
+    {
+      "doi": "10.1109/lcomm.2019.2921755",
+      "title": [
+        "Blockchained On-Device Federated Learning"
+      ],
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2860-5381",
+          "authenticated-orcid": false,
+          "given": "Hyesung",
+          "family": "Kim",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7623-6552",
+          "authenticated-orcid": false,
+          "given": "Jihong",
+          "family": "Park",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mehdi",
+          "family": "Bennis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5228-9913",
+          "authenticated-orcid": false,
+          "given": "Seong-Lyun",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": [
+        "IEEE Communications Letters"
+      ],
+      "volume": "24",
+      "issue": "6",
+      "pages": "1279-1283",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            6
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/LCOMM.2019.2921755",
+      "agent_metadata_checked": true,
+      "human_verified": false,
+      "abstract_available_in_registry": false
+    },
+    {
+      "doi": "10.1109/tcomm.2020.2990686",
+      "title": [
+        "Federated Learning With Blockchain for Autonomous Vehicles: Analysis and Design Challenges"
+      ],
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5819-765X",
+          "authenticated-orcid": false,
+          "given": "Shiva Raj",
+          "family": "Pokhrel",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4895-6680",
+          "authenticated-orcid": false,
+          "given": "Jinho",
+          "family": "Choi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": [
+        "IEEE Transactions on Communications"
+      ],
+      "volume": "68",
+      "issue": "8",
+      "pages": "4734-4746",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            8
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/TCOMM.2020.2990686",
+      "agent_metadata_checked": true,
+      "human_verified": false,
+      "abstract_available_in_registry": false
+    },
+    {
+      "doi": "10.1109/tii.2019.2942190",
+      "title": [
+        "Blockchain and Federated Learning for Privacy-Preserved Data Sharing in Industrial IoT"
+      ],
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9552-5130",
+          "authenticated-orcid": false,
+          "given": "Yunlong",
+          "family": "Lu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7275-2274",
+          "authenticated-orcid": false,
+          "given": "Xiaohong",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2163-987X",
+          "authenticated-orcid": false,
+          "given": "Yueyue",
+          "family": "Dai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4616-8488",
+          "authenticated-orcid": false,
+          "given": "Sabita",
+          "family": "Maharjan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8561-5092",
+          "authenticated-orcid": false,
+          "given": "Yan",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": [
+        "IEEE Transactions on Industrial Informatics"
+      ],
+      "volume": "16",
+      "issue": "6",
+      "pages": "4177-4186",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            6
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/TII.2019.2942190",
+      "agent_metadata_checked": true,
+      "human_verified": false,
+      "abstract_available_in_registry": false
+    },
+    {
+      "doi": "10.1109/jiot.2020.2977383",
+      "title": [
+        "Decentralized Privacy Using Blockchain-Enabled Federated Learning in Fog Computing"
+      ],
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2944-4647",
+          "authenticated-orcid": false,
+          "given": "Youyang",
+          "family": "Qu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3026-7537",
+          "authenticated-orcid": false,
+          "given": "Longxiang",
+          "family": "Gao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5215-7443",
+          "authenticated-orcid": false,
+          "given": "Tom H.",
+          "family": "Luan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3545-7863",
+          "authenticated-orcid": false,
+          "given": "Yong",
+          "family": "Xiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4485-6743",
+          "authenticated-orcid": false,
+          "given": "Shui",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bai",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gavin",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": [
+        "IEEE Internet of Things Journal"
+      ],
+      "volume": "7",
+      "issue": "6",
+      "pages": "5171-5183",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            6
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/JIOT.2020.2977383",
+      "agent_metadata_checked": true,
+      "human_verified": false,
+      "abstract_available_in_registry": false
+    },
+    {
+      "doi": "10.1109/jiot.2021.3072611",
+      "title": [
+        "Federated Learning Meets Blockchain in Edge Computing: Opportunities and Challenges"
+      ],
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8092-6756",
+          "authenticated-orcid": false,
+          "given": "Dinh C.",
+          "family": "Nguyen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3690-0321",
+          "authenticated-orcid": false,
+          "given": "Ming",
+          "family": "Ding",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9485-9216",
+          "authenticated-orcid": false,
+          "given": "Quoc-Viet",
+          "family": "Pham",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8014-7798",
+          "authenticated-orcid": false,
+          "given": "Pubudu N.",
+          "family": "Pathirana",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3577-6530",
+          "authenticated-orcid": false,
+          "given": "Long Bao",
+          "family": "Le",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6894-7987",
+          "authenticated-orcid": false,
+          "given": "Aruna",
+          "family": "Seneviratne",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6239-2922",
+          "authenticated-orcid": false,
+          "given": "Jun",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7442-7416",
+          "authenticated-orcid": false,
+          "given": "Dusit",
+          "family": "Niyato",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2062-131X",
+          "authenticated-orcid": false,
+          "given": "H. Vincent",
+          "family": "Poor",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": [
+        "IEEE Internet of Things Journal"
+      ],
+      "volume": "8",
+      "issue": "16",
+      "pages": "12806-12825",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            15
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/JIOT.2021.3072611",
+      "agent_metadata_checked": true,
+      "human_verified": false,
+      "abstract_available_in_registry": false
+    },
+    {
+      "doi": "10.1145/564585.564601",
+      "title": [
+        "Brewer's conjecture and the feasibility of consistent, available, partition-tolerant web services"
+      ],
+      "authors": [
+        {
+          "given": "Seth",
+          "family": "Gilbert",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Massachusetts Institute of Technology, Cambridge, MA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nancy",
+          "family": "Lynch",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Massachusetts Institute of Technology, Cambridge, MA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "journal": [
+        "ACM SIGACT News"
+      ],
+      "volume": "33",
+      "issue": "2",
+      "pages": "51-59",
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            6
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1145/564585.564601",
+      "agent_metadata_checked": true,
+      "human_verified": false,
+      "abstract_available_in_registry": true
+    }
+  ],
+  "source_files": [
+    {
+      "path": "fl/runner.py",
+      "sha256": "96fdf3a2b8ba41560394c86408a7a147336dc9792a5d00a799bb022573f25ba7"
+    },
+    {
+      "path": "fl/model.py",
+      "sha256": "3bb2c4de991adda33cc816e41164445bda1a132cda6a61d4b1d63dc41763c426"
+    },
+    {
+      "path": "fl/data.py",
+      "sha256": "e7df7f3a3c02dfc1f712afe4345b705466d30e0dae3c1968f03cb370ef51da0a"
+    },
+    {
+      "path": "fl/artifacts.py",
+      "sha256": "77c91c598746a981111e8abe74996e87727fb6e98f96d20520f955b4a55970d2"
+    },
+    {
+      "path": "network/genesis.json",
+      "sha256": "4edd56141cc6259247dd0b0163cdff587765105cbae428238c3b2454e229a2d4"
+    },
+    {
+      "path": "network/manage.py",
+      "sha256": "938d41d0904f6687ea89f90634cf84cade539cf6614a2c666cbf3f5c702606fa"
+    },
+    {
+      "path": "network/runtime.json",
+      "sha256": "7426f654ea36a65f8fb87b5cf5e7d700433334ffeed832de9f34c50020984f09"
+    },
+    {
+      "path": "requirements.lock",
+      "sha256": "c31fe11f77cb7e95152fb5a1ccfb37c7c85b242f7519853ee4c1999bdaafacae"
+    },
+    {
+      "path": "contracts/FLAudit.sol",
+      "sha256": "c1ad18921f9c072589c92fadced24ca3d5710a91090157c3148ba54d729e94da"
+    },
+    {
+      "path": "contracts/package.json",
+      "sha256": "d14f0662a608b581e077115cdbf886d5e303c06f9703e459128aaf9caabdd6a5"
+    },
+    {
+      "path": "contracts/compile.cjs",
+      "sha256": "f8f1c959c3dd8b147d6c46734ce13d03656bb89f4e631a478dcd668179fc388e"
+    },
+    {
+      "path": "audit/chain.py",
+      "sha256": "ce9f468af0f81f6621fe417b975e172641509cbf09c162ad3454cb4120ccf0c6"
+    },
+    {
+      "path": "dashboard/data.py",
+      "sha256": "b8af884fcc44449e6056cd6f99131322d7a0359af650a70d47a2fc854aa77601"
+    },
+    {
+      "path": "experiments/run.py",
+      "sha256": "222aef2137ba83f13ba46ca8de546a7e9645d5b7b38d4dfc108234f3360a97ef"
+    },
+    {
+      "path": "experiments/batch.py",
+      "sha256": "9ff7718e941a32d300e88b6072dc9236a9c14f92e21eee85198dd38995f28794"
+    },
+    {
+      "path": "experiments/metrics.py",
+      "sha256": "80be53d2ac6bb8a2399f49720106f462b5d93a32432cfdc991da113cf1cbbc7a"
+    },
+    {
+      "path": "experiments/plot_results.py",
+      "sha256": "a46b9b4f6a273bbb563a10479b7ffae50270ef5d001fa55a0029df433c3085e0"
+    },
+    {
+      "path": "experiments/validate_delivery.py",
+      "sha256": "324b72b574978555fcf2c101ca95d0ccb5764cc4f209485ff296befebcbf8cc3"
+    },
+    {
+      "path": "network/deployment.json",
+      "sha256": "545b56cd9d42d43f6dbb2383904cd0d10079183775125a246ee201b007e86261"
+    },
+    {
+      "path": "tools/runtime.lock.json",
+      "sha256": "da95df027e9f6969cb6523b9264de95385030a7e4aefcb3d5e4f279f905a7885"
+    },
+    {
+      "path": "report/analyze_results.py",
+      "sha256": "16e1400b5bb92ae6f84aebe11f411bc140d67aa2ab8af2c51b3627b079b58505"
+    },
+    {
+      "path": "dashboard/app.py",
+      "sha256": "946329f035b48593dbaa7539bb07362f2951372747d54a0ce78f800076d0c252"
+    },
+    {
+      "path": "report/evidence_map.md",
+      "sha256": "ddfe20f253863850568899e30214c95e5a4920de503ba41afada0b7e7bd7f244"
+    }
+  ],
+  "opened_primary_sources": [
+    "https://arxiv.org/abs/1808.03949",
+    "https://arxiv.org/abs/2104.01776",
+    "https://www.usenix.org/conference/osdi-99/presentation/practical-byzantine-fault-tolerance",
+    "https://pdos.csail.mit.edu/6.824/papers/castro-practicalbft.pdf",
+    "https://proceedings.mlr.press/v54/mcmahan17a.html",
+    "https://docs.besu-eth.org/private-networks/how-to/configure/consensus/qbft",
+    "https://cave.cs.toronto.edu/kriz/cifar.html",
+    "https://arxiv.org/abs/2609.00065"
+  ],
+  "limits": [
+    "Source records are agent-checked drafting aids; accountable human verification remains pending.",
+    "IEEE full-text landing pages were not accessible; no full-text-dependent claims use references 2-4."
+  ],
+  "result_sources": [
+    {
+      "path": "report/analysis.json",
+      "sha256": "5cfef544730ba663272ce2d4b46b45baa42759f783e68bd1ac79b75e73334aa4"
+    },
+    {
+      "path": "report/resource_summary.csv",
+      "sha256": "bed59a3041aff531aa715e7106df00c1b185058a4711a7b900a34d1b67d507e0"
+    },
+    {
+      "path": "report/validator_resource_sums.csv",
+      "sha256": "590ec8b832a82c99050c81dc0bf50cc7b8552787ba2cfae7626d4fd2ab90d7a4"
+    },
+    {
+      "path": "report/ui_validation.json",
+      "sha256": "a246287f26814857ad31385e681c25549fabb8719f3129e91af76d0bb2aa65cc"
+    },
+    {
+      "path": "report/figures/source_manifest.json",
+      "sha256": "6d58fde45c5d98b2d1c70a7a4ddb250b16c9ab8d641e56281e88be5ae7a355c6"
+    },
+    {
+      "path": "results/full-study-validation.json",
+      "sha256": "0f737feb8dc5598196ea611ddbee3d8db36e2435ba019166b5ef99e1bbb41882"
+    },
+    {
+      "path": "results/full-study-20261029-schedule.json",
+      "sha256": "360d3b95f68caad961d5edd25a77129dc1dd6d75201caa5ba4fe2f5469337166"
+    },
+    {
+      "path": "results/delivery_validation.json",
+      "sha256": "d62c053c96284f9439aeaed4b3a6dfb1a08e205f33b488abc91ce6f53d8af016"
+    },
+    {
+      "path": "results/fault-validation/fault_results.json",
+      "sha256": "6e752a8d1349eb4296643dda3692f8fc56f0b0366bc58e052766df708a4a66a2"
+    },
+    {
+      "path": "results/contract-tests-dad4ad1cdc/checks.json",
+      "sha256": "1aa73e70f80b6fad80decbfe355f30fd8d079bd597ff6353f5c6171d899f1aaa"
+    },
+    {
+      "path": "results/contract-tests-dad4ad1cdc/transactions.jsonl",
+      "sha256": "fb531d0281d7d91cfc0c701615202e6bd33c214bed2b6e7685c17e2bdb53a209"
+    },
+    {
+      "path": "results/smoke-chain-integration/integrity_test.json",
+      "sha256": "7ea6bdf28190198b7200dbacdf0fb33ffb22f848e915dce7f982d6407df5a4da"
+    },
+    {
+      "path": "results/unit-tests.txt",
+      "sha256": "bbc5fd9ea2581a2137011679b236fdd044432a29d160f922920452f1a174d507"
+    },
+    {
+      "path": "results/reproduction-check/summary.json",
+      "sha256": "d555db96bc07bd3d748b8286c30b1e71956c1bd7c922b5a818100613164139a4"
+    },
+    {
+      "path": "results/reproduction-check/status.json",
+      "sha256": "221467f3c4b53190b7a30e98c14edf394356f0e0a395d660ac6a7de5c8289345"
+    }
+  ],
+  "document_sha256": "981aafc71fb9bfe34f98dbb3459469904488e866b23b210f9e222a1343a42da0",
+  "main_empirical_scope": "Six completed full-data, ten-round runs; separate supplementary validation and reproduction records."
+}

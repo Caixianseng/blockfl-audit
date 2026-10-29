@@ -1,0 +1,99 @@
+{
+  "completed": true,
+  "checks": [
+    {
+      "check": "reopening an unfinished round",
+      "passed": true,
+      "transaction_hash": "0x0fc3dcdb67fd73376d04f636c7a74a9234d340f85cb7a49a42be683f711718f0"
+    },
+    {
+      "check": "unauthorized run creation",
+      "passed": true,
+      "transaction_hash": "0x9baf288dd34ece9899a2ed11cfdbc3ae64adcb564369352cc13f567f40085cde"
+    },
+    {
+      "check": "unauthorized participant",
+      "passed": true,
+      "transaction_hash": "0x2c694ab4a2709e20c34dc9d1a6d533c549867bc3f4157619b9d04f76100cc2bb"
+    },
+    {
+      "check": "wrong round",
+      "passed": true,
+      "transaction_hash": "0x843c50993ba43cb869b06ed43fa30d915ca536b76d60ce493229ff669b1c6db4"
+    },
+    {
+      "check": "zero commitment",
+      "passed": true,
+      "transaction_hash": "0x4c37c2d16b6f353c7886eebd37e4570cb7e5f891b31df1be0d85100fa949d5ba"
+    },
+    {
+      "check": "premature aggregation",
+      "passed": true,
+      "transaction_hash": "0x13f1a934f3f634e821ea2e68f09d30c90b315cd6cc7f92855ce8fb71208af071"
+    },
+    {
+      "check": "unauthorized round administration",
+      "passed": true,
+      "transaction_hash": "0xad500b242b1558ccdcc4fc2824db11588663b361f0ad0a2f624d37dcadedc60f"
+    },
+    {
+      "check": "duplicate update",
+      "passed": true,
+      "transaction_hash": "0x41833c7698ae2ae8ae60456b466c20c8218e977801389774a040b307da24e89d"
+    },
+    {
+      "check": "unauthorized aggregation",
+      "passed": true,
+      "transaction_hash": "0x5b0ce763ee7b590b57ab892bfb5d2c991a157b30807a04774c084d188ce11295"
+    },
+    {
+      "check": "zero aggregate commitment",
+      "passed": true,
+      "transaction_hash": "0xd008e67fd9b96e72b886523cc2d3046fabb28f1b76d008c8a40ad51925a8f1fb"
+    },
+    {
+      "check": "four updates and aggregate commitment",
+      "passed": true,
+      "run_id": "contract-validation-e804bd92a1d948cd8df9df11f37fd70b"
+    },
+    {
+      "check": "aggregate overwrite",
+      "passed": true,
+      "transaction_hash": "0x6708af4fbc10eb603b85bdd038b164cd9b7a6653528d4ea481024e5eba0deef6"
+    },
+    {
+      "check": "closed-round submission",
+      "passed": true,
+      "transaction_hash": "0x03f9c2d73656afc62f3251502ec7ece6ce991c9f4b27b1255828fdf5afc6adc5"
+    },
+    {
+      "check": "skipped round",
+      "passed": true,
+      "transaction_hash": "0x9aa3c595b1ea54c8f6a56d27777c2292c7a6277d6fd41b59b3f9741e2083ed66"
+    },
+    {
+      "check": "run overwrite",
+      "passed": true,
+      "transaction_hash": "0xa29a0fb2a22266beb4a4b1ed378729b9b71ab10789c2240186059bce63e0a804"
+    },
+    {
+      "check": "round isolation and immutable previous commitments",
+      "passed": true
+    },
+    {
+      "check": "run isolation",
+      "passed": true
+    },
+    {
+      "check": "duplicate participant list",
+      "passed": true,
+      "transaction_hash": "0x75a0369cebf57296622e7dcd8b6875ac37199513b9aaec8ed52cec657aee6987"
+    },
+    {
+      "check": "rejected creation rolled back all run state",
+      "passed": true
+    }
+  ],
+  "chain_id": 1337,
+  "contract_address": "0xeC45a3a2cb6C3b1E41F021Bc7E55414a6113C896"
+}

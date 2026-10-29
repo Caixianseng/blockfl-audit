@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-29T12:13:13.871993+00:00",
+  "source_run": "audit-optimization-20261029-final-pipelined-s44",
+  "artifact": "global_010.npz",
+  "actual_model_hash": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+  "chain_readback": {
+    "hash": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+    "block_number": 4014,
+    "contract_address": "0xeC45a3a2cb6C3b1E41F021Bc7E55414a6113C896",
+    "chain_id": 1337,
+    "rpc_url": "http://127.0.0.1:8545",
+    "source": "live eth_call"
+  },
+  "network": [
+    {
+      "validator": 1,
+      "rpc": "http://127.0.0.1:8545",
+      "responsive": true,
+      "block_number": 4014
+    },
+    {
+      "validator": 2,
+      "rpc": "http://127.0.0.1:8546",
+      "responsive": true,
+      "block_number": 4014
+    },
+    {
+      "validator": 3,
+      "rpc": "http://127.0.0.1:8547",
+      "responsive": true,
+      "block_number": 4014
+    },
+    {
+      "validator": 4,
+      "rpc": "http://127.0.0.1:8548",
+      "responsive": true,
+      "block_number": 4014
+    }
+  ],
+  "checks": {
+    "training_page": true,
+    "pipelined_strategy_selection": true,
+    "history_page": true,
+    "audit_page": true,
+    "comparison_page": true,
+    "latest_completed_study_default": true,
+    "explicit_six_run_study_filter": true,
+    "sync_and_pipelined_separate_conditions": true,
+    "live_model_hash_button": true
+  },
+  "scope": "Read-only AppTest with genuine completed optimization runs and live eth_call; no training launch or signed transaction.",
+  "app_source_sha256": "d06cba92842615408c5cd79dd343348e9bf7d63c60a125824dc95d176455e0aa",
+  "data_source_sha256": "75508e1b50702f90ac2644206ad5f543c082325085032d99ac0d6e5602c36e77"
+}

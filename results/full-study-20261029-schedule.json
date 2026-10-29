@@ -1,0 +1,32 @@
+{
+  "schedule_seed": 2026,
+  "rounds": 10,
+  "train_limit": 0,
+  "test_limit": 0,
+  "schedule": [
+    {
+      "seed": 42,
+      "mode": "blockchain"
+    },
+    {
+      "seed": 42,
+      "mode": "baseline"
+    },
+    {
+      "seed": 43,
+      "mode": "baseline"
+    },
+    {
+      "seed": 43,
+      "mode": "blockchain"
+    },
+    {
+      "seed": 44,
+      "mode": "blockchain"
+    },
+    {
+      "seed": 44,
+      "mode": "baseline"
+    }
+  ]
+}

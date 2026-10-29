@@ -1,0 +1,28 @@
+{
+  "state": "completed",
+  "mode": "baseline",
+  "round": 10,
+  "total_rounds": 10,
+  "seed": 44,
+  "clients": [
+    {
+      "client_id": 0,
+      "state": "verified"
+    },
+    {
+      "client_id": 1,
+      "state": "verified"
+    },
+    {
+      "client_id": 2,
+      "state": "verified"
+    },
+    {
+      "client_id": 3,
+      "state": "verified"
+    }
+  ],
+  "updated_at": "2026-10-29T11:11:25.808819+00:00",
+  "accuracy": 0.568,
+  "loss": 1.209170673751831
+}

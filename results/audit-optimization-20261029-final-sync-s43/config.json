@@ -1,0 +1,43 @@
+{
+  "seed": 43,
+  "partition_seed": 2026,
+  "clients": 4,
+  "rounds": 10,
+  "local_epochs": 1,
+  "batch_size": 128,
+  "learning_rate": 0.02,
+  "momentum": 0.9,
+  "device": "auto",
+  "cpu_threads": 2,
+  "data_dir": "F:\\项目\\区块链\\blockfl-audit\\data",
+  "train_samples": null,
+  "test_samples": null,
+  "download": true,
+  "audit_strategy": "sync",
+  "study_id": "audit-optimization-20261029-final",
+  "mode": "blockchain",
+  "hash_algorithm": "fl-weights-sha256-v1",
+  "effective_audit_strategy": "sync",
+  "deployment": "in_process_logical_clients",
+  "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+  "started_at": "2026-10-29T12:02:51.280616+00:00",
+  "versions": {
+    "torch": "2.7.1+cu128",
+    "flower": "1.19.0",
+    "numpy": "2.1.2",
+    "python": "3.12.7"
+  },
+  "resolved_device": "cuda",
+  "actual_train_samples": 50000,
+  "actual_test_samples": 10000,
+  "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+  "dataset_source": {
+    "dataset": "CIFAR-10 original Python archive",
+    "download_source": "https://dataset.bj.bcebos.com/cifar/cifar-10-python.tar.gz",
+    "original_source": "https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz",
+    "archive_bytes": 170498071,
+    "verified_archive_md5": "c58f30108f718f92721af3b95e74349a",
+    "mirror_reference": "https://github.com/PaddlePaddle/Paddle/blob/develop/python/paddle/dataset/cifar.py"
+  },
+  "data_prepare_seconds": 1.4410931000020355
+}

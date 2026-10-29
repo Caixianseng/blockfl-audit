@@ -1,0 +1,11 @@
+{"kind": "global_model", "round": 0, "path": "global_000.npz", "hash": "e16a6a7c724d22f395922dff186ffff8251c5d4d1cee3faaee684568024e956d"}
+{"kind": "client_update", "round": 1, "client_id": 0, "path": "updates/round_001_client_0.npz", "hash": "1b95196119a899191be28ff7f74d06a1b9adf6cbac0aa529636387717a3c228d"}
+{"kind": "client_update", "round": 1, "client_id": 1, "path": "updates/round_001_client_1.npz", "hash": "04a406cfd171d51f0376242d726dba27319e1263ca5135bf30208729ceda124b"}
+{"kind": "client_update", "round": 1, "client_id": 2, "path": "updates/round_001_client_2.npz", "hash": "0d430929f0709c9ebcc7a094ac09577a87a432193cd678440c90fa336ca6d9b4"}
+{"kind": "client_update", "round": 1, "client_id": 3, "path": "updates/round_001_client_3.npz", "hash": "cd8dff311a517bd311a2d5c15a77f81c3e332e034e9bc10629e19513fa29db2b"}
+{"kind": "global_model", "round": 1, "path": "global_001.npz", "hash": "9476bd1051b1e9de99adac0fb9562ed7fc6af7542e609fa0f76ec93fb39ea77a"}
+{"kind": "client_update", "round": 2, "client_id": 0, "path": "updates/round_002_client_0.npz", "hash": "21d979ad42c2190662acb3345459c5c57b047ac0cfa0a035957009e91fd44935"}
+{"kind": "client_update", "round": 2, "client_id": 1, "path": "updates/round_002_client_1.npz", "hash": "a82109e6fff46298efdd61a533b67867bb7ae8dc6d9c53c289241154819d360c"}
+{"kind": "client_update", "round": 2, "client_id": 2, "path": "updates/round_002_client_2.npz", "hash": "f127f2cb6d7be76965bd75eb2ebc5b900e1d7c66fb5df1a1dd3cf67417004e3e"}
+{"kind": "client_update", "round": 2, "client_id": 3, "path": "updates/round_002_client_3.npz", "hash": "05b59fe5dae85a7d15cda34510a74208258752cb1d52ef077cafc8af29f607d2"}
+{"kind": "global_model", "round": 2, "path": "global_002.npz", "hash": "4779811dd6c66c8850709088399a0ac425c0e6d918529d76afd37b41a8ae5af7"}

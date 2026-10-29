@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "F:\项目\区块链\blockfl-audit\experiments\run.py", line 159, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "F:\项目\区块链\blockfl-audit\experiments\run.py", line 117, in main
+    execute(args,output,started)
+  File "F:\项目\区块链\blockfl-audit\experiments\run.py", line 130, in execute
+    else: manage.start(); manage.wait_ready()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "F:\项目\区块链\blockfl-audit\network\manage.py", line 237, in wait_ready
+    identities = _identity_snapshot(rows, request_timeout=max(0.001, min(2.0, end-time.monotonic())))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\项目\区块链\blockfl-audit\network\manage.py", line 194, in _identity_snapshot
+    return list(pool.map(probe, rows))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\pytorch\Lib\concurrent\futures\_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\pytorch\Lib\concurrent\futures\_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\pytorch\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\pytorch\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "D:\anaconda\envs\pytorch\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\项目\区块链\blockfl-audit\network\manage.py", line 186, in probe
+    raise RuntimeError(f"Node {row['node']} returned an invalid QBFT validator list")
+RuntimeError: Node 1 returned an invalid QBFT validator list

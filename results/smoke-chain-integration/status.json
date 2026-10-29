@@ -1,0 +1,28 @@
+{
+  "state": "completed",
+  "mode": "blockchain",
+  "round": 2,
+  "total_rounds": 2,
+  "seed": 42,
+  "clients": [
+    {
+      "client_id": 0,
+      "state": "verified"
+    },
+    {
+      "client_id": 1,
+      "state": "verified"
+    },
+    {
+      "client_id": 2,
+      "state": "verified"
+    },
+    {
+      "client_id": 3,
+      "state": "verified"
+    }
+  ],
+  "updated_at": "2026-10-29T11:04:58.139131+00:00",
+  "accuracy": 0.1015625,
+  "loss": 2.2967333793640137
+}

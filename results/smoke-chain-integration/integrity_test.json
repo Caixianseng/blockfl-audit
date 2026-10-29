@@ -1,0 +1,9 @@
+{
+  "original_path": "updates/round_001_client_0.npz",
+  "chain_hash": "1b95196119a899191be28ff7f74d06a1b9adf6cbac0aa529636387717a3c228d",
+  "original_matches": true,
+  "tampered_hash": "a4770abc52824811c6e628e1d9351b1ac490ea0d6b8367cc5e1f3e90bbf9da9c",
+  "tampered_matches": false,
+  "passed": true,
+  "source": "live eth_call"
+}

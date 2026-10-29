@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "complete_training_runs": 6,
+  "pairs": [
+    {
+      "seed": 42,
+      "initial_data_final_hash_equal": true,
+      "accuracy": 0.5731,
+      "baseline_seconds": 22.13768830000481,
+      "blockchain_seconds": 62.18098089999694
+    },
+    {
+      "seed": 43,
+      "initial_data_final_hash_equal": true,
+      "accuracy": 0.565,
+      "baseline_seconds": 20.595154399998137,
+      "blockchain_seconds": 60.64445110000088
+    },
+    {
+      "seed": 44,
+      "initial_data_final_hash_equal": true,
+      "accuracy": 0.568,
+      "baseline_seconds": 22.862169799991534,
+      "blockchain_seconds": 61.003926600009436
+    }
+  ],
+  "confirmed_audit_transactions": 183,
+  "model_artifacts_verified_against_receipt_events": 150,
+  "note": "Receipts/events captured from genuine Besu; independent eth_call readbacks saved during training."
+}

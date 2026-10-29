@@ -1,0 +1,2 @@
+round,accuracy,loss,round_seconds,train_seconds,audit_seconds,model_bytes_up,model_bytes_down,aggregate_seconds,evaluate_seconds,global_hash
+1,0.1015625,2.296760320663452,5.944286500001908,0.3216262000059942,5.490520299994387,1002248,1002248,0.004662000006646849,0.027203799996641465,9476bd1051b1e9de99adac0fb9562ed7fc6af7542e609fa0f76ec93fb39ea77a

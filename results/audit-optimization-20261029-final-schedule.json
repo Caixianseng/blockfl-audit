@@ -1,0 +1,32 @@
+{
+  "schedule_seed": 2027,
+  "rounds": 10,
+  "train_limit": 0,
+  "test_limit": 0,
+  "jobs": [
+    {
+      "seed": 42,
+      "strategy": "pipelined"
+    },
+    {
+      "seed": 42,
+      "strategy": "sync"
+    },
+    {
+      "seed": 43,
+      "strategy": "sync"
+    },
+    {
+      "seed": 43,
+      "strategy": "pipelined"
+    },
+    {
+      "seed": 44,
+      "strategy": "pipelined"
+    },
+    {
+      "seed": 44,
+      "strategy": "sync"
+    }
+  ]
+}

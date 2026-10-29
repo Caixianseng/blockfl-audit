@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "F:\项目\区块链\blockfl-audit\dashboard\data.py", line 223, in launch_training
+    raise JobBusyError(f"已有操作运行中：{busy.get('operation', '任务启动中')}（PID {busy.get('pid', '未知')}）")
+common.job_lock.JobBusyError: 已有操作运行中：mutual-exclusion-integration-check（PID 76392）

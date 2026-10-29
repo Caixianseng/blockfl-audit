@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "F:\项目\区块链\blockfl-audit\experiments\fault_test.py", line 164, in <module>
+    main()
+  File "F:\项目\区块链\blockfl-audit\experiments\fault_test.py", line 159, in main
+    data = run_fault_test(args.rpc_url, args.accounts, args.output_dir, args.observation_seconds, args.receipt_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\pytorch\Lib\contextlib.py", line 80, in inner
+    with self._recreate_cm():
+         ^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\pytorch\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "F:\项目\区块链\blockfl-audit\common\job_lock.py", line 186, in job_lock
+    raise JobBusyError(f"Another operation is active: {busy.get('operation', 'task-starting')} (PID {busy.get('pid', 'unknown')})")
+common.job_lock.JobBusyError: Another operation is active: mutual-exclusion-integration-check (PID 76392)

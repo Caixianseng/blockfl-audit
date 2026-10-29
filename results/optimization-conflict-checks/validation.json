@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "entry": "network_stop",
+      "returncode": 1,
+      "rejected": true
+    },
+    {
+      "entry": "deploy",
+      "returncode": 1,
+      "rejected": true
+    },
+    {
+      "entry": "fault",
+      "returncode": 1,
+      "rejected": true
+    },
+    {
+      "entry": "training",
+      "returncode": 1,
+      "rejected": true
+    },
+    {
+      "entry": "batch",
+      "returncode": 1,
+      "rejected": true
+    },
+    {
+      "entry": "dashboard",
+      "returncode": 1,
+      "rejected": true
+    },
+    {
+      "entry": "standalone_training",
+      "returncode": 1,
+      "rejected": true
+    },
+    {
+      "entry": "public_training_api",
+      "returncode": 1,
+      "rejected": true
+    }
+  ],
+  "network_still_ready": true,
+  "heights": [
+    3853,
+    3853,
+    3853,
+    3853
+  ]
+}

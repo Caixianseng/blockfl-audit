@@ -1,0 +1,3205 @@
+{
+  "generated_at": "2026-10-29T12:13:20.826713+00:00",
+  "selection": {
+    "prefix": "audit-optimization-20261029-final",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "strategies": [
+      "sync",
+      "pipelined"
+    ],
+    "excluded": "All historical v1, smoke, reproduction and unrelated runs"
+  },
+  "input_files": [
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/config.json",
+      "bytes": 1549,
+      "sha256": "e8feca7d86760888d33dc32e2f12f8611bb451ccab506189a57f78a6dc9203e4"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/status.json",
+      "bytes": 495,
+      "sha256": "0ce5cf02869ab0b66358889b28de7cd382040a5b23c7fc75a5bdee65c6156be7"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/summary.json",
+      "bytes": 1599,
+      "sha256": "2e02da1f202bc09a2ff58eaf6dd77c813be1fdcb2d676c255a29b3fee2382363"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/rounds.csv",
+      "bytes": 2197,
+      "sha256": "817b5563dd9cc03500deedf206b60c1b53628e608ac7620cfcc1ad0cfb9d3b52"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/manifest.jsonl",
+      "bytes": 8465,
+      "sha256": "f9efc75b2b90a4d36811e364a7271b7242259b34158456e89bf8e17b13702531"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/transactions.jsonl",
+      "bytes": 181281,
+      "sha256": "251d8acac8ee8668c30446a61ecbd2085a331cdad93062a91a1a6385e98aef66"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/verifications.jsonl",
+      "bytes": 9404,
+      "sha256": "5350bee26c9412cc68bb178b3750b7deebeaeccb0122e34e31d3811ff04459cd"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/audit_context.json",
+      "bytes": 224,
+      "sha256": "1770f929300e9d00340d7bad43ecb125a22f43a452920b791cc90f64156533ec"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/submitted_transactions.jsonl",
+      "bytes": 39993,
+      "sha256": "abd302f4652bd1b79d5060a36b87e7e55092340a54e15303ce144ceb1f39907e"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/data_indices.json",
+      "bytes": 338041,
+      "sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/global_000.npz",
+      "bytes": 250562,
+      "sha256": "f6a9c63b7f04a855bd9c4c1c5ff609e85e2785de192fc9606a4445d023971fa6"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/config.json",
+      "bytes": 1559,
+      "sha256": "ffcdcca1e051a83e4e53a824bc7367c5b2730d12f18adba4cc312d6e8c8dfa1f"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/status.json",
+      "bytes": 1411,
+      "sha256": "fc5d226ddd06c76658b2939702b46aa9d2f047bd4d4549e9004397cc540b23f8"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/summary.json",
+      "bytes": 1607,
+      "sha256": "cb6d21de6bec337dea3bb70b27815ba5087463199653f26d43bc3c1d6d5b673c"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/rounds.csv",
+      "bytes": 2200,
+      "sha256": "e0e5bf8b72ef48c1665da0762a3c75cb67c538b1848944b14ed4b54167307ebe"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/manifest.jsonl",
+      "bytes": 8465,
+      "sha256": "f9efc75b2b90a4d36811e364a7271b7242259b34158456e89bf8e17b13702531"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/transactions.jsonl",
+      "bytes": 181571,
+      "sha256": "71b766607b4656e9b84147afaf8d33cb7bde92bbea3f980a8230cf24cca54770"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/verifications.jsonl",
+      "bytes": 9404,
+      "sha256": "5350bee26c9412cc68bb178b3750b7deebeaeccb0122e34e31d3811ff04459cd"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/audit_context.json",
+      "bytes": 229,
+      "sha256": "66389bebc36721a2f544803d7b9fddea9a77657161fc8aa01da3da10a36f1ac5"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/submitted_transactions.jsonl",
+      "bytes": 40284,
+      "sha256": "6462ae9db1ed679df0705d272ebb236129af32a4c4cbc1acb0317c2c5b89edcc"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/data_indices.json",
+      "bytes": 338041,
+      "sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/global_000.npz",
+      "bytes": 250562,
+      "sha256": "f6a9c63b7f04a855bd9c4c1c5ff609e85e2785de192fc9606a4445d023971fa6"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/config.json",
+      "bytes": 1549,
+      "sha256": "a03c7512488ff66b8191658fa3ac512890f7b095b46828fa6db67abef61f08af"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/status.json",
+      "bytes": 493,
+      "sha256": "90a9f28eb366463cd47fca9c88e77a6f7056e6b79ad0417cfb745f190d288100"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/summary.json",
+      "bytes": 1597,
+      "sha256": "f9cf549541a281540f87eb704216fb46fac123cfc30ffc177cc0f5600cb2eee7"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/rounds.csv",
+      "bytes": 2194,
+      "sha256": "74b76e0782d5e3ea0ff1b87eea43c1f75128bec9a8a8910f633b234267d96360"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/manifest.jsonl",
+      "bytes": 8465,
+      "sha256": "e756b4abd505feea30dcd17eacde2eb5bbec67f9ac5c0387d9548835234f9f17"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/transactions.jsonl",
+      "bytes": 181275,
+      "sha256": "24bfe8737f37f13114e17442cf75b6bd0290a733f05091d6fc9c59ce46aa1b57"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/verifications.jsonl",
+      "bytes": 9404,
+      "sha256": "d8acd98bef8dfcb13769cd5c7f59f16c7005b97e17de83acc304f36c55f805c9"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/audit_context.json",
+      "bytes": 224,
+      "sha256": "3ce89ac3ca54ab94c6f1b92e0cc9683c0859dfd3d6545a0d782bcccb22bf5b34"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/submitted_transactions.jsonl",
+      "bytes": 39989,
+      "sha256": "01ec18a4c5122f5a630b4c9260b7fbf82da8254525596c4f0c6a4c32f5418b9c"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/data_indices.json",
+      "bytes": 338041,
+      "sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/global_000.npz",
+      "bytes": 250562,
+      "sha256": "07eb3b0133e7d19e0cb20c3be1d4819ecf580219667d3deb5ac7e7d21f69800b"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/config.json",
+      "bytes": 1559,
+      "sha256": "ae3d68b7ffb7cc5a90577ac7ea7403891619d2f70574131bb02da40b59c7871c"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/status.json",
+      "bytes": 1409,
+      "sha256": "1c39b4cd511f4a5f1a99494783a711e7391de01a381cadd93849b73f3224f5a8"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/summary.json",
+      "bytes": 1609,
+      "sha256": "41fa8a45bbe38b118cb36ebb59d0c39f2c5dfd01caf03d72fb3e233b3cc3ab11"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/rounds.csv",
+      "bytes": 2189,
+      "sha256": "2d62b9778e734992e8554856ac8401d97532493b4507f09bffbceead4ab37d81"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/manifest.jsonl",
+      "bytes": 8465,
+      "sha256": "e756b4abd505feea30dcd17eacde2eb5bbec67f9ac5c0387d9548835234f9f17"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/transactions.jsonl",
+      "bytes": 181556,
+      "sha256": "7f9e415869d550bbdb2ad70d00e4641a05d4b4af70db0bf7fdb4c4613d91cda3"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/verifications.jsonl",
+      "bytes": 9404,
+      "sha256": "d8acd98bef8dfcb13769cd5c7f59f16c7005b97e17de83acc304f36c55f805c9"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/audit_context.json",
+      "bytes": 229,
+      "sha256": "b4a4d5f1aca29426f6ac24d97d6717c2a0156b28f156c71775311171257f4af3"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/submitted_transactions.jsonl",
+      "bytes": 40289,
+      "sha256": "d369c14f2c3161719c23dd275450172308a756a83d48c02d758f3017ff3cd4d8"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/data_indices.json",
+      "bytes": 338041,
+      "sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/global_000.npz",
+      "bytes": 250562,
+      "sha256": "07eb3b0133e7d19e0cb20c3be1d4819ecf580219667d3deb5ac7e7d21f69800b"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/config.json",
+      "bytes": 1548,
+      "sha256": "b0e0e65ebed7da33ccbb012742e36a3180f720b90374319607b33d94a7d9589d"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/status.json",
+      "bytes": 493,
+      "sha256": "069b68e855064242071fdd4672ecb6ed87dc692e8c6ee514a1728aea22041bd3"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/summary.json",
+      "bytes": 1597,
+      "sha256": "aa1e2db5608b6f8783a37bb76eb1ffe20826f2d1e3937721fb30212983ce98f0"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/rounds.csv",
+      "bytes": 2184,
+      "sha256": "aafc870d91491dc5a18471298228153e5219f44599db31db0c184703b994dc5c"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/manifest.jsonl",
+      "bytes": 8465,
+      "sha256": "cf1e08846c690920e8a53c072c07599d021cd02db4a97efea5dd6ddb69b146ef"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/transactions.jsonl",
+      "bytes": 181320,
+      "sha256": "9c3e4ce068de6cbf2837b0003d2cfe48bc9e71e29b9488a51f3a8ce27ee02457"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/verifications.jsonl",
+      "bytes": 9404,
+      "sha256": "f27acca435be42720b8d94f9a7f0248606969be85d8199c818edcdf2bdb2e95d"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/audit_context.json",
+      "bytes": 224,
+      "sha256": "f4fda91403abb0d431cdf3d612225f5fbc4ac9d3afbf26a7bd851193165c7ff5"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/submitted_transactions.jsonl",
+      "bytes": 40026,
+      "sha256": "cf409703af1a626de604387f3158518d828ac6c4c64a299282f6318ba9435550"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/data_indices.json",
+      "bytes": 338041,
+      "sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/global_000.npz",
+      "bytes": 250562,
+      "sha256": "beee90f54775a8529d6c9110b19326b5603cf27f6411adaf42fb29e807be0b19"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/config.json",
+      "bytes": 1558,
+      "sha256": "54a521caeef4bb3815b70e95b751c09e2f8acd9aa15fcc466d31cdce8542712e"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/status.json",
+      "bytes": 1409,
+      "sha256": "6f4268fe5e0242e24f2ebe9d279c6c1ebfdac6b15da12d8d5f164cdd4d77825a"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/summary.json",
+      "bytes": 1609,
+      "sha256": "98383102b0b64f6380dadf1d596cee1cc7665805835d4c9af97de13cbfe77b93"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/rounds.csv",
+      "bytes": 2202,
+      "sha256": "6cc69b7ad357ed0fc6338b26638084ac0e436b627838ac81c25ce0a201189438"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/manifest.jsonl",
+      "bytes": 8465,
+      "sha256": "cf1e08846c690920e8a53c072c07599d021cd02db4a97efea5dd6ddb69b146ef"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/transactions.jsonl",
+      "bytes": 181580,
+      "sha256": "201a3b55a044d55eeb1fb16ecc15493ca5825a94fa57de53cc9a30f1a0567d56"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/verifications.jsonl",
+      "bytes": 9404,
+      "sha256": "f27acca435be42720b8d94f9a7f0248606969be85d8199c818edcdf2bdb2e95d"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/audit_context.json",
+      "bytes": 229,
+      "sha256": "746ff0bc65e56e8f87a03e00934bfb227bc13b50c34ffcca5dd70b69f200b88b"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/submitted_transactions.jsonl",
+      "bytes": 40309,
+      "sha256": "f188ba6ac5796e917836982ad6bae17d218907b5ec4dbd20b97ecbfac39aefd0"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/data_indices.json",
+      "bytes": 338041,
+      "sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/global_000.npz",
+      "bytes": 250562,
+      "sha256": "beee90f54775a8529d6c9110b19326b5603cf27f6411adaf42fb29e807be0b19"
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-schedule.json",
+      "bytes": 480,
+      "sha256": "fa03e14a8baa1cab965dd9f913042faa32501529583eeade159246761ac3b8aa"
+    },
+    {
+      "path": "results/optimization-conflict-checks/validation.json",
+      "bytes": 886,
+      "sha256": "370062f451302278492e694f0150497549441880c979d88a4f4e781426253cd9"
+    },
+    {
+      "path": "results/optimization-unit-tests.txt",
+      "bytes": 1159,
+      "sha256": "5d6e49e67f4f9f5db173ae89addecc742fecc2956b6d9982debe0d0d8ad800ae"
+    },
+    {
+      "path": "report/optimization_ui_validation.json",
+      "bytes": 1765,
+      "sha256": "6a3f41a41077d68dcfe5d26cf11ce97c9eacd65cce13fbecad737b20e1bc7056"
+    },
+    {
+      "path": "results/contract-tests-f665295258/checks.json",
+      "bytes": 3208,
+      "sha256": "3fdf612e7eb71047c4a20187a3a2003548b93a844406b3185c08e85bc195c37a"
+    },
+    {
+      "path": "results/audit-optimization-20261029-pipelined-s42/status.json",
+      "bytes": 101,
+      "sha256": "4dcb84c36f33d9da5da1ea6397c5d9d80d0ed4c24a745c606a295016a6163ab1"
+    }
+  ],
+  "model_artifacts": [
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_001_client_0.npz",
+      "bytes": 250562,
+      "sha256": "973d0c8661875e6afcdb1d710880a07d429f75a9ee365ec7682536b2d1fcefa0",
+      "commitment": "c76683a2aafa246b25df817ad8bde04847c2ee5d54397d9ce6ad487488e0ba23",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_001_client_1.npz",
+      "bytes": 250562,
+      "sha256": "0ac81af066e5a3e013a3f8d0d74f346af1ef3218f39cfbb3993060abe9356b6e",
+      "commitment": "5ddbbe98f7329a2753730b91751bce672fd4057460aa82485c565e2f1169817d",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_001_client_2.npz",
+      "bytes": 250562,
+      "sha256": "70ead1f9e498172173ce6314a74eb1fb094374753eb94e6706cd84063c634aae",
+      "commitment": "7bdfe6f8d8a110332a45674e5b55c0e949d03a910a251045c11bb85ff3b31d90",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_001_client_3.npz",
+      "bytes": 250562,
+      "sha256": "0785cd6deb785338ad550ea797a5be6732eef888bdcb89c9dee8b318c80f6711",
+      "commitment": "04766b93528cc77cc179f71d30fe1ccaa69b5962ed113f5f08ba32d2c7e214d2",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/global_001.npz",
+      "bytes": 250562,
+      "sha256": "5c553d5a58d4e8d7cbce241ea48a1c3446406f903fd91975c309ba16e97adb5f",
+      "commitment": "4f1336699c393f5f0f439b78ab4c3110bab5b5f94e3a046de4f7ecbbea126755",
+      "kind": "global_model",
+      "round": 1,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_002_client_0.npz",
+      "bytes": 250562,
+      "sha256": "67f3e1b5b9060e60ebfb85be862e6b9c7a8c71cf93831c1941f8a1ab6617393c",
+      "commitment": "41f1c348534b13101035494f967c48a38ae753ae7a8bd0833a2890fe394e09e3",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_002_client_1.npz",
+      "bytes": 250562,
+      "sha256": "050046a07fdfc377163f76c4adeaf00feffa5632221684ccf9037fbe7a5db628",
+      "commitment": "ae28971d38e38aa30f494a11069d419ce7f65bad6121dca99902168d8548a7d8",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_002_client_2.npz",
+      "bytes": 250562,
+      "sha256": "4652d6bb9e26d271a25719526453d5c7059a318b55acd7fa71bf1d0196c7e57f",
+      "commitment": "d24b84d7f363ed140d2bf44dda2f2fff729b6deee0f4065a41b6f4c55bf6c4e3",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_002_client_3.npz",
+      "bytes": 250562,
+      "sha256": "c2a1b7ec50121cdc678081acca91313dbe0ee4c57085c198f542bb117cc2a223",
+      "commitment": "9242fe60c3dc6469418d66408489a76b09443db97735d4549ae6481e52143355",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/global_002.npz",
+      "bytes": 250562,
+      "sha256": "f0b37204849290f4032dfc42299c297f7ce738edbfe5a314148752edd6d7a7c1",
+      "commitment": "ba7a5be6239acb939dbedfaf452d1006a67862ec17a89c31ce62124f9b8b20bf",
+      "kind": "global_model",
+      "round": 2,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_003_client_0.npz",
+      "bytes": 250562,
+      "sha256": "45903ca2e7aea48f12db0bcaf29135cbcc915e83732cb7514fbbdefef6da9927",
+      "commitment": "88665b448cdfd4989fc9f9e89c07975dcc4eba12686dd225922bafc67c659f93",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_003_client_1.npz",
+      "bytes": 250562,
+      "sha256": "bfce71c3232cd352061780995ec0a2331b1b89f3981257630e5f155d68ecd1fd",
+      "commitment": "3d9785d08d93fafbf1bb1fc92c4fa50c091c05e045d9a5c24de1347fa2aaa217",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_003_client_2.npz",
+      "bytes": 250562,
+      "sha256": "8a2dc946eb65d9b4c3ad16c34228d0426554c454ef5c293f595c17c689b17018",
+      "commitment": "ae2026d736baed43389a9b41acf97a6e38ebdd8c3ec2c0d117d52b95a11418e4",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_003_client_3.npz",
+      "bytes": 250562,
+      "sha256": "037eef1185080a02108339be847f0f6ba2bd1a9d7c0e1bc9d73d39ce8db066d8",
+      "commitment": "ac1070c6e1faa100cb8ba6aac7d4f72d37516464414b9101a2b61f5a363c59fb",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/global_003.npz",
+      "bytes": 250562,
+      "sha256": "b52826cbb244bc3ad4917f116b5269dc04c2c116c64e2186ee7b3ca9b3c9f0b9",
+      "commitment": "7a8cd3e0fd5d7355ca91c3016bd18953cb99cf687cc38db95dc22a4fbf10f09e",
+      "kind": "global_model",
+      "round": 3,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_004_client_0.npz",
+      "bytes": 250562,
+      "sha256": "20e48e7ba87b32b67bed35baa0796245cf488ed4a20700d3d186f45102de136f",
+      "commitment": "cb71d604eadedf5f76d754a7a9426abc9a4be17561ef352c83544713962fef28",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_004_client_1.npz",
+      "bytes": 250562,
+      "sha256": "61a136ffae39be50ae6d93a75263f84da1aa15d37318e384526528809e32feb7",
+      "commitment": "3d8b46e147abdaec2532a8c2972bfcbe668b9782d5561a4082f608967194ed90",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_004_client_2.npz",
+      "bytes": 250562,
+      "sha256": "d420c6bdf93a45ab252c57b9a95d10a7bb048366f9c44915e547c339f4235392",
+      "commitment": "dbe7d87963e36aceb25a6bd258eb5130ff84b10f1416293f16f4a99904717774",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_004_client_3.npz",
+      "bytes": 250562,
+      "sha256": "270e45fd946d48ec6ed5913924ba21d9553c011eaf8db2ede49d63194a6331e3",
+      "commitment": "cf47e14b7ea9c5faa33b71335a30e78140f40e334ef9251672c39afedcc59efe",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/global_004.npz",
+      "bytes": 250562,
+      "sha256": "93afd59350fc7415873a64b76e905e8c6008dc995c8e3103e9a6b7477a6f533d",
+      "commitment": "eeb10f52464cc744ef4dfae2c5a855f51c77a67441e162daa77d324f6db4ba1e",
+      "kind": "global_model",
+      "round": 4,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_005_client_0.npz",
+      "bytes": 250562,
+      "sha256": "1e5ae070cff2d1d07eb36dfa03b0b5c5340415d342af7dc9ee1c6046b64ce4d7",
+      "commitment": "1074e67583a50716efc0fb145ab8773033f21e48671516c9a2583575334e6762",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_005_client_1.npz",
+      "bytes": 250562,
+      "sha256": "87c672d309aa38ecbbc9ea2b4d0c0d86bda3a96293b0efee5f16b7984f6ebdcc",
+      "commitment": "dcfc3d807a345eedc381af0ddfd669b6e419b992e1beba33c676654f5479e058",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_005_client_2.npz",
+      "bytes": 250562,
+      "sha256": "005c7d3cf485d1d03c7d39c77af4170575b844daa7723987eeee04c688400fdb",
+      "commitment": "093e8bf6b099ba753f3021876ccf4c32f6ec811ccb8615531240383cf5493c49",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_005_client_3.npz",
+      "bytes": 250562,
+      "sha256": "c3f80b835dfad3f924b4b4207a10c77f5d23919cc1a2c9a12447dcb6667d33e5",
+      "commitment": "4cc9a22d40dab75c7cd3d496a75ec5bf213b106c248a6bb5d7743385f50d4b97",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/global_005.npz",
+      "bytes": 250562,
+      "sha256": "754009b4307106677d17987443d0735f2c3e816ff859100c183ac32375973982",
+      "commitment": "ccd3307da9f754fb3f470e593396df190b33abac2a5144cabf1f7a49265f3c38",
+      "kind": "global_model",
+      "round": 5,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_006_client_0.npz",
+      "bytes": 250562,
+      "sha256": "2207e171e0d444031cf35d8ae795b0449b2e3774fd94705d65d9d28537e15720",
+      "commitment": "ba6ed3766503b358e12c5fea733be206a865df34a93c45d7ae3c943e84c9419c",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_006_client_1.npz",
+      "bytes": 250562,
+      "sha256": "87938085e364d992defdcd9d8421c5945828cfd190520b2cd8191b2440ab15b1",
+      "commitment": "0a7f6356f7f207fcd498c712bee476faad4c3f69d505ad6aac4860df06e5cc0b",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_006_client_2.npz",
+      "bytes": 250562,
+      "sha256": "b9cac2b9c36ea41eddf585eea5fab52eb09cddaf632178843c5eb5fb704aa556",
+      "commitment": "76aa93caf2df2d510bb0bb4c27cfd6c54471f1a05f0efa8b4a21f72596913390",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_006_client_3.npz",
+      "bytes": 250562,
+      "sha256": "d9664e89f4772c4c4d67e714960604145c354b0590f39e0a834ac34c556a828d",
+      "commitment": "ff08b230be4e54f31246453bd57e720c346ef96089898d38f923e5a932b359d0",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/global_006.npz",
+      "bytes": 250562,
+      "sha256": "4598e09acb85314bc84e6b3a2e43e387c525e1da629716173a95949d1c18696f",
+      "commitment": "9a7ae0c4b99dcd3ddfd5b50c3f6ba3d50e021071204ab0058118f8cd276eecb0",
+      "kind": "global_model",
+      "round": 6,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_007_client_0.npz",
+      "bytes": 250562,
+      "sha256": "6e08ffd03dec6ab15aedc2359bd43f914c5e3ad97c68e1e11820ee4a8b833a1a",
+      "commitment": "ea71e97ff130f03f2f9beb1d6dc92f6c19d29a2bf8a5aa079ec45cda5c963fca",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_007_client_1.npz",
+      "bytes": 250562,
+      "sha256": "6c2c910bd4355cf3f8728813281283d059a79c82e23d6519f01f7d2c0f2f0ba5",
+      "commitment": "dfac73e167ed3bccfabf75676b09bcd55fab5c396ebddf49ece9472037370fdc",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_007_client_2.npz",
+      "bytes": 250562,
+      "sha256": "c745c1b98b0f66076ffd55356643b679e24c95ecf2e5e85b75d51d2f641b5a22",
+      "commitment": "15c97618f9539080a8b60cb231d0be487c6dfa8b70847e06b68ada79b195b1a7",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_007_client_3.npz",
+      "bytes": 250562,
+      "sha256": "98022e87bce41026b2591bd004f79e2f62b59e747eb3a60ff18d9b3858b0004c",
+      "commitment": "01df23fdc83bc4156dbe8a299505835a9c354e13e9a87cc9e1dc23c9b1bc24f5",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/global_007.npz",
+      "bytes": 250562,
+      "sha256": "32787a2a4271b9250af195a6ebcd64357b8d7c111102c031048302eed0cb1aa5",
+      "commitment": "a6d553bcbfa672da132ab6eccd9dd9be3dca4f88686a16532a526ca3c43597ea",
+      "kind": "global_model",
+      "round": 7,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_008_client_0.npz",
+      "bytes": 250562,
+      "sha256": "507e19103e71078fc9c643ca10186b945b1d3ac08899b8abf9a9432f59374dd5",
+      "commitment": "93389505a687c5aaeb6c109c32c47fc307f9f9b777921e73cbe4454f1e880b03",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_008_client_1.npz",
+      "bytes": 250562,
+      "sha256": "32405fe3a34d6d273c33d9456a61bc354dda7ddd471a1a1e5de4d6b0ffd04c35",
+      "commitment": "6ca7950256caa51011d77c45a8d42d2f862078dfede7c10a2cf95bcb14540631",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_008_client_2.npz",
+      "bytes": 250562,
+      "sha256": "e888a4358a361512aab11a0c83f5f47058acb0ac9f3ebd749c0db585e522dfb5",
+      "commitment": "fe57aa035157dc33c8477719c621a802ea177bf2c519cc95adc175740f0c20ae",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_008_client_3.npz",
+      "bytes": 250562,
+      "sha256": "6590dd9fcf37dd96e675bbb563254f4f0a52fd4948bb5f7bafda265f7ebd5f68",
+      "commitment": "beb74961ea94399dab4b5cf650e83c2bdd0a624ae5b235cb4149815de2a9f66d",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/global_008.npz",
+      "bytes": 250562,
+      "sha256": "9d78a68473ba7e410af6e9e85d054d3cb54cbc32bfdc4f0f6a011d319aae83ed",
+      "commitment": "f9587c714f7febf88f6d3793b51c835ca941530adc6c6c9b71b7ec6b1a25e84e",
+      "kind": "global_model",
+      "round": 8,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_009_client_0.npz",
+      "bytes": 250562,
+      "sha256": "11e005bd1edda154b2486b253a06fbf0d0167c1fab8c9f40e03fb46c8e7ecfb6",
+      "commitment": "7cb46d26bfaa8e12faee43d592b2cff5e1da295001abb814841b1a68dbc6ea5f",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_009_client_1.npz",
+      "bytes": 250562,
+      "sha256": "fcecec26beb19a6d5d5834b67fc00a7b717d14c7a54b831caafa2cce3bae8b38",
+      "commitment": "9a4f381a0a3996a2d5ea69404667f8a83b2adbbb821128a4881fcfd6656fecc9",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_009_client_2.npz",
+      "bytes": 250562,
+      "sha256": "40d3d4bcd3dda331603125ff6b11f2aff1f464db18899ba3eab36966a06e20bb",
+      "commitment": "1f1eba4fc208ee22ab598fc9446d16fdfd720ee6a2f7e5b12821fe26ccb38c3c",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_009_client_3.npz",
+      "bytes": 250562,
+      "sha256": "ff17e3c6310c0248f49a6a557a18e6373c523bdb32edef6d6de6f1bdd1988810",
+      "commitment": "4b9fd8162f405a80ddc751ba49b571d85ab0252104cc1f32415da49536c89f44",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/global_009.npz",
+      "bytes": 250562,
+      "sha256": "89f7503a048fab05ec10b55a19ea065210a8f23291c8594ed2b85b0401defe9e",
+      "commitment": "479ef9d386190cbc8d9dbb7cd0fb5426cc4c3df07fe8b8d98751ba5f134652f1",
+      "kind": "global_model",
+      "round": 9,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_010_client_0.npz",
+      "bytes": 250562,
+      "sha256": "ece565cd77a17d34892b473d3351600c7b5659f602ec16f5986988872c65ba8a",
+      "commitment": "40cdd65003bc43a17e5b24b65876ac7fd539b2f6535852a3549b0ce64a1b3e4f",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_010_client_1.npz",
+      "bytes": 250562,
+      "sha256": "ff70871e5d4606430e37a2376b53e24dd99ebcda8a7fbaafe261cfe0bb567831",
+      "commitment": "9bc733197e28432ddcaea0675b515074fd4381fbffca43acb34c97e470d4c379",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_010_client_2.npz",
+      "bytes": 250562,
+      "sha256": "32dbdcb8bea31a8a46a49d1f7951f094a2dca864f43c509edea531bdacf4f778",
+      "commitment": "419ee6c4870dabb357c80fc2a80a308e2ea207d307399ea033851998cdeb5ea1",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/updates/round_010_client_3.npz",
+      "bytes": 250562,
+      "sha256": "4ec81b0b4ab7bfc8b08106a5d1c5378afd3394923ecd713a4c1e038b58b27773",
+      "commitment": "d263bfeac8b387415859b91a42004fc46f9029638c4d0abd70916f09f14f22d5",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s42/global_010.npz",
+      "bytes": 250562,
+      "sha256": "4893373c1f0267bfe565617973c0f15af1a64b6511274d89c76ff5b7087955b6",
+      "commitment": "9992d4a98ed97ddb8d361c078de4b93a5ab05d480cab6dd1322f7cb52beeb672",
+      "kind": "global_model",
+      "round": 10,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_001_client_0.npz",
+      "bytes": 250562,
+      "sha256": "973d0c8661875e6afcdb1d710880a07d429f75a9ee365ec7682536b2d1fcefa0",
+      "commitment": "c76683a2aafa246b25df817ad8bde04847c2ee5d54397d9ce6ad487488e0ba23",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_001_client_1.npz",
+      "bytes": 250562,
+      "sha256": "0ac81af066e5a3e013a3f8d0d74f346af1ef3218f39cfbb3993060abe9356b6e",
+      "commitment": "5ddbbe98f7329a2753730b91751bce672fd4057460aa82485c565e2f1169817d",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_001_client_2.npz",
+      "bytes": 250562,
+      "sha256": "70ead1f9e498172173ce6314a74eb1fb094374753eb94e6706cd84063c634aae",
+      "commitment": "7bdfe6f8d8a110332a45674e5b55c0e949d03a910a251045c11bb85ff3b31d90",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_001_client_3.npz",
+      "bytes": 250562,
+      "sha256": "0785cd6deb785338ad550ea797a5be6732eef888bdcb89c9dee8b318c80f6711",
+      "commitment": "04766b93528cc77cc179f71d30fe1ccaa69b5962ed113f5f08ba32d2c7e214d2",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/global_001.npz",
+      "bytes": 250562,
+      "sha256": "5c553d5a58d4e8d7cbce241ea48a1c3446406f903fd91975c309ba16e97adb5f",
+      "commitment": "4f1336699c393f5f0f439b78ab4c3110bab5b5f94e3a046de4f7ecbbea126755",
+      "kind": "global_model",
+      "round": 1,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_002_client_0.npz",
+      "bytes": 250562,
+      "sha256": "67f3e1b5b9060e60ebfb85be862e6b9c7a8c71cf93831c1941f8a1ab6617393c",
+      "commitment": "41f1c348534b13101035494f967c48a38ae753ae7a8bd0833a2890fe394e09e3",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_002_client_1.npz",
+      "bytes": 250562,
+      "sha256": "050046a07fdfc377163f76c4adeaf00feffa5632221684ccf9037fbe7a5db628",
+      "commitment": "ae28971d38e38aa30f494a11069d419ce7f65bad6121dca99902168d8548a7d8",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_002_client_2.npz",
+      "bytes": 250562,
+      "sha256": "4652d6bb9e26d271a25719526453d5c7059a318b55acd7fa71bf1d0196c7e57f",
+      "commitment": "d24b84d7f363ed140d2bf44dda2f2fff729b6deee0f4065a41b6f4c55bf6c4e3",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_002_client_3.npz",
+      "bytes": 250562,
+      "sha256": "c2a1b7ec50121cdc678081acca91313dbe0ee4c57085c198f542bb117cc2a223",
+      "commitment": "9242fe60c3dc6469418d66408489a76b09443db97735d4549ae6481e52143355",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/global_002.npz",
+      "bytes": 250562,
+      "sha256": "f0b37204849290f4032dfc42299c297f7ce738edbfe5a314148752edd6d7a7c1",
+      "commitment": "ba7a5be6239acb939dbedfaf452d1006a67862ec17a89c31ce62124f9b8b20bf",
+      "kind": "global_model",
+      "round": 2,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_003_client_0.npz",
+      "bytes": 250562,
+      "sha256": "45903ca2e7aea48f12db0bcaf29135cbcc915e83732cb7514fbbdefef6da9927",
+      "commitment": "88665b448cdfd4989fc9f9e89c07975dcc4eba12686dd225922bafc67c659f93",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_003_client_1.npz",
+      "bytes": 250562,
+      "sha256": "bfce71c3232cd352061780995ec0a2331b1b89f3981257630e5f155d68ecd1fd",
+      "commitment": "3d9785d08d93fafbf1bb1fc92c4fa50c091c05e045d9a5c24de1347fa2aaa217",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_003_client_2.npz",
+      "bytes": 250562,
+      "sha256": "8a2dc946eb65d9b4c3ad16c34228d0426554c454ef5c293f595c17c689b17018",
+      "commitment": "ae2026d736baed43389a9b41acf97a6e38ebdd8c3ec2c0d117d52b95a11418e4",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_003_client_3.npz",
+      "bytes": 250562,
+      "sha256": "037eef1185080a02108339be847f0f6ba2bd1a9d7c0e1bc9d73d39ce8db066d8",
+      "commitment": "ac1070c6e1faa100cb8ba6aac7d4f72d37516464414b9101a2b61f5a363c59fb",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/global_003.npz",
+      "bytes": 250562,
+      "sha256": "b52826cbb244bc3ad4917f116b5269dc04c2c116c64e2186ee7b3ca9b3c9f0b9",
+      "commitment": "7a8cd3e0fd5d7355ca91c3016bd18953cb99cf687cc38db95dc22a4fbf10f09e",
+      "kind": "global_model",
+      "round": 3,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_004_client_0.npz",
+      "bytes": 250562,
+      "sha256": "20e48e7ba87b32b67bed35baa0796245cf488ed4a20700d3d186f45102de136f",
+      "commitment": "cb71d604eadedf5f76d754a7a9426abc9a4be17561ef352c83544713962fef28",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_004_client_1.npz",
+      "bytes": 250562,
+      "sha256": "61a136ffae39be50ae6d93a75263f84da1aa15d37318e384526528809e32feb7",
+      "commitment": "3d8b46e147abdaec2532a8c2972bfcbe668b9782d5561a4082f608967194ed90",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_004_client_2.npz",
+      "bytes": 250562,
+      "sha256": "d420c6bdf93a45ab252c57b9a95d10a7bb048366f9c44915e547c339f4235392",
+      "commitment": "dbe7d87963e36aceb25a6bd258eb5130ff84b10f1416293f16f4a99904717774",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_004_client_3.npz",
+      "bytes": 250562,
+      "sha256": "270e45fd946d48ec6ed5913924ba21d9553c011eaf8db2ede49d63194a6331e3",
+      "commitment": "cf47e14b7ea9c5faa33b71335a30e78140f40e334ef9251672c39afedcc59efe",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/global_004.npz",
+      "bytes": 250562,
+      "sha256": "93afd59350fc7415873a64b76e905e8c6008dc995c8e3103e9a6b7477a6f533d",
+      "commitment": "eeb10f52464cc744ef4dfae2c5a855f51c77a67441e162daa77d324f6db4ba1e",
+      "kind": "global_model",
+      "round": 4,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_005_client_0.npz",
+      "bytes": 250562,
+      "sha256": "1e5ae070cff2d1d07eb36dfa03b0b5c5340415d342af7dc9ee1c6046b64ce4d7",
+      "commitment": "1074e67583a50716efc0fb145ab8773033f21e48671516c9a2583575334e6762",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_005_client_1.npz",
+      "bytes": 250562,
+      "sha256": "87c672d309aa38ecbbc9ea2b4d0c0d86bda3a96293b0efee5f16b7984f6ebdcc",
+      "commitment": "dcfc3d807a345eedc381af0ddfd669b6e419b992e1beba33c676654f5479e058",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_005_client_2.npz",
+      "bytes": 250562,
+      "sha256": "005c7d3cf485d1d03c7d39c77af4170575b844daa7723987eeee04c688400fdb",
+      "commitment": "093e8bf6b099ba753f3021876ccf4c32f6ec811ccb8615531240383cf5493c49",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_005_client_3.npz",
+      "bytes": 250562,
+      "sha256": "c3f80b835dfad3f924b4b4207a10c77f5d23919cc1a2c9a12447dcb6667d33e5",
+      "commitment": "4cc9a22d40dab75c7cd3d496a75ec5bf213b106c248a6bb5d7743385f50d4b97",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/global_005.npz",
+      "bytes": 250562,
+      "sha256": "754009b4307106677d17987443d0735f2c3e816ff859100c183ac32375973982",
+      "commitment": "ccd3307da9f754fb3f470e593396df190b33abac2a5144cabf1f7a49265f3c38",
+      "kind": "global_model",
+      "round": 5,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_006_client_0.npz",
+      "bytes": 250562,
+      "sha256": "2207e171e0d444031cf35d8ae795b0449b2e3774fd94705d65d9d28537e15720",
+      "commitment": "ba6ed3766503b358e12c5fea733be206a865df34a93c45d7ae3c943e84c9419c",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_006_client_1.npz",
+      "bytes": 250562,
+      "sha256": "87938085e364d992defdcd9d8421c5945828cfd190520b2cd8191b2440ab15b1",
+      "commitment": "0a7f6356f7f207fcd498c712bee476faad4c3f69d505ad6aac4860df06e5cc0b",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_006_client_2.npz",
+      "bytes": 250562,
+      "sha256": "b9cac2b9c36ea41eddf585eea5fab52eb09cddaf632178843c5eb5fb704aa556",
+      "commitment": "76aa93caf2df2d510bb0bb4c27cfd6c54471f1a05f0efa8b4a21f72596913390",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_006_client_3.npz",
+      "bytes": 250562,
+      "sha256": "d9664e89f4772c4c4d67e714960604145c354b0590f39e0a834ac34c556a828d",
+      "commitment": "ff08b230be4e54f31246453bd57e720c346ef96089898d38f923e5a932b359d0",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/global_006.npz",
+      "bytes": 250562,
+      "sha256": "4598e09acb85314bc84e6b3a2e43e387c525e1da629716173a95949d1c18696f",
+      "commitment": "9a7ae0c4b99dcd3ddfd5b50c3f6ba3d50e021071204ab0058118f8cd276eecb0",
+      "kind": "global_model",
+      "round": 6,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_007_client_0.npz",
+      "bytes": 250562,
+      "sha256": "6e08ffd03dec6ab15aedc2359bd43f914c5e3ad97c68e1e11820ee4a8b833a1a",
+      "commitment": "ea71e97ff130f03f2f9beb1d6dc92f6c19d29a2bf8a5aa079ec45cda5c963fca",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_007_client_1.npz",
+      "bytes": 250562,
+      "sha256": "6c2c910bd4355cf3f8728813281283d059a79c82e23d6519f01f7d2c0f2f0ba5",
+      "commitment": "dfac73e167ed3bccfabf75676b09bcd55fab5c396ebddf49ece9472037370fdc",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_007_client_2.npz",
+      "bytes": 250562,
+      "sha256": "c745c1b98b0f66076ffd55356643b679e24c95ecf2e5e85b75d51d2f641b5a22",
+      "commitment": "15c97618f9539080a8b60cb231d0be487c6dfa8b70847e06b68ada79b195b1a7",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_007_client_3.npz",
+      "bytes": 250562,
+      "sha256": "98022e87bce41026b2591bd004f79e2f62b59e747eb3a60ff18d9b3858b0004c",
+      "commitment": "01df23fdc83bc4156dbe8a299505835a9c354e13e9a87cc9e1dc23c9b1bc24f5",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/global_007.npz",
+      "bytes": 250562,
+      "sha256": "32787a2a4271b9250af195a6ebcd64357b8d7c111102c031048302eed0cb1aa5",
+      "commitment": "a6d553bcbfa672da132ab6eccd9dd9be3dca4f88686a16532a526ca3c43597ea",
+      "kind": "global_model",
+      "round": 7,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_008_client_0.npz",
+      "bytes": 250562,
+      "sha256": "507e19103e71078fc9c643ca10186b945b1d3ac08899b8abf9a9432f59374dd5",
+      "commitment": "93389505a687c5aaeb6c109c32c47fc307f9f9b777921e73cbe4454f1e880b03",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_008_client_1.npz",
+      "bytes": 250562,
+      "sha256": "32405fe3a34d6d273c33d9456a61bc354dda7ddd471a1a1e5de4d6b0ffd04c35",
+      "commitment": "6ca7950256caa51011d77c45a8d42d2f862078dfede7c10a2cf95bcb14540631",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_008_client_2.npz",
+      "bytes": 250562,
+      "sha256": "e888a4358a361512aab11a0c83f5f47058acb0ac9f3ebd749c0db585e522dfb5",
+      "commitment": "fe57aa035157dc33c8477719c621a802ea177bf2c519cc95adc175740f0c20ae",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_008_client_3.npz",
+      "bytes": 250562,
+      "sha256": "6590dd9fcf37dd96e675bbb563254f4f0a52fd4948bb5f7bafda265f7ebd5f68",
+      "commitment": "beb74961ea94399dab4b5cf650e83c2bdd0a624ae5b235cb4149815de2a9f66d",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/global_008.npz",
+      "bytes": 250562,
+      "sha256": "9d78a68473ba7e410af6e9e85d054d3cb54cbc32bfdc4f0f6a011d319aae83ed",
+      "commitment": "f9587c714f7febf88f6d3793b51c835ca941530adc6c6c9b71b7ec6b1a25e84e",
+      "kind": "global_model",
+      "round": 8,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_009_client_0.npz",
+      "bytes": 250562,
+      "sha256": "11e005bd1edda154b2486b253a06fbf0d0167c1fab8c9f40e03fb46c8e7ecfb6",
+      "commitment": "7cb46d26bfaa8e12faee43d592b2cff5e1da295001abb814841b1a68dbc6ea5f",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_009_client_1.npz",
+      "bytes": 250562,
+      "sha256": "fcecec26beb19a6d5d5834b67fc00a7b717d14c7a54b831caafa2cce3bae8b38",
+      "commitment": "9a4f381a0a3996a2d5ea69404667f8a83b2adbbb821128a4881fcfd6656fecc9",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_009_client_2.npz",
+      "bytes": 250562,
+      "sha256": "40d3d4bcd3dda331603125ff6b11f2aff1f464db18899ba3eab36966a06e20bb",
+      "commitment": "1f1eba4fc208ee22ab598fc9446d16fdfd720ee6a2f7e5b12821fe26ccb38c3c",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_009_client_3.npz",
+      "bytes": 250562,
+      "sha256": "ff17e3c6310c0248f49a6a557a18e6373c523bdb32edef6d6de6f1bdd1988810",
+      "commitment": "4b9fd8162f405a80ddc751ba49b571d85ab0252104cc1f32415da49536c89f44",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/global_009.npz",
+      "bytes": 250562,
+      "sha256": "89f7503a048fab05ec10b55a19ea065210a8f23291c8594ed2b85b0401defe9e",
+      "commitment": "479ef9d386190cbc8d9dbb7cd0fb5426cc4c3df07fe8b8d98751ba5f134652f1",
+      "kind": "global_model",
+      "round": 9,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_010_client_0.npz",
+      "bytes": 250562,
+      "sha256": "ece565cd77a17d34892b473d3351600c7b5659f602ec16f5986988872c65ba8a",
+      "commitment": "40cdd65003bc43a17e5b24b65876ac7fd539b2f6535852a3549b0ce64a1b3e4f",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_010_client_1.npz",
+      "bytes": 250562,
+      "sha256": "ff70871e5d4606430e37a2376b53e24dd99ebcda8a7fbaafe261cfe0bb567831",
+      "commitment": "9bc733197e28432ddcaea0675b515074fd4381fbffca43acb34c97e470d4c379",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_010_client_2.npz",
+      "bytes": 250562,
+      "sha256": "32dbdcb8bea31a8a46a49d1f7951f094a2dca864f43c509edea531bdacf4f778",
+      "commitment": "419ee6c4870dabb357c80fc2a80a308e2ea207d307399ea033851998cdeb5ea1",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/updates/round_010_client_3.npz",
+      "bytes": 250562,
+      "sha256": "4ec81b0b4ab7bfc8b08106a5d1c5378afd3394923ecd713a4c1e038b58b27773",
+      "commitment": "d263bfeac8b387415859b91a42004fc46f9029638c4d0abd70916f09f14f22d5",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s42/global_010.npz",
+      "bytes": 250562,
+      "sha256": "4893373c1f0267bfe565617973c0f15af1a64b6511274d89c76ff5b7087955b6",
+      "commitment": "9992d4a98ed97ddb8d361c078de4b93a5ab05d480cab6dd1322f7cb52beeb672",
+      "kind": "global_model",
+      "round": 10,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_001_client_0.npz",
+      "bytes": 250562,
+      "sha256": "8c0f079cf7748670dd3764a489580aea9870fc9393b590af813220e9b766f318",
+      "commitment": "ca5d6b670a01e180af0545f9f08669fe1cc09145b6591bd6efc46baa9989708b",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_001_client_1.npz",
+      "bytes": 250562,
+      "sha256": "bde8917f24e03ce451995843e62fa9db9cdef93807a9ee9f8be4e4d74528192c",
+      "commitment": "e2b77ec605816f5d7e6be7540226f756cefe02175531e596270f67553d5d02f3",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_001_client_2.npz",
+      "bytes": 250562,
+      "sha256": "202506d5b7299cd4823dea675cacd57adb8b725f3226adba31388a72ca7543d0",
+      "commitment": "bcca288ecc537a38e7b463ef18fa22e874a4423700928c22c44623bc5b9809fa",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_001_client_3.npz",
+      "bytes": 250562,
+      "sha256": "f7e11a6861cade2b9a8cf26cb198ac2e65a0ee4d85c8a2bcc3f4e8b3e51ecf07",
+      "commitment": "bf1a4b179dfae6dd5ef4f3392265e1269be1b7237f8d44ee3cc4685df11e10b8",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/global_001.npz",
+      "bytes": 250562,
+      "sha256": "40e7af0c4e0d8c269865c7e898834392bf81a84906aa827e6f07e7a251c9a1c5",
+      "commitment": "53bf8284d3679189f287789ef5359b9f2acd7c728b00e5b238b4163adac749da",
+      "kind": "global_model",
+      "round": 1,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_002_client_0.npz",
+      "bytes": 250562,
+      "sha256": "533c3b01c878c80e5cf1ce70cf8573cf4953fe1b4825ee8654cb72fa69fbcc90",
+      "commitment": "94fdc7e9878901e4017cb608434fa9769074b86cba868caa2456cffce3aa9912",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_002_client_1.npz",
+      "bytes": 250562,
+      "sha256": "53673c14242fca0960705a98c8ff40019ddfa610326eec87984999bc6903f676",
+      "commitment": "e28a5b93e747a2888744d7e0dffe967511dc8a9b93d41c56d2a29c1a412d31c8",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_002_client_2.npz",
+      "bytes": 250562,
+      "sha256": "0cca7ad877b63f554bdc1f8da292e57681f1520c2d0ecd83ccb0d0e0252e5985",
+      "commitment": "23d080b1e5553c327131adfe6387c1e861096548053da12b375c9cb1e89c5a88",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_002_client_3.npz",
+      "bytes": 250562,
+      "sha256": "3113660a316647b0b1092a651534a57a93e3d7b631a2f7680eacacae3ef41bf0",
+      "commitment": "61b0bcb61885cc4a498c3b6a42877d53e3da3088e934971e05c41ba4232576cb",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/global_002.npz",
+      "bytes": 250562,
+      "sha256": "3b9f7b3faf452a6d58fc40b44ca572f722c81de2378fcc71310f5e29c55289c5",
+      "commitment": "053a729f752ff9fa5870645e05e2f29bde18563eff84a1313d0200d6f4a89e4c",
+      "kind": "global_model",
+      "round": 2,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_003_client_0.npz",
+      "bytes": 250562,
+      "sha256": "3c08b5c5ddf17d431e1bef25e0de5da3708d19e118f666cb3beb81c375715fb6",
+      "commitment": "8d046d5ff77220eade588ee33e13d9f87342ade989a0b3291b3a9e7843e1be16",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_003_client_1.npz",
+      "bytes": 250562,
+      "sha256": "522f5f5b9bfde64eadcbe212046ef7f83bc81a164a961fa649acdaa4509af043",
+      "commitment": "a8d87633ab66740a86f9e5e14142c868bd9836282eab9f224dac9d47cf2aeab7",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_003_client_2.npz",
+      "bytes": 250562,
+      "sha256": "cc440c0d16f3b9302a92af3ccac2731507f8151258e7bf4fcdfb78e409a90eaa",
+      "commitment": "0d384bd045ecb67b9afc8aac01e542f1fcb00d91daef160eab4a2f6ced95fc83",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_003_client_3.npz",
+      "bytes": 250562,
+      "sha256": "0590680e775e621bc0577b527cdb155de67e718adfb8e557b4dbbdc70e0db359",
+      "commitment": "0d84f161d0d9c913421a8ba560da4e6c591f24e422c31dc26704e6bc595df0e2",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/global_003.npz",
+      "bytes": 250562,
+      "sha256": "8063b922a9025eb5c3fef077abc6ae243f9e042b4a5d8686f59a1c87d9a79849",
+      "commitment": "6b2a0f0008e27e35ed6e579f8366cba1e9fb77a8705e881b113f361c0e717f95",
+      "kind": "global_model",
+      "round": 3,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_004_client_0.npz",
+      "bytes": 250562,
+      "sha256": "123db6d443eac9bdbcad10180c6063728cda1ec82d46a48f7207be3dc8dd1836",
+      "commitment": "5154c3a9b6dd3ba9626a38f39bf21626f0088cd3b56e2ebb5050145e67a36a1c",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_004_client_1.npz",
+      "bytes": 250562,
+      "sha256": "dc5151ff13a7b636191a2754b433876a6bb90f290517e0382ba11a749b8bd12d",
+      "commitment": "dfe8e52040c043ef61d1186f28ad7dc9e09831c1c285418d99d64502740f59aa",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_004_client_2.npz",
+      "bytes": 250562,
+      "sha256": "64ecaf42a8993f7bf84fef252d46a1dc10106611d27c1b82cc98fc42f804574a",
+      "commitment": "4523659b01b49e0b4fa9a0eab84a696dbd737b20dee3fef2dcaf3e3f2974c65b",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_004_client_3.npz",
+      "bytes": 250562,
+      "sha256": "0ff344047422e624e914621c251a441a8b1c398a9a6c18e937dca1f6e3c04007",
+      "commitment": "57ea58aacf88166e0f143a145f688857ea632a364251f45313b03e902885bdcf",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/global_004.npz",
+      "bytes": 250562,
+      "sha256": "2f96367a84ba1d33f7282fc900726a63e1574a72f643e39aaf61111f097c4411",
+      "commitment": "9c65eb81b01a0f3979c0b4e3037559f557085d180feaeaf0169cf339b1380ed2",
+      "kind": "global_model",
+      "round": 4,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_005_client_0.npz",
+      "bytes": 250562,
+      "sha256": "841d5938b8cbbd076e618339f669d572676f1999ceb8f853d4ee3a3f39d03581",
+      "commitment": "b6351821a2d76d2e6c052f4d6d6351213546a9f440901982803a7e5d2267b5b8",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_005_client_1.npz",
+      "bytes": 250562,
+      "sha256": "22803d0255a7761250919a7c3c8c5db3d95ecf2a9bb62665fe54863bac41a2c4",
+      "commitment": "4f4e31f8dc6c09781793e724e80a300d085abc08e872fd84f7132a4c01bef5fd",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_005_client_2.npz",
+      "bytes": 250562,
+      "sha256": "2a1dabdcaa1092736589f911cd737c1fc5839e9bb9f15609e5076626ac1aa923",
+      "commitment": "c4500683e74ce9a793eaf3f08fb39a20bc2a9b45e81938a0f984af4061779aeb",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_005_client_3.npz",
+      "bytes": 250562,
+      "sha256": "568b5822fb8bfdf9e11230cd4ad8427e06c783d8013bc798ee3333544a5923b3",
+      "commitment": "46abacf9e80820bbaa31187c88fb291f91c76db2b54e2435e3062d9885367e90",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/global_005.npz",
+      "bytes": 250562,
+      "sha256": "8e8f7150fc4ce4dd93cbd72770e3a6f830ec9a978c3ac6d970d3f0959a735f15",
+      "commitment": "c9c77ba9c14d25621fe2e8fb9d7c6e5339f05594c243dc7094ea04a7a1d8ebeb",
+      "kind": "global_model",
+      "round": 5,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_006_client_0.npz",
+      "bytes": 250562,
+      "sha256": "fd0439bb444dd09c30b833df28185d5b99b44e25f6c1c2701099d58287f65331",
+      "commitment": "d4783a9f201f6de983cdf0fd23411685ef233b93d5bf0b9455a69ae28ef40e49",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_006_client_1.npz",
+      "bytes": 250562,
+      "sha256": "a7107ac045b3bc912d3efdeff58d3b0ee676a989e955796eb1d30a22de7105a5",
+      "commitment": "69e247d3b9bcb4ce3f16d2a70321aac0792185228ee98fc650c2d2c287e3af94",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_006_client_2.npz",
+      "bytes": 250562,
+      "sha256": "b70a6a53376ae6e3d111bc9723e979a3aa28ef92440e92cf30b1b4bd9db3ee3f",
+      "commitment": "faac5ba6639d23d0468abd51fb683ee9c973dc2f405d9c280b24269dee97d983",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_006_client_3.npz",
+      "bytes": 250562,
+      "sha256": "d7dcee1cc0a45d61ed069d4d003f9b2230210708e275aa4083a1311f12e396e8",
+      "commitment": "ec8568ce47ea76746d328e5e74eea834398a140e0a08e36bf8483d829fb75078",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/global_006.npz",
+      "bytes": 250562,
+      "sha256": "02d515b8b03aba7b1e6a1570e9de4d6b8fc433b9247847a2dee9f625499762da",
+      "commitment": "d84c8b2e070beaf171dc0629768d04ad3f6208a6e052d51d58afb00e174a8942",
+      "kind": "global_model",
+      "round": 6,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_007_client_0.npz",
+      "bytes": 250562,
+      "sha256": "de66247c33e69a0cc184f8d6029d72a1d9ca9d03a5460a39bd2d7561bfa9c243",
+      "commitment": "909882c4561710b8034c1728b05a94fca8abb1ab2597ec050b145551d63cb940",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_007_client_1.npz",
+      "bytes": 250562,
+      "sha256": "7274c8112b037ebf01c331fc15cb20a890c472741815a5b073250efb739c8e0c",
+      "commitment": "5d5c79df83b7c8d4a76702233a8539048ce7536359b14ccb3ec1965af178410a",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_007_client_2.npz",
+      "bytes": 250562,
+      "sha256": "85be6b08b064a8eeef7b18fc2789d5a512f58a2f5234816c89d2d3b46a38bb70",
+      "commitment": "2ce763975b2fb423883a54fc94c3b08bd264c2bf5dbce8aa2992a28e6922c9fd",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_007_client_3.npz",
+      "bytes": 250562,
+      "sha256": "f5595423f9d8e1a07c1e09f45f4a2acef95eed40823caaa1b87ea5d0466307cb",
+      "commitment": "28a64d35c7f40a7d4d1eb2f61071dce6b2ff1ac28b1a4e3fa4c64bd8fb82695b",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/global_007.npz",
+      "bytes": 250562,
+      "sha256": "b7b2e124d6395aca752d3109cf8926d3e6f0d86cfc007f34f97f413a9fec8542",
+      "commitment": "6c924054fc0e9713f18e78b0a033c597623c7e97c26efbe5692d92b68ebb12c4",
+      "kind": "global_model",
+      "round": 7,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_008_client_0.npz",
+      "bytes": 250562,
+      "sha256": "4d23b1f7b3536ebe66437d2f24f10329318c204e6860fbc991f3db09cf1ad599",
+      "commitment": "5251f9ac41070863264d585feb557ecc4a727a318d563eb4aecc09a48dd7729d",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_008_client_1.npz",
+      "bytes": 250562,
+      "sha256": "b3dec86f3b708f2bcc5db3d116dd1a2c5fd3d758b6b8546beb90c8cafef58db3",
+      "commitment": "f613519848c3d43d404be615747ca8ee269a82eedb202d5f74f50cf134c677e1",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_008_client_2.npz",
+      "bytes": 250562,
+      "sha256": "0680e700262bf3f6c94f5536551b8312dd4903484c2595f0ed3adc332785b968",
+      "commitment": "8a08a60bedba7992b5ebf371126156f94bd31fdb86999d1980cf4d0eb9604f70",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_008_client_3.npz",
+      "bytes": 250562,
+      "sha256": "2f76f8a0b5f44cffa51ada4e9a2f16247099d605ebc3a96280e3e60fa2ae7b90",
+      "commitment": "2cf96cd0c45c3c0b14b570eae5d0a07fc4ebe1019cf0dfe60df3884f82ac10b8",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/global_008.npz",
+      "bytes": 250562,
+      "sha256": "84c746e74f8ce0cc5c0def738a37f52dfd25cfff56e84a0f65417f5b8186db82",
+      "commitment": "aab1bbae47222f0a5e3d46671a9f7078f309c11d0f862035801ae9d27942ab9f",
+      "kind": "global_model",
+      "round": 8,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_009_client_0.npz",
+      "bytes": 250562,
+      "sha256": "e88fae35c58b491d5ab214b13d1ffd54389c83cc2286c931acf3d7be8b6e2c81",
+      "commitment": "067646d38543cfc2cf1a1cbbc610b03b7348ca8a67b06b6d85aa097422f46a1f",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_009_client_1.npz",
+      "bytes": 250562,
+      "sha256": "9e0281bd5b5b204e72789cc306d1ab89f2798a6f79ff6f13e170d80f587922a0",
+      "commitment": "60519dbc2b53ba9482921097db9fd30657334ed50d291241ed795c22df4ac0e0",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_009_client_2.npz",
+      "bytes": 250562,
+      "sha256": "d6f2630dba4fe85d46c795b43b96eafdee918e85d9a9bb05f7ab15053df2b7fe",
+      "commitment": "082ebef8ad278d4b3808eebba6d7e5f5348310e8b51ff7e4ad1216ae9d93b1c2",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_009_client_3.npz",
+      "bytes": 250562,
+      "sha256": "e072269db9f0083862f4d59117f2d931ffa2abb972a23bf6c85a64b34798a7dc",
+      "commitment": "f8fe6e366075703b8ff8b514badec4cefac5896301438f79eca1d892828523b1",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/global_009.npz",
+      "bytes": 250562,
+      "sha256": "5bb8970e50b8b385ec84ef32e4d959d361be3c5b8deee8ad168e65b061ea1e88",
+      "commitment": "2cd61a7e0e4de842b9cee22818a423041ffa5eaacbade545a22052e969e83a77",
+      "kind": "global_model",
+      "round": 9,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_010_client_0.npz",
+      "bytes": 250562,
+      "sha256": "f592e4def334d26ef04e326215f1ab462d8fac150b8352fd8a72e5794b294c42",
+      "commitment": "5dce7ebe0931efcb854d9e48f6f737a11bdd15e946cfd1956e7879da021a646c",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_010_client_1.npz",
+      "bytes": 250562,
+      "sha256": "2394e47aaef50bbba79e0e62d9cad168872e8c52d1ea4876c55048cde444275e",
+      "commitment": "ba4087356491bf72131c8947ec67f7e392ea11abd074100d7ce69b513319697d",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_010_client_2.npz",
+      "bytes": 250562,
+      "sha256": "9dc288fa18909d694e33f1773a362336716c637d9ae3b5e6f4e2e95aaee49580",
+      "commitment": "e426187d3a35c0716c75e3a568f79539ead83ea309665e61798f13fe4af1fcf4",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/updates/round_010_client_3.npz",
+      "bytes": 250562,
+      "sha256": "7918d780eaea6ea1d55f5bb341567a200f51a28a0fbc20d61bce3e58a6a697d8",
+      "commitment": "44f711232a0eaa7b6e1090c48b0e5dcdea7c01aef939ba2a568ea92464760412",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s43/global_010.npz",
+      "bytes": 250562,
+      "sha256": "e750331ca390079adfddbdcc2f5211b7f1fb9aa9d8c855e6dc055736594dcb9c",
+      "commitment": "609902253b220ba7729afb141bd71414e02e98a39f77acf579166f47c7324720",
+      "kind": "global_model",
+      "round": 10,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_001_client_0.npz",
+      "bytes": 250562,
+      "sha256": "8c0f079cf7748670dd3764a489580aea9870fc9393b590af813220e9b766f318",
+      "commitment": "ca5d6b670a01e180af0545f9f08669fe1cc09145b6591bd6efc46baa9989708b",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_001_client_1.npz",
+      "bytes": 250562,
+      "sha256": "bde8917f24e03ce451995843e62fa9db9cdef93807a9ee9f8be4e4d74528192c",
+      "commitment": "e2b77ec605816f5d7e6be7540226f756cefe02175531e596270f67553d5d02f3",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_001_client_2.npz",
+      "bytes": 250562,
+      "sha256": "202506d5b7299cd4823dea675cacd57adb8b725f3226adba31388a72ca7543d0",
+      "commitment": "bcca288ecc537a38e7b463ef18fa22e874a4423700928c22c44623bc5b9809fa",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_001_client_3.npz",
+      "bytes": 250562,
+      "sha256": "f7e11a6861cade2b9a8cf26cb198ac2e65a0ee4d85c8a2bcc3f4e8b3e51ecf07",
+      "commitment": "bf1a4b179dfae6dd5ef4f3392265e1269be1b7237f8d44ee3cc4685df11e10b8",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/global_001.npz",
+      "bytes": 250562,
+      "sha256": "40e7af0c4e0d8c269865c7e898834392bf81a84906aa827e6f07e7a251c9a1c5",
+      "commitment": "53bf8284d3679189f287789ef5359b9f2acd7c728b00e5b238b4163adac749da",
+      "kind": "global_model",
+      "round": 1,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_002_client_0.npz",
+      "bytes": 250562,
+      "sha256": "533c3b01c878c80e5cf1ce70cf8573cf4953fe1b4825ee8654cb72fa69fbcc90",
+      "commitment": "94fdc7e9878901e4017cb608434fa9769074b86cba868caa2456cffce3aa9912",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_002_client_1.npz",
+      "bytes": 250562,
+      "sha256": "53673c14242fca0960705a98c8ff40019ddfa610326eec87984999bc6903f676",
+      "commitment": "e28a5b93e747a2888744d7e0dffe967511dc8a9b93d41c56d2a29c1a412d31c8",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_002_client_2.npz",
+      "bytes": 250562,
+      "sha256": "0cca7ad877b63f554bdc1f8da292e57681f1520c2d0ecd83ccb0d0e0252e5985",
+      "commitment": "23d080b1e5553c327131adfe6387c1e861096548053da12b375c9cb1e89c5a88",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_002_client_3.npz",
+      "bytes": 250562,
+      "sha256": "3113660a316647b0b1092a651534a57a93e3d7b631a2f7680eacacae3ef41bf0",
+      "commitment": "61b0bcb61885cc4a498c3b6a42877d53e3da3088e934971e05c41ba4232576cb",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/global_002.npz",
+      "bytes": 250562,
+      "sha256": "3b9f7b3faf452a6d58fc40b44ca572f722c81de2378fcc71310f5e29c55289c5",
+      "commitment": "053a729f752ff9fa5870645e05e2f29bde18563eff84a1313d0200d6f4a89e4c",
+      "kind": "global_model",
+      "round": 2,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_003_client_0.npz",
+      "bytes": 250562,
+      "sha256": "3c08b5c5ddf17d431e1bef25e0de5da3708d19e118f666cb3beb81c375715fb6",
+      "commitment": "8d046d5ff77220eade588ee33e13d9f87342ade989a0b3291b3a9e7843e1be16",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_003_client_1.npz",
+      "bytes": 250562,
+      "sha256": "522f5f5b9bfde64eadcbe212046ef7f83bc81a164a961fa649acdaa4509af043",
+      "commitment": "a8d87633ab66740a86f9e5e14142c868bd9836282eab9f224dac9d47cf2aeab7",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_003_client_2.npz",
+      "bytes": 250562,
+      "sha256": "cc440c0d16f3b9302a92af3ccac2731507f8151258e7bf4fcdfb78e409a90eaa",
+      "commitment": "0d384bd045ecb67b9afc8aac01e542f1fcb00d91daef160eab4a2f6ced95fc83",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_003_client_3.npz",
+      "bytes": 250562,
+      "sha256": "0590680e775e621bc0577b527cdb155de67e718adfb8e557b4dbbdc70e0db359",
+      "commitment": "0d84f161d0d9c913421a8ba560da4e6c591f24e422c31dc26704e6bc595df0e2",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/global_003.npz",
+      "bytes": 250562,
+      "sha256": "8063b922a9025eb5c3fef077abc6ae243f9e042b4a5d8686f59a1c87d9a79849",
+      "commitment": "6b2a0f0008e27e35ed6e579f8366cba1e9fb77a8705e881b113f361c0e717f95",
+      "kind": "global_model",
+      "round": 3,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_004_client_0.npz",
+      "bytes": 250562,
+      "sha256": "123db6d443eac9bdbcad10180c6063728cda1ec82d46a48f7207be3dc8dd1836",
+      "commitment": "5154c3a9b6dd3ba9626a38f39bf21626f0088cd3b56e2ebb5050145e67a36a1c",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_004_client_1.npz",
+      "bytes": 250562,
+      "sha256": "dc5151ff13a7b636191a2754b433876a6bb90f290517e0382ba11a749b8bd12d",
+      "commitment": "dfe8e52040c043ef61d1186f28ad7dc9e09831c1c285418d99d64502740f59aa",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_004_client_2.npz",
+      "bytes": 250562,
+      "sha256": "64ecaf42a8993f7bf84fef252d46a1dc10106611d27c1b82cc98fc42f804574a",
+      "commitment": "4523659b01b49e0b4fa9a0eab84a696dbd737b20dee3fef2dcaf3e3f2974c65b",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_004_client_3.npz",
+      "bytes": 250562,
+      "sha256": "0ff344047422e624e914621c251a441a8b1c398a9a6c18e937dca1f6e3c04007",
+      "commitment": "57ea58aacf88166e0f143a145f688857ea632a364251f45313b03e902885bdcf",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/global_004.npz",
+      "bytes": 250562,
+      "sha256": "2f96367a84ba1d33f7282fc900726a63e1574a72f643e39aaf61111f097c4411",
+      "commitment": "9c65eb81b01a0f3979c0b4e3037559f557085d180feaeaf0169cf339b1380ed2",
+      "kind": "global_model",
+      "round": 4,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_005_client_0.npz",
+      "bytes": 250562,
+      "sha256": "841d5938b8cbbd076e618339f669d572676f1999ceb8f853d4ee3a3f39d03581",
+      "commitment": "b6351821a2d76d2e6c052f4d6d6351213546a9f440901982803a7e5d2267b5b8",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_005_client_1.npz",
+      "bytes": 250562,
+      "sha256": "22803d0255a7761250919a7c3c8c5db3d95ecf2a9bb62665fe54863bac41a2c4",
+      "commitment": "4f4e31f8dc6c09781793e724e80a300d085abc08e872fd84f7132a4c01bef5fd",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_005_client_2.npz",
+      "bytes": 250562,
+      "sha256": "2a1dabdcaa1092736589f911cd737c1fc5839e9bb9f15609e5076626ac1aa923",
+      "commitment": "c4500683e74ce9a793eaf3f08fb39a20bc2a9b45e81938a0f984af4061779aeb",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_005_client_3.npz",
+      "bytes": 250562,
+      "sha256": "568b5822fb8bfdf9e11230cd4ad8427e06c783d8013bc798ee3333544a5923b3",
+      "commitment": "46abacf9e80820bbaa31187c88fb291f91c76db2b54e2435e3062d9885367e90",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/global_005.npz",
+      "bytes": 250562,
+      "sha256": "8e8f7150fc4ce4dd93cbd72770e3a6f830ec9a978c3ac6d970d3f0959a735f15",
+      "commitment": "c9c77ba9c14d25621fe2e8fb9d7c6e5339f05594c243dc7094ea04a7a1d8ebeb",
+      "kind": "global_model",
+      "round": 5,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_006_client_0.npz",
+      "bytes": 250562,
+      "sha256": "fd0439bb444dd09c30b833df28185d5b99b44e25f6c1c2701099d58287f65331",
+      "commitment": "d4783a9f201f6de983cdf0fd23411685ef233b93d5bf0b9455a69ae28ef40e49",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_006_client_1.npz",
+      "bytes": 250562,
+      "sha256": "a7107ac045b3bc912d3efdeff58d3b0ee676a989e955796eb1d30a22de7105a5",
+      "commitment": "69e247d3b9bcb4ce3f16d2a70321aac0792185228ee98fc650c2d2c287e3af94",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_006_client_2.npz",
+      "bytes": 250562,
+      "sha256": "b70a6a53376ae6e3d111bc9723e979a3aa28ef92440e92cf30b1b4bd9db3ee3f",
+      "commitment": "faac5ba6639d23d0468abd51fb683ee9c973dc2f405d9c280b24269dee97d983",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_006_client_3.npz",
+      "bytes": 250562,
+      "sha256": "d7dcee1cc0a45d61ed069d4d003f9b2230210708e275aa4083a1311f12e396e8",
+      "commitment": "ec8568ce47ea76746d328e5e74eea834398a140e0a08e36bf8483d829fb75078",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/global_006.npz",
+      "bytes": 250562,
+      "sha256": "02d515b8b03aba7b1e6a1570e9de4d6b8fc433b9247847a2dee9f625499762da",
+      "commitment": "d84c8b2e070beaf171dc0629768d04ad3f6208a6e052d51d58afb00e174a8942",
+      "kind": "global_model",
+      "round": 6,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_007_client_0.npz",
+      "bytes": 250562,
+      "sha256": "de66247c33e69a0cc184f8d6029d72a1d9ca9d03a5460a39bd2d7561bfa9c243",
+      "commitment": "909882c4561710b8034c1728b05a94fca8abb1ab2597ec050b145551d63cb940",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_007_client_1.npz",
+      "bytes": 250562,
+      "sha256": "7274c8112b037ebf01c331fc15cb20a890c472741815a5b073250efb739c8e0c",
+      "commitment": "5d5c79df83b7c8d4a76702233a8539048ce7536359b14ccb3ec1965af178410a",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_007_client_2.npz",
+      "bytes": 250562,
+      "sha256": "85be6b08b064a8eeef7b18fc2789d5a512f58a2f5234816c89d2d3b46a38bb70",
+      "commitment": "2ce763975b2fb423883a54fc94c3b08bd264c2bf5dbce8aa2992a28e6922c9fd",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_007_client_3.npz",
+      "bytes": 250562,
+      "sha256": "f5595423f9d8e1a07c1e09f45f4a2acef95eed40823caaa1b87ea5d0466307cb",
+      "commitment": "28a64d35c7f40a7d4d1eb2f61071dce6b2ff1ac28b1a4e3fa4c64bd8fb82695b",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/global_007.npz",
+      "bytes": 250562,
+      "sha256": "b7b2e124d6395aca752d3109cf8926d3e6f0d86cfc007f34f97f413a9fec8542",
+      "commitment": "6c924054fc0e9713f18e78b0a033c597623c7e97c26efbe5692d92b68ebb12c4",
+      "kind": "global_model",
+      "round": 7,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_008_client_0.npz",
+      "bytes": 250562,
+      "sha256": "4d23b1f7b3536ebe66437d2f24f10329318c204e6860fbc991f3db09cf1ad599",
+      "commitment": "5251f9ac41070863264d585feb557ecc4a727a318d563eb4aecc09a48dd7729d",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_008_client_1.npz",
+      "bytes": 250562,
+      "sha256": "b3dec86f3b708f2bcc5db3d116dd1a2c5fd3d758b6b8546beb90c8cafef58db3",
+      "commitment": "f613519848c3d43d404be615747ca8ee269a82eedb202d5f74f50cf134c677e1",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_008_client_2.npz",
+      "bytes": 250562,
+      "sha256": "0680e700262bf3f6c94f5536551b8312dd4903484c2595f0ed3adc332785b968",
+      "commitment": "8a08a60bedba7992b5ebf371126156f94bd31fdb86999d1980cf4d0eb9604f70",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_008_client_3.npz",
+      "bytes": 250562,
+      "sha256": "2f76f8a0b5f44cffa51ada4e9a2f16247099d605ebc3a96280e3e60fa2ae7b90",
+      "commitment": "2cf96cd0c45c3c0b14b570eae5d0a07fc4ebe1019cf0dfe60df3884f82ac10b8",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/global_008.npz",
+      "bytes": 250562,
+      "sha256": "84c746e74f8ce0cc5c0def738a37f52dfd25cfff56e84a0f65417f5b8186db82",
+      "commitment": "aab1bbae47222f0a5e3d46671a9f7078f309c11d0f862035801ae9d27942ab9f",
+      "kind": "global_model",
+      "round": 8,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_009_client_0.npz",
+      "bytes": 250562,
+      "sha256": "e88fae35c58b491d5ab214b13d1ffd54389c83cc2286c931acf3d7be8b6e2c81",
+      "commitment": "067646d38543cfc2cf1a1cbbc610b03b7348ca8a67b06b6d85aa097422f46a1f",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_009_client_1.npz",
+      "bytes": 250562,
+      "sha256": "9e0281bd5b5b204e72789cc306d1ab89f2798a6f79ff6f13e170d80f587922a0",
+      "commitment": "60519dbc2b53ba9482921097db9fd30657334ed50d291241ed795c22df4ac0e0",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_009_client_2.npz",
+      "bytes": 250562,
+      "sha256": "d6f2630dba4fe85d46c795b43b96eafdee918e85d9a9bb05f7ab15053df2b7fe",
+      "commitment": "082ebef8ad278d4b3808eebba6d7e5f5348310e8b51ff7e4ad1216ae9d93b1c2",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_009_client_3.npz",
+      "bytes": 250562,
+      "sha256": "e072269db9f0083862f4d59117f2d931ffa2abb972a23bf6c85a64b34798a7dc",
+      "commitment": "f8fe6e366075703b8ff8b514badec4cefac5896301438f79eca1d892828523b1",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/global_009.npz",
+      "bytes": 250562,
+      "sha256": "5bb8970e50b8b385ec84ef32e4d959d361be3c5b8deee8ad168e65b061ea1e88",
+      "commitment": "2cd61a7e0e4de842b9cee22818a423041ffa5eaacbade545a22052e969e83a77",
+      "kind": "global_model",
+      "round": 9,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_010_client_0.npz",
+      "bytes": 250562,
+      "sha256": "f592e4def334d26ef04e326215f1ab462d8fac150b8352fd8a72e5794b294c42",
+      "commitment": "5dce7ebe0931efcb854d9e48f6f737a11bdd15e946cfd1956e7879da021a646c",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_010_client_1.npz",
+      "bytes": 250562,
+      "sha256": "2394e47aaef50bbba79e0e62d9cad168872e8c52d1ea4876c55048cde444275e",
+      "commitment": "ba4087356491bf72131c8947ec67f7e392ea11abd074100d7ce69b513319697d",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_010_client_2.npz",
+      "bytes": 250562,
+      "sha256": "9dc288fa18909d694e33f1773a362336716c637d9ae3b5e6f4e2e95aaee49580",
+      "commitment": "e426187d3a35c0716c75e3a568f79539ead83ea309665e61798f13fe4af1fcf4",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/updates/round_010_client_3.npz",
+      "bytes": 250562,
+      "sha256": "7918d780eaea6ea1d55f5bb341567a200f51a28a0fbc20d61bce3e58a6a697d8",
+      "commitment": "44f711232a0eaa7b6e1090c48b0e5dcdea7c01aef939ba2a568ea92464760412",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s43/global_010.npz",
+      "bytes": 250562,
+      "sha256": "e750331ca390079adfddbdcc2f5211b7f1fb9aa9d8c855e6dc055736594dcb9c",
+      "commitment": "609902253b220ba7729afb141bd71414e02e98a39f77acf579166f47c7324720",
+      "kind": "global_model",
+      "round": 10,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_001_client_0.npz",
+      "bytes": 250562,
+      "sha256": "ebbab29c620e6f59517fc162baf0bb827685c656b19ca217539722ef54bd99cd",
+      "commitment": "cddf22eeeebf49a2d05d6020c4ca498b0b51bda4407b43f9a206f1ead59496e1",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_001_client_1.npz",
+      "bytes": 250562,
+      "sha256": "0f7e97750dbdffa04468b779542e9ea136a744ebebdf9fcf9b5ca138a400e561",
+      "commitment": "0ddb8defafd0a13cbb2ff240d9c97be176211b20a754da3b8a70edf5d7d2c734",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_001_client_2.npz",
+      "bytes": 250562,
+      "sha256": "d77b0e5b9f3bd7909294601b33baff805f30df1dde4478a139eb54147fe42d34",
+      "commitment": "4dfcfe30ff14eb19db0ba05d5a924dd57221203c066aaa568edc296f7ef98d58",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_001_client_3.npz",
+      "bytes": 250562,
+      "sha256": "91aa99b96b677f6976aca4d1417b6d30875d8ee71ff213c2eedf54a99058993a",
+      "commitment": "d793bc96dd81d6e499135b5ac8bf86f1ff462c2c53d81aebf4c2b37726929bfb",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/global_001.npz",
+      "bytes": 250562,
+      "sha256": "e7b166eb7f19c9763925fa9f3cdb6156b34091b8a1fca5cb76d2802dd19640b4",
+      "commitment": "67f1d52d9ec9ed3baa31f64227fae477fc105fddb2574140b5de576fb795975e",
+      "kind": "global_model",
+      "round": 1,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_002_client_0.npz",
+      "bytes": 250562,
+      "sha256": "049256b981a52754ed2a1dd1d7e8dc09d8aba9e8c4e26c073b0c9123898fd2e1",
+      "commitment": "d8d8258f8f0e5262020060756c66d6d37b25c3aa94c758c569d95b514be6d82f",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_002_client_1.npz",
+      "bytes": 250562,
+      "sha256": "eb311c15b89e02c2efffbe6e0548937429f2ecab2e69c58dd42059979c2f4129",
+      "commitment": "98e3bc71ae60bf524dd0de947e94aa149420e0bd22a49e7343e8b808e0dffc07",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_002_client_2.npz",
+      "bytes": 250562,
+      "sha256": "38bb609bd689f4581c3d892b901263afa7b0a0d5d8c7a7d1ba3c47123cb1513a",
+      "commitment": "9989074e4a01132ca47fdf0c334050252b8574a00ee01766f48580ecdccfc403",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_002_client_3.npz",
+      "bytes": 250562,
+      "sha256": "d72f4878df3f08f5bfc8dc3e906b088b6663a222f402c210c34d88915385b9fc",
+      "commitment": "34579b1f481b671aeee12f83f1a6e6c0bd61147b18e998557d410179f124da8d",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/global_002.npz",
+      "bytes": 250562,
+      "sha256": "8d566bf23e120a3f9882a282f9d0c2e9555e4efda7cc3e50ae6b2d3594807503",
+      "commitment": "ca7606a68667629cbf4ece4ec8fcf7947a3c3c8e5f05c54766b0363aecc01642",
+      "kind": "global_model",
+      "round": 2,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_003_client_0.npz",
+      "bytes": 250562,
+      "sha256": "b4000925c2d3b2c568af06f5d2b03c60a59a6f8220f3756f7dcc8c001323b2f7",
+      "commitment": "add4c6134e67a788392469a7c9495e86ff379aa6a454bae4cbaa485b4b5fc167",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_003_client_1.npz",
+      "bytes": 250562,
+      "sha256": "99fd427a8b31f1f723ea284d72bce4e890b0262229858cad970eccb2a138085e",
+      "commitment": "b2a1ba78e37d4b8baeb2d193d46b70e4e01f721e9910bfd26f43bfcefb47e00a",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_003_client_2.npz",
+      "bytes": 250562,
+      "sha256": "7df4a582655e65abb8d6ec3e33f3985bb58f0df6abbc94100f2e4effd3dcc3c9",
+      "commitment": "05910cde9113d94b0845eed16e73a550f9513ac8bed869976c31d4985d071423",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_003_client_3.npz",
+      "bytes": 250562,
+      "sha256": "c2acab07e711b0508016046070253d2e2ed25676444d101c799a0c81811f6e40",
+      "commitment": "d42b42e64adab5029ac9f0fa738b80765d8212664c62d8274b830f5b5c9d6235",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/global_003.npz",
+      "bytes": 250562,
+      "sha256": "b661b01fe987f5bf5b92ba9b7fca06f8c79d7374dacd551b661f01e94fa26633",
+      "commitment": "0d6186b2e3c6d7ed7888f6a254deb57474f30b3c0c4b2ee9225202950a119dbf",
+      "kind": "global_model",
+      "round": 3,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_004_client_0.npz",
+      "bytes": 250562,
+      "sha256": "cff79ccb2be87948da5bdf5479ab3f5ed10a1c40a76b316fbce5f73cc21ce0ca",
+      "commitment": "a439188a66fd119b8be46b6bc41f0ab8653c7a5995c107c3d24e4057af4f1f9b",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_004_client_1.npz",
+      "bytes": 250562,
+      "sha256": "4a62d68557edcf18660d00beb405a8a32c93a3d7c4fb4b5f81c2ec9c71bca954",
+      "commitment": "9a589d1db8a98bdbf9a14e86694ca03d71d08b632adce6c5ff41b50ce573205c",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_004_client_2.npz",
+      "bytes": 250562,
+      "sha256": "3e07c036fb83bcae76b71bfde678253898fc8501ade9965fade6fcad802502a9",
+      "commitment": "eba31dffb66a7fd77ca509319a723a5f709cf8cbd408ea1e184829efe12409be",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_004_client_3.npz",
+      "bytes": 250562,
+      "sha256": "d5a45a79cfcdc322f60b2766a230a12231cc80aae865b63fb049cf120e35162c",
+      "commitment": "99fd0f4dfdd5793455d3bfeb461b3697083bde6829fbfab67fca6eb38ec92ff8",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/global_004.npz",
+      "bytes": 250562,
+      "sha256": "a68e5f46a229c311894e2ccf483f464117c7c2e15a94df4ede0f9a525029334f",
+      "commitment": "a449f8d3373dca9bc398a997c167beed6ce846b11aee6c1b153ca1df068e9c76",
+      "kind": "global_model",
+      "round": 4,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_005_client_0.npz",
+      "bytes": 250562,
+      "sha256": "0afd780a69800e24efb1b501f086fee1c62114fc5af10fffc9951bf191c24e3c",
+      "commitment": "ed0d68755515643b7fa286384798557f6208cfbef7af36b95469ac951aef2eba",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_005_client_1.npz",
+      "bytes": 250562,
+      "sha256": "c655688448a5f49181bc192b94bf9906b7040bd5dea6fb3f58b59d081340f85c",
+      "commitment": "03fd2250993582ba5068d6c607abbf8834b1a5b1aa336bc0705565b782ec13c8",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_005_client_2.npz",
+      "bytes": 250562,
+      "sha256": "dcd9c56bfdda4ec2711d898ddc93d1ddbe038a92c955a7c2424fcf92c423b8c5",
+      "commitment": "c297db06416572d1c29408ed94f1059e39f794e2295c9ee54a3c7ef0d231c194",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_005_client_3.npz",
+      "bytes": 250562,
+      "sha256": "8b65dc3efbf6c51edcb0be94727a1e3fb82329e29834f21c5728369ad1f3bfeb",
+      "commitment": "27f2eb1091cb4e120ba84724f57c7edb7cb9c009d8eeca6eb99dfbf097da25e7",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/global_005.npz",
+      "bytes": 250562,
+      "sha256": "6b90a790da2fc68852af85208522308602ad9ca3632c304773cdcb2359173f4a",
+      "commitment": "342cd3adf7fff6ff147b14bc300dd7ce94bd573994c3a4ed0dd359114dbdc0c0",
+      "kind": "global_model",
+      "round": 5,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_006_client_0.npz",
+      "bytes": 250562,
+      "sha256": "5770d20cdcb84f401c1afabba2626fd340d23d7dfc3a771c3b970f612e324931",
+      "commitment": "01d7a0b116801c45d16d64b044bd7c8be5c5393cc919d4721a106cd2ff12104d",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_006_client_1.npz",
+      "bytes": 250562,
+      "sha256": "2ed49f80a5a8cd13c23b93e395207df7ea03ab4f945f4df9d5dcc6a3a15717bb",
+      "commitment": "57fd8c40c1a939e384d55b9829c1b2f1ed704a4ca7ef00c67af235a1fbad8f30",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_006_client_2.npz",
+      "bytes": 250562,
+      "sha256": "993c67b39ff0843bab03251bcae3c795f9ba8a0c2c9d93438145cc49f04607a0",
+      "commitment": "5205c98efe0a9d60de93b104162c41c44b6680df71481b8523bdbd81ff331550",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_006_client_3.npz",
+      "bytes": 250562,
+      "sha256": "a2225e125e1d6b7c0d3885b0300473bc92dd8ced3f3a7dffd8ad3cdaa08b2638",
+      "commitment": "70a5c87fee7b394ff9486227cb0bb01f726b78f1b89ecbac57963b6104f08645",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/global_006.npz",
+      "bytes": 250562,
+      "sha256": "b81eabcd97b4645777237847d4fc511bccab12c3c39c948db25aa654a90573bd",
+      "commitment": "a365f6c475b99a70df4414cd102e955d7ab56eed72bdfc6f8b8e96a5ed89d2f9",
+      "kind": "global_model",
+      "round": 6,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_007_client_0.npz",
+      "bytes": 250562,
+      "sha256": "72dce228bbecd40c0ba178c7c93cb3f132c3ed559d32a67b0e40c69b4d77bf54",
+      "commitment": "3b04b563883697345652e5c0b7813fef5ba6ecf01ebe5f9c3d0080ae2256ac73",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_007_client_1.npz",
+      "bytes": 250562,
+      "sha256": "45842aa0aa9ab78f9b38a91eb3309c304cbd8d6d3956ebd8eaccc63c80e90705",
+      "commitment": "58944d8f8bd6e7a5cff0822b344cb253bd9d903b7767b9af1139938294e01a5c",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_007_client_2.npz",
+      "bytes": 250562,
+      "sha256": "e78b42021cc07650de4640fde7f9a28a5813b6be404b66ebcf131214920c516b",
+      "commitment": "183a245dbfbf302d851148b385ba59dbbb9e5f9425d65dcb228a7ec9f8a51acb",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_007_client_3.npz",
+      "bytes": 250562,
+      "sha256": "0f0b97316bcab60e6e78537782e089f56239e3b29257c80ade3e66b41c532219",
+      "commitment": "be535172648ca604c21fd3ff4b854cf09f421389de739f07f85c8233ac2af6ad",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/global_007.npz",
+      "bytes": 250562,
+      "sha256": "ddfe9b3a48d4b4a1b33af3926d174ed3df68a95eff9651b0c9f2906483890395",
+      "commitment": "6abe146b059fe1e44dbf5504644a46aa2a5e7747adc43ca796399bad2000e428",
+      "kind": "global_model",
+      "round": 7,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_008_client_0.npz",
+      "bytes": 250562,
+      "sha256": "69bc9d95bc3f828d00a9dd454f11102db388642a736bbe4edec60478d1fc0677",
+      "commitment": "51ea379f33331871427d1b30e921f50dfc5f221fbe84074a687d29e96c6ad474",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_008_client_1.npz",
+      "bytes": 250562,
+      "sha256": "a0f1230612955732cd94c38fe762ee01a7c837fd31e88af214606283446e872e",
+      "commitment": "4dcaa9c3a9f02b0fd52c16401c69369dfac595f5a5fad2bba06b342670af6aaf",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_008_client_2.npz",
+      "bytes": 250562,
+      "sha256": "cbeb817ada9c760b5d378e3716f989fecf1773fac2fb7bd083d1f8bbc692fe85",
+      "commitment": "b827220a913e501fa14d73f5f9c1235dbe14e971f44ac05dee3ebcfe63d2898d",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_008_client_3.npz",
+      "bytes": 250562,
+      "sha256": "4e97c0a63b0d6e937934d70710932e4a8d5e8125afb14215b0f50b5d7627c4c9",
+      "commitment": "b9e94f6a2025bd23d4d2d040e056895400b737702dc160a622d22b8860887164",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/global_008.npz",
+      "bytes": 250562,
+      "sha256": "d8d919d8134e54f5089cc5f8c0ac8076623715f0b730739a074625dfcb583d85",
+      "commitment": "272b2ac9b7aef011f5cc7e831f646458aa373c5a306c577e789032e55ac00952",
+      "kind": "global_model",
+      "round": 8,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_009_client_0.npz",
+      "bytes": 250562,
+      "sha256": "428a89cd75316250747aecfd1d935b38ac76a1a6d63d5eb2706f28535ff839c1",
+      "commitment": "fd19bbf65fa72cd5e658f22ea9cfb9c34cb5dcddf1dcfd7653d82d23739af6e8",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_009_client_1.npz",
+      "bytes": 250562,
+      "sha256": "7167f4435585a5b0781cb6a33387f71bb4f31e22f1704a6c398a30d86a218fed",
+      "commitment": "2b707dd265b9c12df3d2b4206b087618fa2aafedb7511ec9c91cb91b24e2a2f2",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_009_client_2.npz",
+      "bytes": 250562,
+      "sha256": "756aebc231744e37a0b91074e55f033be9cf21251b6c874616673b2301ef7d25",
+      "commitment": "9bae83171f44600e27835e1631cf9c9845b07f20228f164c892924dc9b68f1ff",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_009_client_3.npz",
+      "bytes": 250562,
+      "sha256": "ac078d6d4ab738e1f8061a15ff86f0a0c7d7973addb0b0970d2f3cd7594c8ae9",
+      "commitment": "62be0ae20bd51e26a0a65db9eae38b95851fd65eca43dca224684ec3fb42cfc3",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/global_009.npz",
+      "bytes": 250562,
+      "sha256": "2eb88948320dc6413dd930133a6963484fe28fdcd042ff68d3323380f8ac8d17",
+      "commitment": "bf6b16cd0a295fb9862d1cf0a336efe5b929ae593a9092001904569d1cb249cc",
+      "kind": "global_model",
+      "round": 9,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_010_client_0.npz",
+      "bytes": 250562,
+      "sha256": "12fcb3461ed2a9a3d5b50549d5d4e4d5b9e1bcbf6aa590a51b7b9cbec5257e0a",
+      "commitment": "52afe7ec02be3767a8810a9d407d2446c27ea5242dd7f05660cf5a8a4a98a958",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_010_client_1.npz",
+      "bytes": 250562,
+      "sha256": "cef754a24bc3d86a222cb9db5598358bddb5707e12310abdffab50464e62200d",
+      "commitment": "5088aaa6bf775531cfdf348074c5e483c8c6b119398b57a319b88effdb2f983a",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_010_client_2.npz",
+      "bytes": 250562,
+      "sha256": "b568d5d17d0aea5b89923a8277f97b8604679c7a78c3a4bcca387ed58dbfdbec",
+      "commitment": "7cdbf05a81bc11bd0670d81a478bddefe522c247f94ef635258294e53d14e0a8",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/updates/round_010_client_3.npz",
+      "bytes": 250562,
+      "sha256": "ea70276a7495947dbfc89f1fba4af3ccbf14f57fdb088d321f262f5786457ce0",
+      "commitment": "f71ed99c8c2f30b026dfe2a57f1465160e40e7068bfedc52de0e708ed1aec619",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-sync-s44/global_010.npz",
+      "bytes": 250562,
+      "sha256": "15b37a0b30478ae667162efc8e583d2c7eaab58e419b6aa975e06ca982f581a6",
+      "commitment": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+      "kind": "global_model",
+      "round": 10,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_001_client_0.npz",
+      "bytes": 250562,
+      "sha256": "ebbab29c620e6f59517fc162baf0bb827685c656b19ca217539722ef54bd99cd",
+      "commitment": "cddf22eeeebf49a2d05d6020c4ca498b0b51bda4407b43f9a206f1ead59496e1",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_001_client_1.npz",
+      "bytes": 250562,
+      "sha256": "0f7e97750dbdffa04468b779542e9ea136a744ebebdf9fcf9b5ca138a400e561",
+      "commitment": "0ddb8defafd0a13cbb2ff240d9c97be176211b20a754da3b8a70edf5d7d2c734",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_001_client_2.npz",
+      "bytes": 250562,
+      "sha256": "d77b0e5b9f3bd7909294601b33baff805f30df1dde4478a139eb54147fe42d34",
+      "commitment": "4dfcfe30ff14eb19db0ba05d5a924dd57221203c066aaa568edc296f7ef98d58",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_001_client_3.npz",
+      "bytes": 250562,
+      "sha256": "91aa99b96b677f6976aca4d1417b6d30875d8ee71ff213c2eedf54a99058993a",
+      "commitment": "d793bc96dd81d6e499135b5ac8bf86f1ff462c2c53d81aebf4c2b37726929bfb",
+      "kind": "client_update",
+      "round": 1,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/global_001.npz",
+      "bytes": 250562,
+      "sha256": "e7b166eb7f19c9763925fa9f3cdb6156b34091b8a1fca5cb76d2802dd19640b4",
+      "commitment": "67f1d52d9ec9ed3baa31f64227fae477fc105fddb2574140b5de576fb795975e",
+      "kind": "global_model",
+      "round": 1,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_002_client_0.npz",
+      "bytes": 250562,
+      "sha256": "049256b981a52754ed2a1dd1d7e8dc09d8aba9e8c4e26c073b0c9123898fd2e1",
+      "commitment": "d8d8258f8f0e5262020060756c66d6d37b25c3aa94c758c569d95b514be6d82f",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_002_client_1.npz",
+      "bytes": 250562,
+      "sha256": "eb311c15b89e02c2efffbe6e0548937429f2ecab2e69c58dd42059979c2f4129",
+      "commitment": "98e3bc71ae60bf524dd0de947e94aa149420e0bd22a49e7343e8b808e0dffc07",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_002_client_2.npz",
+      "bytes": 250562,
+      "sha256": "38bb609bd689f4581c3d892b901263afa7b0a0d5d8c7a7d1ba3c47123cb1513a",
+      "commitment": "9989074e4a01132ca47fdf0c334050252b8574a00ee01766f48580ecdccfc403",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_002_client_3.npz",
+      "bytes": 250562,
+      "sha256": "d72f4878df3f08f5bfc8dc3e906b088b6663a222f402c210c34d88915385b9fc",
+      "commitment": "34579b1f481b671aeee12f83f1a6e6c0bd61147b18e998557d410179f124da8d",
+      "kind": "client_update",
+      "round": 2,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/global_002.npz",
+      "bytes": 250562,
+      "sha256": "8d566bf23e120a3f9882a282f9d0c2e9555e4efda7cc3e50ae6b2d3594807503",
+      "commitment": "ca7606a68667629cbf4ece4ec8fcf7947a3c3c8e5f05c54766b0363aecc01642",
+      "kind": "global_model",
+      "round": 2,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_003_client_0.npz",
+      "bytes": 250562,
+      "sha256": "b4000925c2d3b2c568af06f5d2b03c60a59a6f8220f3756f7dcc8c001323b2f7",
+      "commitment": "add4c6134e67a788392469a7c9495e86ff379aa6a454bae4cbaa485b4b5fc167",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_003_client_1.npz",
+      "bytes": 250562,
+      "sha256": "99fd427a8b31f1f723ea284d72bce4e890b0262229858cad970eccb2a138085e",
+      "commitment": "b2a1ba78e37d4b8baeb2d193d46b70e4e01f721e9910bfd26f43bfcefb47e00a",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_003_client_2.npz",
+      "bytes": 250562,
+      "sha256": "7df4a582655e65abb8d6ec3e33f3985bb58f0df6abbc94100f2e4effd3dcc3c9",
+      "commitment": "05910cde9113d94b0845eed16e73a550f9513ac8bed869976c31d4985d071423",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_003_client_3.npz",
+      "bytes": 250562,
+      "sha256": "c2acab07e711b0508016046070253d2e2ed25676444d101c799a0c81811f6e40",
+      "commitment": "d42b42e64adab5029ac9f0fa738b80765d8212664c62d8274b830f5b5c9d6235",
+      "kind": "client_update",
+      "round": 3,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/global_003.npz",
+      "bytes": 250562,
+      "sha256": "b661b01fe987f5bf5b92ba9b7fca06f8c79d7374dacd551b661f01e94fa26633",
+      "commitment": "0d6186b2e3c6d7ed7888f6a254deb57474f30b3c0c4b2ee9225202950a119dbf",
+      "kind": "global_model",
+      "round": 3,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_004_client_0.npz",
+      "bytes": 250562,
+      "sha256": "cff79ccb2be87948da5bdf5479ab3f5ed10a1c40a76b316fbce5f73cc21ce0ca",
+      "commitment": "a439188a66fd119b8be46b6bc41f0ab8653c7a5995c107c3d24e4057af4f1f9b",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_004_client_1.npz",
+      "bytes": 250562,
+      "sha256": "4a62d68557edcf18660d00beb405a8a32c93a3d7c4fb4b5f81c2ec9c71bca954",
+      "commitment": "9a589d1db8a98bdbf9a14e86694ca03d71d08b632adce6c5ff41b50ce573205c",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_004_client_2.npz",
+      "bytes": 250562,
+      "sha256": "3e07c036fb83bcae76b71bfde678253898fc8501ade9965fade6fcad802502a9",
+      "commitment": "eba31dffb66a7fd77ca509319a723a5f709cf8cbd408ea1e184829efe12409be",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_004_client_3.npz",
+      "bytes": 250562,
+      "sha256": "d5a45a79cfcdc322f60b2766a230a12231cc80aae865b63fb049cf120e35162c",
+      "commitment": "99fd0f4dfdd5793455d3bfeb461b3697083bde6829fbfab67fca6eb38ec92ff8",
+      "kind": "client_update",
+      "round": 4,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/global_004.npz",
+      "bytes": 250562,
+      "sha256": "a68e5f46a229c311894e2ccf483f464117c7c2e15a94df4ede0f9a525029334f",
+      "commitment": "a449f8d3373dca9bc398a997c167beed6ce846b11aee6c1b153ca1df068e9c76",
+      "kind": "global_model",
+      "round": 4,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_005_client_0.npz",
+      "bytes": 250562,
+      "sha256": "0afd780a69800e24efb1b501f086fee1c62114fc5af10fffc9951bf191c24e3c",
+      "commitment": "ed0d68755515643b7fa286384798557f6208cfbef7af36b95469ac951aef2eba",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_005_client_1.npz",
+      "bytes": 250562,
+      "sha256": "c655688448a5f49181bc192b94bf9906b7040bd5dea6fb3f58b59d081340f85c",
+      "commitment": "03fd2250993582ba5068d6c607abbf8834b1a5b1aa336bc0705565b782ec13c8",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_005_client_2.npz",
+      "bytes": 250562,
+      "sha256": "dcd9c56bfdda4ec2711d898ddc93d1ddbe038a92c955a7c2424fcf92c423b8c5",
+      "commitment": "c297db06416572d1c29408ed94f1059e39f794e2295c9ee54a3c7ef0d231c194",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_005_client_3.npz",
+      "bytes": 250562,
+      "sha256": "8b65dc3efbf6c51edcb0be94727a1e3fb82329e29834f21c5728369ad1f3bfeb",
+      "commitment": "27f2eb1091cb4e120ba84724f57c7edb7cb9c009d8eeca6eb99dfbf097da25e7",
+      "kind": "client_update",
+      "round": 5,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/global_005.npz",
+      "bytes": 250562,
+      "sha256": "6b90a790da2fc68852af85208522308602ad9ca3632c304773cdcb2359173f4a",
+      "commitment": "342cd3adf7fff6ff147b14bc300dd7ce94bd573994c3a4ed0dd359114dbdc0c0",
+      "kind": "global_model",
+      "round": 5,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_006_client_0.npz",
+      "bytes": 250562,
+      "sha256": "5770d20cdcb84f401c1afabba2626fd340d23d7dfc3a771c3b970f612e324931",
+      "commitment": "01d7a0b116801c45d16d64b044bd7c8be5c5393cc919d4721a106cd2ff12104d",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_006_client_1.npz",
+      "bytes": 250562,
+      "sha256": "2ed49f80a5a8cd13c23b93e395207df7ea03ab4f945f4df9d5dcc6a3a15717bb",
+      "commitment": "57fd8c40c1a939e384d55b9829c1b2f1ed704a4ca7ef00c67af235a1fbad8f30",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_006_client_2.npz",
+      "bytes": 250562,
+      "sha256": "993c67b39ff0843bab03251bcae3c795f9ba8a0c2c9d93438145cc49f04607a0",
+      "commitment": "5205c98efe0a9d60de93b104162c41c44b6680df71481b8523bdbd81ff331550",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_006_client_3.npz",
+      "bytes": 250562,
+      "sha256": "a2225e125e1d6b7c0d3885b0300473bc92dd8ced3f3a7dffd8ad3cdaa08b2638",
+      "commitment": "70a5c87fee7b394ff9486227cb0bb01f726b78f1b89ecbac57963b6104f08645",
+      "kind": "client_update",
+      "round": 6,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/global_006.npz",
+      "bytes": 250562,
+      "sha256": "b81eabcd97b4645777237847d4fc511bccab12c3c39c948db25aa654a90573bd",
+      "commitment": "a365f6c475b99a70df4414cd102e955d7ab56eed72bdfc6f8b8e96a5ed89d2f9",
+      "kind": "global_model",
+      "round": 6,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_007_client_0.npz",
+      "bytes": 250562,
+      "sha256": "72dce228bbecd40c0ba178c7c93cb3f132c3ed559d32a67b0e40c69b4d77bf54",
+      "commitment": "3b04b563883697345652e5c0b7813fef5ba6ecf01ebe5f9c3d0080ae2256ac73",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_007_client_1.npz",
+      "bytes": 250562,
+      "sha256": "45842aa0aa9ab78f9b38a91eb3309c304cbd8d6d3956ebd8eaccc63c80e90705",
+      "commitment": "58944d8f8bd6e7a5cff0822b344cb253bd9d903b7767b9af1139938294e01a5c",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_007_client_2.npz",
+      "bytes": 250562,
+      "sha256": "e78b42021cc07650de4640fde7f9a28a5813b6be404b66ebcf131214920c516b",
+      "commitment": "183a245dbfbf302d851148b385ba59dbbb9e5f9425d65dcb228a7ec9f8a51acb",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_007_client_3.npz",
+      "bytes": 250562,
+      "sha256": "0f0b97316bcab60e6e78537782e089f56239e3b29257c80ade3e66b41c532219",
+      "commitment": "be535172648ca604c21fd3ff4b854cf09f421389de739f07f85c8233ac2af6ad",
+      "kind": "client_update",
+      "round": 7,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/global_007.npz",
+      "bytes": 250562,
+      "sha256": "ddfe9b3a48d4b4a1b33af3926d174ed3df68a95eff9651b0c9f2906483890395",
+      "commitment": "6abe146b059fe1e44dbf5504644a46aa2a5e7747adc43ca796399bad2000e428",
+      "kind": "global_model",
+      "round": 7,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_008_client_0.npz",
+      "bytes": 250562,
+      "sha256": "69bc9d95bc3f828d00a9dd454f11102db388642a736bbe4edec60478d1fc0677",
+      "commitment": "51ea379f33331871427d1b30e921f50dfc5f221fbe84074a687d29e96c6ad474",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_008_client_1.npz",
+      "bytes": 250562,
+      "sha256": "a0f1230612955732cd94c38fe762ee01a7c837fd31e88af214606283446e872e",
+      "commitment": "4dcaa9c3a9f02b0fd52c16401c69369dfac595f5a5fad2bba06b342670af6aaf",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_008_client_2.npz",
+      "bytes": 250562,
+      "sha256": "cbeb817ada9c760b5d378e3716f989fecf1773fac2fb7bd083d1f8bbc692fe85",
+      "commitment": "b827220a913e501fa14d73f5f9c1235dbe14e971f44ac05dee3ebcfe63d2898d",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_008_client_3.npz",
+      "bytes": 250562,
+      "sha256": "4e97c0a63b0d6e937934d70710932e4a8d5e8125afb14215b0f50b5d7627c4c9",
+      "commitment": "b9e94f6a2025bd23d4d2d040e056895400b737702dc160a622d22b8860887164",
+      "kind": "client_update",
+      "round": 8,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/global_008.npz",
+      "bytes": 250562,
+      "sha256": "d8d919d8134e54f5089cc5f8c0ac8076623715f0b730739a074625dfcb583d85",
+      "commitment": "272b2ac9b7aef011f5cc7e831f646458aa373c5a306c577e789032e55ac00952",
+      "kind": "global_model",
+      "round": 8,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_009_client_0.npz",
+      "bytes": 250562,
+      "sha256": "428a89cd75316250747aecfd1d935b38ac76a1a6d63d5eb2706f28535ff839c1",
+      "commitment": "fd19bbf65fa72cd5e658f22ea9cfb9c34cb5dcddf1dcfd7653d82d23739af6e8",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_009_client_1.npz",
+      "bytes": 250562,
+      "sha256": "7167f4435585a5b0781cb6a33387f71bb4f31e22f1704a6c398a30d86a218fed",
+      "commitment": "2b707dd265b9c12df3d2b4206b087618fa2aafedb7511ec9c91cb91b24e2a2f2",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_009_client_2.npz",
+      "bytes": 250562,
+      "sha256": "756aebc231744e37a0b91074e55f033be9cf21251b6c874616673b2301ef7d25",
+      "commitment": "9bae83171f44600e27835e1631cf9c9845b07f20228f164c892924dc9b68f1ff",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_009_client_3.npz",
+      "bytes": 250562,
+      "sha256": "ac078d6d4ab738e1f8061a15ff86f0a0c7d7973addb0b0970d2f3cd7594c8ae9",
+      "commitment": "62be0ae20bd51e26a0a65db9eae38b95851fd65eca43dca224684ec3fb42cfc3",
+      "kind": "client_update",
+      "round": 9,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/global_009.npz",
+      "bytes": 250562,
+      "sha256": "2eb88948320dc6413dd930133a6963484fe28fdcd042ff68d3323380f8ac8d17",
+      "commitment": "bf6b16cd0a295fb9862d1cf0a336efe5b929ae593a9092001904569d1cb249cc",
+      "kind": "global_model",
+      "round": 9,
+      "client_id": null
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_010_client_0.npz",
+      "bytes": 250562,
+      "sha256": "12fcb3461ed2a9a3d5b50549d5d4e4d5b9e1bcbf6aa590a51b7b9cbec5257e0a",
+      "commitment": "52afe7ec02be3767a8810a9d407d2446c27ea5242dd7f05660cf5a8a4a98a958",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 0
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_010_client_1.npz",
+      "bytes": 250562,
+      "sha256": "cef754a24bc3d86a222cb9db5598358bddb5707e12310abdffab50464e62200d",
+      "commitment": "5088aaa6bf775531cfdf348074c5e483c8c6b119398b57a319b88effdb2f983a",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 1
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_010_client_2.npz",
+      "bytes": 250562,
+      "sha256": "b568d5d17d0aea5b89923a8277f97b8604679c7a78c3a4bcca387ed58dbfdbec",
+      "commitment": "7cdbf05a81bc11bd0670d81a478bddefe522c247f94ef635258294e53d14e0a8",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 2
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/updates/round_010_client_3.npz",
+      "bytes": 250562,
+      "sha256": "ea70276a7495947dbfc89f1fba4af3ccbf14f57fdb088d321f262f5786457ce0",
+      "commitment": "f71ed99c8c2f30b026dfe2a57f1465160e40e7068bfedc52de0e708ed1aec619",
+      "kind": "client_update",
+      "round": 10,
+      "client_id": 3
+    },
+    {
+      "path": "results/audit-optimization-20261029-final-pipelined-s44/global_010.npz",
+      "bytes": 250562,
+      "sha256": "15b37a0b30478ae667162efc8e583d2c7eaab58e419b6aa975e06ca982f581a6",
+      "commitment": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+      "kind": "global_model",
+      "round": 10,
+      "client_id": null
+    }
+  ],
+  "code_files": [
+    {
+      "path": "report/analyze_optimization.py",
+      "bytes": 29654,
+      "sha256": "670059bf4555ee0a55461a50330329b0a2b43ee21369b6942c3dcbde236c1809"
+    },
+    {
+      "path": "fl/runner.py",
+      "bytes": 23488,
+      "sha256": "793302f90c257c5f792ed28033015214d33d3139e70f75aee57256af93b5c0c0"
+    },
+    {
+      "path": "fl/artifacts.py",
+      "bytes": 3220,
+      "sha256": "77c91c598746a981111e8abe74996e87727fb6e98f96d20520f955b4a55970d2"
+    },
+    {
+      "path": "audit/chain.py",
+      "bytes": 18580,
+      "sha256": "83865db8679bef32b8143cb47d66d66d35dfc83078cf6474c2c3afed50574c46"
+    },
+    {
+      "path": "network/manage.py",
+      "bytes": 13805,
+      "sha256": "bd7ee89f3a54d8eb414e1acf5b1c14420bc7aef5f14ee01e77560df14cbbc003"
+    },
+    {
+      "path": "common/job_lock.py",
+      "bytes": 8013,
+      "sha256": "4b6b4469ab2ecfa3584b91b7498626bad07a759d6f715fa959fb73631dd64051"
+    },
+    {
+      "path": "common/processes.py",
+      "bytes": 1316,
+      "sha256": "2e70dc8053c5ca4bcca99b511c88b196107655bcd3d12a423a010b024b6cc429"
+    },
+    {
+      "path": "experiments/run.py",
+      "bytes": 7564,
+      "sha256": "45cd00f7cc5743bb87ac4eca4815c5a572dccd08837425cec819280930066714"
+    },
+    {
+      "path": "experiments/compare_audit.py",
+      "bytes": 2498,
+      "sha256": "a1e3795a28d8db5b05aad5daf75d074d705e9e443cffdfe978dd53df7a3e67b1"
+    },
+    {
+      "path": "experiments/metrics.py",
+      "bytes": 1561,
+      "sha256": "80be53d2ac6bb8a2399f49720106f462b5d93a32432cfdc991da113cf1cbbc7a"
+    },
+    {
+      "path": "dashboard/app.py",
+      "bytes": 20346,
+      "sha256": "d06cba92842615408c5cd79dd343348e9bf7d63c60a125824dc95d176455e0aa"
+    },
+    {
+      "path": "dashboard/data.py",
+      "bytes": 14511,
+      "sha256": "75508e1b50702f90ac2644206ad5f543c082325085032d99ac0d6e5602c36e77"
+    },
+    {
+      "path": "report/validate_optimization_ui.py",
+      "bytes": 5094,
+      "sha256": "ba98ab5384cec84c3b372951a1f272fa846fd401c626e56b3557f9f81a6fe1ec"
+    },
+    {
+      "path": "tests/test_network_ready.py",
+      "bytes": 8022,
+      "sha256": "73ee6a5a9cc6de5ee5daffec9dfd007e6334478f8c818579720e615538dab9b8"
+    },
+    {
+      "path": "tests/test_job_lock.py",
+      "bytes": 7961,
+      "sha256": "c1a42f29714f535b7705c6789eecbdcc9bf25766571c7a5e1497e92a3e166c35"
+    },
+    {
+      "path": "tests/test_pipeline_audit.py",
+      "bytes": 10288,
+      "sha256": "215ecc314bb55bd35dbb83008df5ad68a829efa9906d17995aa74e45c2d0733a"
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "report/optimization.md",
+      "bytes": 9675,
+      "sha256": "f70b6f11bd658b9d91c20d1a59d645e04b805e561b94ef7a966ca037719ddcf6"
+    },
+    {
+      "path": "report/optimization_analysis.json",
+      "bytes": 24933,
+      "sha256": "b54196d6a7f68d9f9ec8cc770783d0ba2a94e89d4a96bb6f7aed4a013ca840b7"
+    },
+    {
+      "path": "report/optimization_figures/paired_times.csv",
+      "bytes": 387,
+      "sha256": "4a081479f4144224f948179f7ed850bbbae5fc0cbbaeb1ac58106d17cb01da37"
+    },
+    {
+      "path": "report/optimization_figures/run_summary.csv",
+      "bytes": 5353,
+      "sha256": "e0eddf1979dcd15d9e213b43c2832ed3dfefcba3a98865dde1d45ab6254d9a64"
+    },
+    {
+      "path": "report/optimization_figures/audit-performance.png",
+      "bytes": 104666,
+      "sha256": "4c34ae4bb7004c209184c2ef88d134e43ddf9c0ed94feff1e45dc87831f4b601"
+    },
+    {
+      "path": "report/optimization_figures/audit-performance.pdf",
+      "bytes": 20316,
+      "sha256": "591e22bf19b55165cb985c521fd8c9b0c37f95d0950d85cd85127f000bdaafab"
+    },
+    {
+      "path": "report/optimization_figures/audit-learning-curves.png",
+      "bytes": 188081,
+      "sha256": "3f9152609868ab7380f7ff380ea5b4c269aab839843bab79547b583f129722a6"
+    },
+    {
+      "path": "report/optimization_figures/audit-learning-curves.pdf",
+      "bytes": 18074,
+      "sha256": "cc84fedc52d8bafa83869e5e74e8872a0ab1b5bc997dd2eb0ec5e105b9adcdbe"
+    }
+  ],
+  "verification_scope": "Agent-local deterministic checks; captured genuine receipts/events and saved live readbacks; no claim of human verification."
+}

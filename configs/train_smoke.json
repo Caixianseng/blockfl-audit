@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "partition_seed": 2026,
+  "clients": 4,
+  "rounds": 2,
+  "local_epochs": 1,
+  "batch_size": 64,
+  "learning_rate": 0.02,
+  "momentum": 0.9,
+  "device": "auto",
+  "cpu_threads": 2,
+  "data_dir": "data",
+  "train_samples": 512,
+  "test_samples": 128,
+  "download": true
+}

@@ -1,0 +1,13 @@
+2026-10-29 19:47:57,626 INFO Preparing CIFAR-10 (blockchain), four logical clients, device=cuda
+2026-10-29 19:47:59,275 INFO Data ready: train=512 test=128 partition_hash=ab4a3a382a264f388c76c593190f0ba9bb9a6cec681e2c16d35734d4a9e328b8 initial_hash=e16a6a7c724d22f395922dff186ffff8251c5d4d1cee3faaee684568024e956d
+2026-10-29 19:48:01,259 INFO Round 1/2 client 0: samples=128 loss=2.31220 training=0.279s hash=1b95196119a899191be28ff7f74d06a1b9adf6cbac0aa529636387717a3c228d
+2026-10-29 19:48:01,276 INFO Round 1/2 client 1: samples=128 loss=2.30315 training=0.006s hash=04a406cfd171d51f0376242d726dba27319e1263ca5135bf30208729ceda124b
+2026-10-29 19:48:01,290 INFO Round 1/2 client 2: samples=128 loss=2.30110 training=0.005s hash=0d430929f0709c9ebcc7a094ac09577a87a432193cd678440c90fa336ca6d9b4
+2026-10-29 19:48:01,307 INFO Round 1/2 client 3: samples=128 loss=2.30129 training=0.005s hash=cd8dff311a517bd311a2d5c15a77f81c3e332e034e9bc10629e19513fa29db2b
+2026-10-29 19:48:02,202 INFO Round 1 complete: accuracy=0.1016 loss=2.29676 total=2.923s audit=2.487s
+2026-10-29 19:48:04,306 INFO Round 2/2 client 0: samples=128 loss=2.31212 training=0.005s hash=21d979ad42c2190662acb3345459c5c57b047ac0cfa0a035957009e91fd44935
+2026-10-29 19:48:04,318 INFO Round 2/2 client 1: samples=128 loss=2.30306 training=0.005s hash=a82109e6fff46298efdd61a533b67867bb7ae8dc6d9c53c289241154819d360c
+2026-10-29 19:48:04,333 INFO Round 2/2 client 2: samples=128 loss=2.30105 training=0.006s hash=f127f2cb6d7be76965bd75eb2ebc5b900e1d7c66fb5df1a1dd3cf67417004e3e
+2026-10-29 19:48:04,346 INFO Round 2/2 client 3: samples=128 loss=2.30122 training=0.006s hash=05b59fe5dae85a7d15cda34510a74208258752cb1d52ef077cafc8af29f607d2
+2026-10-29 19:48:05,213 INFO Round 2 complete: accuracy=0.1016 loss=2.29673 total=3.009s audit=2.888s
+2026-10-29 19:48:05,221 INFO Completed: {"mode": "blockchain", "seed": 42, "rounds": 2, "audit_strategy": "pipelined", "effective_audit_strategy": "pipelined", "client_count": 4, "train_samples": 512, "test_samples": 128, "final_accuracy": 0.1015625, "final_loss": 2.2967333793640137, "total_seconds": 5.941871600007289, "mean_round_seconds": 2.966010449999885, "total_audit_seconds": 5.375564299989492, "total_model_bytes_up": 2004496, "total_model_bytes_down": 2004496, "initial_hash": "e16a6a7c724d22f395922dff186ffff8251c5d4d1cee3faaee684568024e956d", "final_hash": "4779811dd6c66c8850709088399a0ac425c0e6d918529d76afd37b41a8ae5af7", "data_indices_sha256": "ab4a3a382a264f388c76c593190f0ba9bb9a6cec681e2c16d35734d4a9e328b8", "resolved_device": "cuda", "deployment": "in_process_logical_clients", "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead", "finished_at": "2026-10-29T11:48:05.217639+00:00"}

@@ -1,0 +1,16 @@
+{
+  "besu_version": "26.10.2",
+  "java_directory": "jdk-25.0.5+8",
+  "downloads": [
+    {
+      "url": "https://github.com/besu-eth/besu/releases/download/26.10.2/besu-26.10.2.zip",
+      "sha256": "20a1fc58828bf1e2f06c7a2addcde2b7be10e7c09d0f623944f278857fd4ff43",
+      "archive": "besu-26.10.2.zip"
+    },
+    {
+      "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.5_8.zip",
+      "sha256": "636bdc13dc649ddc7d5921c5c7d23cca6e44fd19d662b45cc9c02135a6c96c42",
+      "archive": "OpenJDK25U-jdk_x64_windows_hotspot_25.0.5_8.zip"
+    }
+  ]
+}

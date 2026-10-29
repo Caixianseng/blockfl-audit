@@ -1,0 +1,7 @@
+configuration_group,run,mode,seed,final_accuracy,final_loss,total_seconds,mean_round_seconds,train_samples,test_samples,deployment
+full-cd2600519653,full-study-20261029-baseline-s42,baseline,42,0.5731,1.1903989810943603,22.13768830000481,2.2030303999985335,50000,10000,in_process_logical_clients
+full-cd2600519653,full-study-20261029-blockchain-s42,blockchain,42,0.5731,1.1903989810943603,62.18098089999694,6.186183070001425,50000,10000,in_process_logical_clients
+full-cd2600519653,full-study-20261029-baseline-s43,baseline,43,0.565,1.224778145980835,20.595154399998137,2.054703860000882,50000,10000,in_process_logical_clients
+full-cd2600519653,full-study-20261029-blockchain-s43,blockchain,43,0.565,1.224778145980835,60.64445110000088,6.026616449997528,50000,10000,in_process_logical_clients
+full-cd2600519653,full-study-20261029-baseline-s44,baseline,44,0.568,1.209170673751831,22.862169799991534,2.275462349997542,50000,10000,in_process_logical_clients
+full-cd2600519653,full-study-20261029-blockchain-s44,blockchain,44,0.568,1.209170673751831,61.003926600009436,6.064726790001441,50000,10000,in_process_logical_clients

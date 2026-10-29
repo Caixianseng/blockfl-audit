@@ -1,0 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.7.1+cu128
+torchvision==0.22.1+cu128
+flwr==1.19.0
+web3==7.12.0
+streamlit==1.45.1
+pytest==8.3.5
+psutil==7.0.0
+matplotlib==3.10.1

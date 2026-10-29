@@ -1,0 +1,40 @@
+{
+  "state": "completed",
+  "mode": "blockchain",
+  "round": 10,
+  "total_rounds": 10,
+  "seed": 44,
+  "clients": [
+    {
+      "client_id": 0,
+      "state": "verified",
+      "hash": "52afe7ec02be3767a8810a9d407d2446c27ea5242dd7f05660cf5a8a4a98a958",
+      "path": "updates/round_010_client_0.npz",
+      "transaction_hash": "0xd846c5803232678bc01f880bc081f3b56bb05bc36eee0c90cbc6e54d0abca8a5"
+    },
+    {
+      "client_id": 1,
+      "state": "verified",
+      "hash": "5088aaa6bf775531cfdf348074c5e483c8c6b119398b57a319b88effdb2f983a",
+      "path": "updates/round_010_client_1.npz",
+      "transaction_hash": "0x6b8eaf78503cd3214c9208b97ad2483deb81695d97c66d9b473cb1735a576c34"
+    },
+    {
+      "client_id": 2,
+      "state": "verified",
+      "hash": "7cdbf05a81bc11bd0670d81a478bddefe522c247f94ef635258294e53d14e0a8",
+      "path": "updates/round_010_client_2.npz",
+      "transaction_hash": "0x5901948186329f72cdaf6d564ba229ce8dbf997fac7a52eb5f82b14b491aab65"
+    },
+    {
+      "client_id": 3,
+      "state": "verified",
+      "hash": "f71ed99c8c2f30b026dfe2a57f1465160e40e7068bfedc52de0e708ed1aec619",
+      "path": "updates/round_010_client_3.npz",
+      "transaction_hash": "0x9faab77e1fde45dc974867cd34d86a6079cd0787d29e25bbef54abe20c2d1ba4"
+    }
+  ],
+  "updated_at": "2026-10-29T12:06:17.602680+00:00",
+  "accuracy": 0.568,
+  "loss": 1.209170673751831
+}

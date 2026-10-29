@@ -1,0 +1,86 @@
+{
+  "status": "complete",
+  "date": "2026-10-29",
+  "dashboard": "http://127.0.0.1:8501",
+  "study": {
+    "passed": true,
+    "complete_training_runs": 6,
+    "pairs": [
+      {
+        "seed": 42,
+        "initial_data_final_hash_equal": true,
+        "accuracy": 0.5731,
+        "baseline_seconds": 22.13768830000481,
+        "blockchain_seconds": 62.18098089999694
+      },
+      {
+        "seed": 43,
+        "initial_data_final_hash_equal": true,
+        "accuracy": 0.565,
+        "baseline_seconds": 20.595154399998137,
+        "blockchain_seconds": 60.64445110000088
+      },
+      {
+        "seed": 44,
+        "initial_data_final_hash_equal": true,
+        "accuracy": 0.568,
+        "baseline_seconds": 22.862169799991534,
+        "blockchain_seconds": 61.003926600009436
+      }
+    ],
+    "confirmed_audit_transactions": 183,
+    "model_artifacts_verified_against_receipt_events": 150,
+    "note": "Receipts/events captured from genuine Besu; independent eth_call readbacks saved during training."
+  },
+  "contract_checks_passed": 19,
+  "fault_test_passed": true,
+  "tamper_detection_passed": true,
+  "fresh_output_reproduction_passed": true,
+  "average_final_accuracy": 0.5687,
+  "average_timed_training_seconds": {
+    "baseline": 21.86500416666483,
+    "blockchain": 61.27645286666908
+  },
+  "deployment_limits": [
+    "Four logical FL clients share a process/GPU; no gRPC transport is claimed.",
+    "Four actual Besu validators run as native local processes rather than Docker Compose.",
+    "Central FedAvg aggregation retains trust and availability assumptions."
+  ],
+  "version": "2.0",
+  "optimization": {
+    "status": "complete",
+    "scope": [
+      "strict network readiness",
+      "shared OS job lock",
+      "pipelined commitments"
+    ],
+    "pairs": [
+      {
+        "seed": 42,
+        "sync_seconds": 85.14627230000042,
+        "pipelined_seconds": 52.50388419999217,
+        "final_hash_equal": true
+      },
+      {
+        "seed": 43,
+        "sync_seconds": 75.70711859999574,
+        "pipelined_seconds": 54.66965149999305,
+        "final_hash_equal": true
+      },
+      {
+        "seed": 44,
+        "sync_seconds": 82.59282980000717,
+        "pipelined_seconds": 50.723646099999314,
+        "final_hash_equal": true
+      }
+    ],
+    "mean_sync_seconds": 81.14874023333444,
+    "mean_pipelined_seconds": 52.63239393332818,
+    "training_loop_reduction_percent": 35.1408367129429,
+    "regression_tests_passed": 46,
+    "conflicting_entry_points_rejected": 8,
+    "contract_checks_passed": 19,
+    "report": "report/optimization.md",
+    "preserved_original_source_archive": "../blockfl-audit-source-v1.zip"
+  }
+}

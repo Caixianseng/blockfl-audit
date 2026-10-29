@@ -1,0 +1,48 @@
+{
+  "at": "2026-10-29T11:15:49.821426+00:00",
+  "source_run": "full-study-20261029-blockchain-s44",
+  "artifact": "global_010.npz",
+  "actual_model_hash": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+  "chain_readback": {
+    "hash": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+    "block_number": 568,
+    "contract_address": "0xeC45a3a2cb6C3b1E41F021Bc7E55414a6113C896",
+    "chain_id": 1337,
+    "rpc_url": "http://127.0.0.1:8545",
+    "source": "live eth_call"
+  },
+  "network": [
+    {
+      "validator": 1,
+      "rpc": "http://127.0.0.1:8545",
+      "responsive": true,
+      "block_number": 570
+    },
+    {
+      "validator": 2,
+      "rpc": "http://127.0.0.1:8546",
+      "responsive": true,
+      "block_number": 570
+    },
+    {
+      "validator": 3,
+      "rpc": "http://127.0.0.1:8547",
+      "responsive": true,
+      "block_number": 570
+    },
+    {
+      "validator": 4,
+      "rpc": "http://127.0.0.1:8548",
+      "responsive": true,
+      "block_number": 570
+    }
+  ],
+  "checks": {
+    "training_page": true,
+    "history_page": true,
+    "audit_page": true,
+    "comparison_page": true,
+    "live_model_hash_button": true
+  },
+  "scope": "Read-only UI checks against the complete ten-round global model; no training or signed transaction submitted."
+}

@@ -1,0 +1,143 @@
+{
+  "generated_at": "2026-10-29T11:24:02.111386+00:00",
+  "scope": "full",
+  "run_count": 6,
+  "configuration_groups": [
+    "full-cd2600519653"
+  ],
+  "figures": [
+    "full-cd2600519653-learning-curves.png",
+    "full-cd2600519653-learning-curves.pdf",
+    "full-cd2600519653-performance.png",
+    "full-cd2600519653-performance.pdf",
+    "full-cd2600519653-transaction-latency.png",
+    "full-cd2600519653-transaction-latency.pdf",
+    "full-cd2600519653-resources.png",
+    "full-cd2600519653-resources.pdf"
+  ],
+  "sources": [
+    {
+      "path": "results\\full-study-20261029-baseline-s42\\config.json",
+      "sha256": "0f49d8c2bd287b85bc89de5cc29cf8b031f46942920be46425baab8894e1c0bc"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s42\\summary.json",
+      "sha256": "30a47ca04d85bdd3d84ca81a01cb0d5163c30641d97f9c36dc75a17fafee6d42"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s42\\rounds.csv",
+      "sha256": "6b75250b507083384b554187f00d4000c05fb7c85b4c3104b7b055b8b12a16e1"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s42\\resources.csv",
+      "sha256": "5c23de17cb2d5275062a130262cae1cf0d711fd8c93a43b57b256f2d8dd07da4"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s42\\config.json",
+      "sha256": "1862a0561ab713e57191be50e94cb4cdc8a660b6c98348c6cc1161d7fb75d466"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s42\\summary.json",
+      "sha256": "fd553fa711208e349f1cc91dfb1a7836ffc3e093ad93fb7062b3f691ae0952d2"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s42\\rounds.csv",
+      "sha256": "d33843020bbc8a20cc85ba0eca94366b5bf20caa78971ab8cbc89673260a2d8d"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s42\\transactions.jsonl",
+      "sha256": "f2f1b93e373148d465c2ed5234767a0a6e4bf3cc5ca5bfdd18901e4599e37013"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s42\\resources.csv",
+      "sha256": "36845cd8920b42305a32cf52550b764fbfd71c5af41a128737d6c787ccbe93af"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s43\\config.json",
+      "sha256": "65dddc7bacfecf8a82905dcf21e2fcdc82dd2c7024dc67a44265afe8e36c0496"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s43\\summary.json",
+      "sha256": "c57e9ca895190888433bb54b5aea4570f52309c65f997c6795ac07b02a6ed751"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s43\\rounds.csv",
+      "sha256": "3971eb024fcec5c4fa3e5c8729245e1032a75d61d67b33a9af7e757df19683e6"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s43\\resources.csv",
+      "sha256": "2c7c9388ab27cfcb18994c4bd522190246593cffa3ea3a7f8486d60821692682"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s43\\config.json",
+      "sha256": "dc1c31cdf5d45fdc103c936147214af9b86d661949be0de4c58745949c788e11"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s43\\summary.json",
+      "sha256": "4c6279d6ab5f8ebda7fcac631c8e128227e3005b80ea7b34b795b6e10e7f3a43"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s43\\rounds.csv",
+      "sha256": "28776c090df69ef945a2ebbc51d2849368775f41eb441884af9709af01af680e"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s43\\transactions.jsonl",
+      "sha256": "b00fd473148d872ceb5376e3360f74d0cef78d521b00015d37fe2ad8a19aa70f"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s43\\resources.csv",
+      "sha256": "39a4d10dba4c733ee875e34795980f554be2d3d28c611f97e0b4ae89b581e830"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s44\\config.json",
+      "sha256": "257d2f50048a58a9e4275879492b68b52c42dc9be3a85d14da1469a4ec688350"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s44\\summary.json",
+      "sha256": "dbc4ac8bb91c34c40815d4b5c201a8ad7d6cefcf91cf0477590e48b5e0ae7d8d"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s44\\rounds.csv",
+      "sha256": "635d6c5d7d693e6414de741f4a9040c97c425e1c46d7034136ca88844ecc1d70"
+    },
+    {
+      "path": "results\\full-study-20261029-baseline-s44\\resources.csv",
+      "sha256": "768e11ba1ddb525c579fffd88280ac16db8ec0d84d59f10c2514ac04aa13c96c"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s44\\config.json",
+      "sha256": "008597e4c17483d4811e213894aa00c8f66aaba58ec5eab2e62f7d9a4061e2aa"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s44\\summary.json",
+      "sha256": "adb78f568246d8acb1d2b154d7a15627ed2342608a405bbc7938008b1b685128"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s44\\rounds.csv",
+      "sha256": "14883d67ac0e524c75ae535ecff2355014ecac37a056142a9bcb4812740c8766"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s44\\transactions.jsonl",
+      "sha256": "b448f8cd36b8bc464213d04ae2e4b8a193776f50fef2126e417f18e4b3585a55"
+    },
+    {
+      "path": "results\\full-study-20261029-blockchain-s44\\resources.csv",
+      "sha256": "5fe2de9f5ca626e1795a4faad9b391bf1077ca862e2cd9db325edb81f36c8f8e"
+    }
+  ],
+  "warnings": [],
+  "statistics": "Means and sample standard deviations across complete runs; no significance test",
+  "selection": {
+    "run_prefix": "full-study-20261029-",
+    "required_seeds": [
+      42,
+      43,
+      44
+    ],
+    "required_modes": [
+      "baseline",
+      "blockchain"
+    ],
+    "scope": "Only the six completed full-data ten-round runs"
+  }
+}

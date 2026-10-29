@@ -1,0 +1,26 @@
+{
+  "pairs": [
+    {
+      "seed": 42,
+      "accuracy": 0.5731,
+      "baseline_seconds": 22.13768830000481,
+      "blockchain_seconds": 62.18098089999694,
+      "final_hash_equal": true
+    },
+    {
+      "seed": 43,
+      "accuracy": 0.565,
+      "baseline_seconds": 20.595154399998137,
+      "blockchain_seconds": 60.64445110000088,
+      "final_hash_equal": true
+    },
+    {
+      "seed": 44,
+      "accuracy": 0.568,
+      "baseline_seconds": 22.862169799991534,
+      "blockchain_seconds": 61.003926600009436,
+      "final_hash_equal": true
+    }
+  ],
+  "passed": true
+}

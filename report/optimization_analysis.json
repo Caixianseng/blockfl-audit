@@ -1,0 +1,697 @@
+{
+  "generated_at": "2026-10-29T12:13:18.935124+00:00",
+  "run_prefix": "audit-optimization-20261029-final",
+  "runs": [
+    {
+      "name": "audit-optimization-20261029-final-sync-s42",
+      "mode": "blockchain",
+      "seed": 42,
+      "rounds": 10,
+      "audit_strategy": "sync",
+      "effective_audit_strategy": "sync",
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.5731,
+      "final_loss": 1.1903989810943603,
+      "total_seconds": 85.14627230000042,
+      "mean_round_seconds": 8.466360129998066,
+      "total_audit_seconds": 59.14324380006292,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e16a6a7c724d22f395922dff186ffff8251c5d4d1cee3faaee684568024e956d",
+      "final_hash": "9992d4a98ed97ddb8d361c078de4b93a5ab05d480cab6dd1322f7cb52beeb672",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T12:02:40.639085+00:00",
+      "audit_setup_seconds": 1.0749749999959022,
+      "workflow_wall_seconds": 96.57674730000144,
+      "ledger_growth_bytes_all_nodes": 1911072,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": 3288,
+      "end_block": 3381,
+      "confirmed_audit_transactions": 61,
+      "reverted_audit_transactions": 0,
+      "application_audit_window_seconds": 92.83795022964478,
+      "application_audit_tps": 0.657058884315195,
+      "application_audit_tps_scope": "first submission to last receipt; includes run creation and preparation gaps; not saturated TPS",
+      "mean_confirmation_seconds": 0.6988363163932189
+    },
+    {
+      "name": "audit-optimization-20261029-final-pipelined-s42",
+      "mode": "blockchain",
+      "seed": 42,
+      "rounds": 10,
+      "audit_strategy": "pipelined",
+      "effective_audit_strategy": "pipelined",
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.5731,
+      "final_loss": 1.1903989810943603,
+      "total_seconds": 52.50388419999217,
+      "mean_round_seconds": 5.1939606800006,
+      "total_audit_seconds": 28.00693390001834,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e16a6a7c724d22f395922dff186ffff8251c5d4d1cee3faaee684568024e956d",
+      "final_hash": "9992d4a98ed97ddb8d361c078de4b93a5ab05d480cab6dd1322f7cb52beeb672",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T12:01:02.704321+00:00",
+      "audit_setup_seconds": 0.9026565999956802,
+      "workflow_wall_seconds": 64.28301420000207,
+      "ledger_growth_bytes_all_nodes": 1494932,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": 3222,
+      "end_block": 3283,
+      "confirmed_audit_transactions": 61,
+      "reverted_audit_transactions": 0,
+      "application_audit_window_seconds": 60.50261116027832,
+      "application_audit_tps": 1.0082209483224458,
+      "application_audit_tps_scope": "first submission to last receipt; includes run creation and preparation gaps; not saturated TPS",
+      "mean_confirmation_seconds": 1.038312422951109
+    },
+    {
+      "name": "audit-optimization-20261029-final-sync-s43",
+      "mode": "blockchain",
+      "seed": 43,
+      "rounds": 10,
+      "audit_strategy": "sync",
+      "effective_audit_strategy": "sync",
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.565,
+      "final_loss": 1.224778145980835,
+      "total_seconds": 75.70711859999574,
+      "mean_round_seconds": 7.522346550000657,
+      "total_audit_seconds": 50.96813609996752,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e69964f5f4927efb9311e2511353af631cfb77858869f09f4fae581f048eda0d",
+      "final_hash": "609902253b220ba7729afb141bd71414e02e98a39f77acf579166f47c7324720",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T12:04:08.598198+00:00",
+      "audit_setup_seconds": 1.5776711999933468,
+      "workflow_wall_seconds": 86.8410101999907,
+      "ledger_growth_bytes_all_nodes": 1868532,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": 3385,
+      "end_block": 3469,
+      "confirmed_audit_transactions": 61,
+      "reverted_audit_transactions": 0,
+      "application_audit_window_seconds": 83.09662079811096,
+      "application_audit_tps": 0.7340852060422981,
+      "application_audit_tps_scope": "first submission to last receipt; includes run creation and preparation gaps; not saturated TPS",
+      "mean_confirmation_seconds": 0.5754006459009375
+    },
+    {
+      "name": "audit-optimization-20261029-final-pipelined-s43",
+      "mode": "blockchain",
+      "seed": 43,
+      "rounds": 10,
+      "audit_strategy": "pipelined",
+      "effective_audit_strategy": "pipelined",
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.565,
+      "final_loss": 1.224778145980835,
+      "total_seconds": 54.66965149999305,
+      "mean_round_seconds": 5.418491840003116,
+      "total_audit_seconds": 29.492168499957188,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e69964f5f4927efb9311e2511353af631cfb77858869f09f4fae581f048eda0d",
+      "final_hash": "609902253b220ba7729afb141bd71414e02e98a39f77acf579166f47c7324720",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T12:05:15.546335+00:00",
+      "audit_setup_seconds": 1.5511648000101559,
+      "workflow_wall_seconds": 65.72598150001431,
+      "ledger_growth_bytes_all_nodes": 1612648,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": 3473,
+      "end_block": 3536,
+      "confirmed_audit_transactions": 61,
+      "reverted_audit_transactions": 0,
+      "application_audit_window_seconds": 62.080936670303345,
+      "application_audit_tps": 0.9825882673767644,
+      "application_audit_tps_scope": "first submission to last receipt; includes run creation and preparation gaps; not saturated TPS",
+      "mean_confirmation_seconds": 1.090544672130147
+    },
+    {
+      "name": "audit-optimization-20261029-final-sync-s44",
+      "mode": "blockchain",
+      "seed": 44,
+      "rounds": 10,
+      "audit_strategy": "sync",
+      "effective_audit_strategy": "sync",
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.568,
+      "final_loss": 1.209170673751831,
+      "total_seconds": 82.59282980000717,
+      "mean_round_seconds": 8.222748620001948,
+      "total_audit_seconds": 56.76283229992259,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e61f0c02cd7fa8ad26f7dc035837aa8ecf1117109af320cc0126210f49f38cc9",
+      "final_hash": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T12:07:51.312395+00:00",
+      "audit_setup_seconds": 0.5649769000010565,
+      "workflow_wall_seconds": 92.64961520000361,
+      "ledger_growth_bytes_all_nodes": 1931564,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": 3602,
+      "end_block": 3692,
+      "confirmed_audit_transactions": 61,
+      "reverted_audit_transactions": 0,
+      "application_audit_window_seconds": 89.1690583229065,
+      "application_audit_tps": 0.6840938005546909,
+      "application_audit_tps_scope": "first submission to last receipt; includes run creation and preparation gaps; not saturated TPS",
+      "mean_confirmation_seconds": 0.6335535147549397
+    },
+    {
+      "name": "audit-optimization-20261029-final-pipelined-s44",
+      "mode": "blockchain",
+      "seed": 44,
+      "rounds": 10,
+      "audit_strategy": "pipelined",
+      "effective_audit_strategy": "pipelined",
+      "client_count": 4,
+      "train_samples": 50000,
+      "test_samples": 10000,
+      "final_accuracy": 0.568,
+      "final_loss": 1.209170673751831,
+      "total_seconds": 50.723646099999314,
+      "mean_round_seconds": 5.019655740000599,
+      "total_audit_seconds": 26.859235099997022,
+      "total_model_bytes_up": 10022480,
+      "total_model_bytes_down": 10022480,
+      "initial_hash": "e61f0c02cd7fa8ad26f7dc035837aa8ecf1117109af320cc0126210f49f38cc9",
+      "final_hash": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+      "data_indices_sha256": "337564c23c15379312adbf867e448d2db6dfdec4d456738e7343ccc653726ec9",
+      "resolved_device": "cuda",
+      "deployment": "in_process_logical_clients",
+      "transfer_metric": "uncompressed_npz_parameter_payload_bytes_no_network_protocol_overhead",
+      "finished_at": "2026-10-29T12:06:17.600687+00:00",
+      "audit_setup_seconds": 0.7082001000089804,
+      "workflow_wall_seconds": 60.842033500011894,
+      "ledger_growth_bytes_all_nodes": 1550436,
+      "ledger_scope": "sum_all_validator_files_excluding_logs_including_empty_blocks",
+      "start_block": 3540,
+      "end_block": 3598,
+      "confirmed_audit_transactions": 61,
+      "reverted_audit_transactions": 0,
+      "application_audit_window_seconds": 57.36315202713013,
+      "application_audit_tps": 1.0634004207291436,
+      "application_audit_tps_scope": "first submission to last receipt; includes run creation and preparation gaps; not saturated TPS",
+      "mean_confirmation_seconds": 0.99892163114669
+    }
+  ],
+  "strategy_statistics": {
+    "sync": {
+      "final_accuracy": {
+        "n": 3,
+        "mean": 0.5687,
+        "sample_sd": 0.004095119045888712,
+        "min": 0.565,
+        "max": 0.5731
+      },
+      "final_loss": {
+        "n": 3,
+        "mean": 1.2081159336090088,
+        "sample_sd": 0.017213834614911147,
+        "min": 1.1903989810943603,
+        "max": 1.224778145980835
+      },
+      "total_seconds": {
+        "n": 3,
+        "mean": 81.14874023333444,
+        "sample_sd": 4.882463686552905,
+        "min": 75.70711859999574,
+        "max": 85.14627230000042
+      },
+      "mean_round_seconds": {
+        "n": 3,
+        "mean": 8.070485100000223,
+        "sample_sd": 0.4900801408416458,
+        "min": 7.522346550000657,
+        "max": 8.466360129998066
+      },
+      "total_audit_seconds": {
+        "n": 3,
+        "mean": 55.62473739998435,
+        "sample_sd": 4.204704683802282,
+        "min": 50.96813609996752,
+        "max": 59.14324380006292
+      },
+      "workflow_wall_seconds": {
+        "n": 3,
+        "mean": 92.02245756666525,
+        "sample_sd": 4.898075054847802,
+        "min": 86.8410101999907,
+        "max": 96.57674730000144
+      },
+      "application_audit_tps": {
+        "n": 3,
+        "mean": 0.6917459636373947,
+        "sample_sd": 0.03907915377263202,
+        "min": 0.657058884315195,
+        "max": 0.7340852060422981
+      },
+      "application_audit_window_seconds": {
+        "n": 3,
+        "mean": 88.36787645022075,
+        "sample_sd": 4.919836792847595,
+        "min": 83.09662079811096,
+        "max": 92.83795022964478
+      },
+      "mean_confirmation_seconds": {
+        "n": 3,
+        "mean": 0.6359301590163654,
+        "sample_sd": 0.06175214584068143,
+        "min": 0.5754006459009375,
+        "max": 0.6988363163932189
+      },
+      "ledger_growth_bytes_all_nodes": {
+        "n": 3,
+        "mean": 1903722.6666666667,
+        "sample_sd": 32152.259350368106,
+        "min": 1868532.0,
+        "max": 1931564.0
+      },
+      "total_model_bytes_up": {
+        "n": 3,
+        "mean": 10022480.0,
+        "sample_sd": 0.0,
+        "min": 10022480.0,
+        "max": 10022480.0
+      },
+      "total_model_bytes_down": {
+        "n": 3,
+        "mean": 10022480.0,
+        "sample_sd": 0.0,
+        "min": 10022480.0,
+        "max": 10022480.0
+      }
+    },
+    "pipelined": {
+      "final_accuracy": {
+        "n": 3,
+        "mean": 0.5687,
+        "sample_sd": 0.004095119045888712,
+        "min": 0.565,
+        "max": 0.5731
+      },
+      "final_loss": {
+        "n": 3,
+        "mean": 1.2081159336090088,
+        "sample_sd": 0.017213834614911147,
+        "min": 1.1903989810943603,
+        "max": 1.224778145980835
+      },
+      "total_seconds": {
+        "n": 3,
+        "mean": 52.63239393332818,
+        "sample_sd": 1.9761390937549164,
+        "min": 50.723646099999314,
+        "max": 54.66965149999305
+      },
+      "mean_round_seconds": {
+        "n": 3,
+        "mean": 5.210702753334772,
+        "sample_sd": 0.19994444586171836,
+        "min": 5.019655740000599,
+        "max": 5.418491840003116
+      },
+      "total_audit_seconds": {
+        "n": 3,
+        "mean": 28.119445833324182,
+        "sample_sd": 1.3200677155012215,
+        "min": 26.859235099997022,
+        "max": 29.492168499957188
+      },
+      "workflow_wall_seconds": {
+        "n": 3,
+        "mean": 63.61700973334276,
+        "sample_sd": 2.509164896711558,
+        "min": 60.842033500011894,
+        "max": 65.72598150001431
+      },
+      "application_audit_tps": {
+        "n": 3,
+        "mean": 1.0180698788094513,
+        "sample_sd": 0.041296514455405484,
+        "min": 0.9825882673767644,
+        "max": 1.0634004207291436
+      },
+      "application_audit_window_seconds": {
+        "n": 3,
+        "mean": 59.98223328590393,
+        "sample_sd": 2.40155529479212,
+        "min": 57.36315202713013,
+        "max": 62.080936670303345
+      },
+      "mean_confirmation_seconds": {
+        "n": 3,
+        "mean": 1.0425929087426486,
+        "sample_sd": 0.045961258998451555,
+        "min": 0.99892163114669,
+        "max": 1.090544672130147
+      },
+      "ledger_growth_bytes_all_nodes": {
+        "n": 3,
+        "mean": 1552672.0,
+        "sample_sd": 58889.84578006636,
+        "min": 1494932.0,
+        "max": 1612648.0
+      },
+      "total_model_bytes_up": {
+        "n": 3,
+        "mean": 10022480.0,
+        "sample_sd": 0.0,
+        "min": 10022480.0,
+        "max": 10022480.0
+      },
+      "total_model_bytes_down": {
+        "n": 3,
+        "mean": 10022480.0,
+        "sample_sd": 0.0,
+        "min": 10022480.0,
+        "max": 10022480.0
+      }
+    }
+  },
+  "pairs": [
+    {
+      "seed": 42,
+      "sync_seconds": 85.14627230000042,
+      "pipelined_seconds": 52.50388419999217,
+      "saved_seconds": 32.64238810000825,
+      "saved_percent": 38.33683755995515,
+      "initial_data_final_hashes_equal": true,
+      "all_ten_global_hashes_equal": true
+    },
+    {
+      "seed": 43,
+      "sync_seconds": 75.70711859999574,
+      "pipelined_seconds": 54.66965149999305,
+      "saved_seconds": 21.037467100002686,
+      "saved_percent": 27.787964314367485,
+      "initial_data_final_hashes_equal": true,
+      "all_ten_global_hashes_equal": true
+    },
+    {
+      "seed": 44,
+      "sync_seconds": 82.59282980000717,
+      "pipelined_seconds": 50.723646099999314,
+      "saved_seconds": 31.869183700007852,
+      "saved_percent": 38.58589635102331,
+      "initial_data_final_hashes_equal": true,
+      "all_ten_global_hashes_equal": true
+    }
+  ],
+  "paired_saved_seconds": {
+    "n": 3,
+    "mean": 28.516346300006262,
+    "sample_sd": 6.488427145867447,
+    "min": 21.037467100002686,
+    "max": 32.64238810000825
+  },
+  "ratio_of_mean_loop_times": 0.648591632870571,
+  "reduction_of_mean_loop_time_percent": 35.1408367129429,
+  "schedule": {
+    "schedule_seed": 2027,
+    "rounds": 10,
+    "train_limit": 0,
+    "test_limit": 0,
+    "jobs": [
+      {
+        "seed": 42,
+        "strategy": "pipelined"
+      },
+      {
+        "seed": 42,
+        "strategy": "sync"
+      },
+      {
+        "seed": 43,
+        "strategy": "sync"
+      },
+      {
+        "seed": 43,
+        "strategy": "pipelined"
+      },
+      {
+        "seed": 44,
+        "strategy": "pipelined"
+      },
+      {
+        "seed": 44,
+        "strategy": "sync"
+      }
+    ]
+  },
+  "validation": {
+    "passed": true,
+    "transactions": 366,
+    "model_artifacts": 300
+  },
+  "reliability_evidence": {
+    "conflict_validation": {
+      "passed": true,
+      "checks": [
+        {
+          "entry": "network_stop",
+          "returncode": 1,
+          "rejected": true
+        },
+        {
+          "entry": "deploy",
+          "returncode": 1,
+          "rejected": true
+        },
+        {
+          "entry": "fault",
+          "returncode": 1,
+          "rejected": true
+        },
+        {
+          "entry": "training",
+          "returncode": 1,
+          "rejected": true
+        },
+        {
+          "entry": "batch",
+          "returncode": 1,
+          "rejected": true
+        },
+        {
+          "entry": "dashboard",
+          "returncode": 1,
+          "rejected": true
+        },
+        {
+          "entry": "standalone_training",
+          "returncode": 1,
+          "rejected": true
+        },
+        {
+          "entry": "public_training_api",
+          "returncode": 1,
+          "rejected": true
+        }
+      ],
+      "network_still_ready": true,
+      "heights": [
+        3853,
+        3853,
+        3853,
+        3853
+      ]
+    },
+    "unit_test_result": "46 passed, 3 warnings in 11.54s",
+    "contract_regression": {
+      "completed": true,
+      "checks": [
+        {
+          "check": "reopening an unfinished round",
+          "passed": true,
+          "transaction_hash": "0x0fc3dcdb67fd73376d04f636c7a74a9234d340f85cb7a49a42be683f711718f0"
+        },
+        {
+          "check": "unauthorized run creation",
+          "passed": true,
+          "transaction_hash": "0x9baf288dd34ece9899a2ed11cfdbc3ae64adcb564369352cc13f567f40085cde"
+        },
+        {
+          "check": "unauthorized participant",
+          "passed": true,
+          "transaction_hash": "0x2c694ab4a2709e20c34dc9d1a6d533c549867bc3f4157619b9d04f76100cc2bb"
+        },
+        {
+          "check": "wrong round",
+          "passed": true,
+          "transaction_hash": "0x843c50993ba43cb869b06ed43fa30d915ca536b76d60ce493229ff669b1c6db4"
+        },
+        {
+          "check": "zero commitment",
+          "passed": true,
+          "transaction_hash": "0x4c37c2d16b6f353c7886eebd37e4570cb7e5f891b31df1be0d85100fa949d5ba"
+        },
+        {
+          "check": "premature aggregation",
+          "passed": true,
+          "transaction_hash": "0x13f1a934f3f634e821ea2e68f09d30c90b315cd6cc7f92855ce8fb71208af071"
+        },
+        {
+          "check": "unauthorized round administration",
+          "passed": true,
+          "transaction_hash": "0xad500b242b1558ccdcc4fc2824db11588663b361f0ad0a2f624d37dcadedc60f"
+        },
+        {
+          "check": "duplicate update",
+          "passed": true,
+          "transaction_hash": "0x41833c7698ae2ae8ae60456b466c20c8218e977801389774a040b307da24e89d"
+        },
+        {
+          "check": "unauthorized aggregation",
+          "passed": true,
+          "transaction_hash": "0x5b0ce763ee7b590b57ab892bfb5d2c991a157b30807a04774c084d188ce11295"
+        },
+        {
+          "check": "zero aggregate commitment",
+          "passed": true,
+          "transaction_hash": "0xd008e67fd9b96e72b886523cc2d3046fabb28f1b76d008c8a40ad51925a8f1fb"
+        },
+        {
+          "check": "four updates and aggregate commitment",
+          "passed": true,
+          "run_id": "contract-validation-e804bd92a1d948cd8df9df11f37fd70b"
+        },
+        {
+          "check": "aggregate overwrite",
+          "passed": true,
+          "transaction_hash": "0x6708af4fbc10eb603b85bdd038b164cd9b7a6653528d4ea481024e5eba0deef6"
+        },
+        {
+          "check": "closed-round submission",
+          "passed": true,
+          "transaction_hash": "0x03f9c2d73656afc62f3251502ec7ece6ce991c9f4b27b1255828fdf5afc6adc5"
+        },
+        {
+          "check": "skipped round",
+          "passed": true,
+          "transaction_hash": "0x9aa3c595b1ea54c8f6a56d27777c2292c7a6277d6fd41b59b3f9741e2083ed66"
+        },
+        {
+          "check": "run overwrite",
+          "passed": true,
+          "transaction_hash": "0xa29a0fb2a22266beb4a4b1ed378729b9b71ab10789c2240186059bce63e0a804"
+        },
+        {
+          "check": "round isolation and immutable previous commitments",
+          "passed": true
+        },
+        {
+          "check": "run isolation",
+          "passed": true
+        },
+        {
+          "check": "duplicate participant list",
+          "passed": true,
+          "transaction_hash": "0x75a0369cebf57296622e7dcd8b6875ac37199513b9aaec8ed52cec657aee6987"
+        },
+        {
+          "check": "rejected creation rolled back all run state",
+          "passed": true
+        }
+      ],
+      "chain_id": 1337,
+      "contract_address": "0xeC45a3a2cb6C3b1E41F021Bc7E55414a6113C896"
+    }
+  },
+  "ui_validation": {
+    "at": "2026-10-29T12:13:13.871993+00:00",
+    "source_run": "audit-optimization-20261029-final-pipelined-s44",
+    "artifact": "global_010.npz",
+    "actual_model_hash": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+    "chain_readback": {
+      "hash": "24fd8ec7b6a7c4071e00b573e879cbcb5312661891f355a960e4bb9a42f4c56d",
+      "block_number": 4014,
+      "contract_address": "0xeC45a3a2cb6C3b1E41F021Bc7E55414a6113C896",
+      "chain_id": 1337,
+      "rpc_url": "http://127.0.0.1:8545",
+      "source": "live eth_call"
+    },
+    "network": [
+      {
+        "validator": 1,
+        "rpc": "http://127.0.0.1:8545",
+        "responsive": true,
+        "block_number": 4014
+      },
+      {
+        "validator": 2,
+        "rpc": "http://127.0.0.1:8546",
+        "responsive": true,
+        "block_number": 4014
+      },
+      {
+        "validator": 3,
+        "rpc": "http://127.0.0.1:8547",
+        "responsive": true,
+        "block_number": 4014
+      },
+      {
+        "validator": 4,
+        "rpc": "http://127.0.0.1:8548",
+        "responsive": true,
+        "block_number": 4014
+      }
+    ],
+    "checks": {
+      "training_page": true,
+      "pipelined_strategy_selection": true,
+      "history_page": true,
+      "audit_page": true,
+      "comparison_page": true,
+      "latest_completed_study_default": true,
+      "explicit_six_run_study_filter": true,
+      "sync_and_pipelined_separate_conditions": true,
+      "live_model_hash_button": true
+    },
+    "scope": "Read-only AppTest with genuine completed optimization runs and live eth_call; no training launch or signed transaction.",
+    "app_source_sha256": "d06cba92842615408c5cd79dd343348e9bf7d63c60a125824dc95d176455e0aa",
+    "data_source_sha256": "75508e1b50702f90ac2644206ad5f543c082325085032d99ac0d6e5602c36e77"
+  },
+  "preflight_attempt": {
+    "status": {
+      "state": "failed",
+      "error": "RuntimeError: Node 1 returned an invalid QBFT validator list"
+    },
+    "source": {
+      "path": "results/audit-optimization-20261029-pipelined-s42/status.json",
+      "bytes": 101,
+      "sha256": "4dcb84c36f33d9da5da1ea6397c5d9d80d0ed4c24a745c606a295016a6163ab1"
+    }
+  },
+  "latency_scope": "send to first observed receipt, including scheduler/training delay; not physical finality"
+}

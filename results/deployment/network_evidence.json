@@ -1,0 +1,15 @@
+{
+  "client_version": "besu/v26.10.2/windows-x86_64/openjdk-java-25",
+  "chain_id": 1337,
+  "block_number": 72,
+  "validators": {
+    "jsonrpc": "2.0",
+    "id": 3,
+    "result": [
+      "0x00d7f6a01e3d3ff3f95ba3b59d0b61e39b67d969",
+      "0x220509ef9a5551545b60818c95ad0e08fb63f450",
+      "0x290b14a318167d8b39a32fae977190914c26a11e",
+      "0xae432141b948aff4a846d7e0ff273a9cc14e5c30"
+    ]
+  }
+}

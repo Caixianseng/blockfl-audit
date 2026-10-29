@@ -1,0 +1,401 @@
+{
+  "experiment": "four-validator QBFT stop failures",
+  "started_at": "2026-10-29T11:02:12.511914+00:00",
+  "rpc_url": "http://127.0.0.1:8545",
+  "observation_seconds": 15.0,
+  "stopped_nodes": [],
+  "phases": [
+    {
+      "phase": "baseline_state",
+      "at": "2026-10-29T11:02:12.601061+00:00",
+      "network_status": [
+        {
+          "node": 1,
+          "pid": 70596,
+          "running": true,
+          "rpc": "http://127.0.0.1:8545",
+          "block_number": 105
+        },
+        {
+          "node": 2,
+          "pid": 62368,
+          "running": true,
+          "rpc": "http://127.0.0.1:8546",
+          "block_number": 105
+        },
+        {
+          "node": 3,
+          "pid": 49872,
+          "running": true,
+          "rpc": "http://127.0.0.1:8547",
+          "block_number": 105
+        },
+        {
+          "node": 4,
+          "pid": 6736,
+          "running": true,
+          "rpc": "http://127.0.0.1:8548",
+          "block_number": 105
+        }
+      ],
+      "block_number": 105
+    },
+    {
+      "phase": "baseline_submitted",
+      "at": "2026-10-29T11:02:12.628359+00:00",
+      "tx_hash": "0xb76269abc1cd14f9744b14268c358161a0e09e9cd5d10bb993babbc55e047348",
+      "nonce": 14,
+      "block_number": 105
+    },
+    {
+      "phase": "baseline_confirmation",
+      "at": "2026-10-29T11:02:13.142831+00:00",
+      "passed": true,
+      "receipt": {
+        "blockHash": "0x8d3f82bebf1d527278f155eb0b41cea5490289c14b1cf7d2c1ff30302cd969c0",
+        "blockNumber": 106,
+        "contractAddress": null,
+        "cumulativeGasUsed": 21000,
+        "from": "0xFbd91fc7F4c3d5D512980e4C2e43fBBA78823428",
+        "gasUsed": 21000,
+        "effectiveGasPrice": 0,
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "status": 1,
+        "to": "0x5fc8C0d9022dcF65a79b3221d11B169dc2cd140c",
+        "transactionHash": "0xb76269abc1cd14f9744b14268c358161a0e09e9cd5d10bb993babbc55e047348",
+        "transactionIndex": 0,
+        "type": 0
+      },
+      "confirmation_seconds": 0.5254858999978751
+    },
+    {
+      "phase": "one_validator_stopped",
+      "at": "2026-10-29T11:02:17.340421+00:00",
+      "network_status": [
+        {
+          "node": 1,
+          "pid": 70596,
+          "running": true,
+          "rpc": "http://127.0.0.1:8545",
+          "block_number": 108
+        },
+        {
+          "node": 2,
+          "pid": 62368,
+          "running": true,
+          "rpc": "http://127.0.0.1:8546",
+          "block_number": 108
+        },
+        {
+          "node": 3,
+          "pid": 49872,
+          "running": true,
+          "rpc": "http://127.0.0.1:8547",
+          "block_number": 108
+        },
+        {
+          "node": 4,
+          "pid": null,
+          "running": false,
+          "rpc": "http://127.0.0.1:8548",
+          "block_number": null
+        }
+      ]
+    },
+    {
+      "phase": "one_validator_stopped_submitted",
+      "at": "2026-10-29T11:02:17.417039+00:00",
+      "tx_hash": "0x6ba9a68cbc4b8295329d568cbed59e07fbe04d77ff87a7e74dad18d4a192bb4f",
+      "nonce": 15,
+      "block_number": 109
+    },
+    {
+      "phase": "one_validator_stop_confirmation",
+      "at": "2026-10-29T11:02:21.233305+00:00",
+      "passed": true,
+      "receipt": {
+        "blockHash": "0x542364c82e3d8d5e127fe921beff6dc0273139f2f52326db1d47e8cc68598c58",
+        "blockNumber": 110,
+        "contractAddress": null,
+        "cumulativeGasUsed": 21000,
+        "from": "0xFbd91fc7F4c3d5D512980e4C2e43fBBA78823428",
+        "gasUsed": 21000,
+        "effectiveGasPrice": 0,
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "status": 1,
+        "to": "0x5fc8C0d9022dcF65a79b3221d11B169dc2cd140c",
+        "transactionHash": "0x6ba9a68cbc4b8295329d568cbed59e07fbe04d77ff87a7e74dad18d4a192bb4f",
+        "transactionIndex": 0,
+        "type": 0
+      },
+      "confirmation_seconds": 3.8246751999977278
+    },
+    {
+      "phase": "two_validators_stopped",
+      "at": "2026-10-29T11:02:29.392670+00:00",
+      "network_status": [
+        {
+          "node": 1,
+          "pid": 70596,
+          "running": true,
+          "rpc": "http://127.0.0.1:8545",
+          "block_number": 110
+        },
+        {
+          "node": 2,
+          "pid": 62368,
+          "running": true,
+          "rpc": "http://127.0.0.1:8546",
+          "block_number": 110
+        },
+        {
+          "node": 3,
+          "pid": null,
+          "running": false,
+          "rpc": "http://127.0.0.1:8547",
+          "block_number": null
+        },
+        {
+          "node": 4,
+          "pid": null,
+          "running": false,
+          "rpc": "http://127.0.0.1:8548",
+          "block_number": null
+        }
+      ]
+    },
+    {
+      "phase": "two_validators_stopped_submitted",
+      "at": "2026-10-29T11:02:29.471458+00:00",
+      "tx_hash": "0x0016b9c9acf9d30a70881c97c741a41222e48021f632ba776530b659f60f97b2",
+      "nonce": 16,
+      "block_number": 110
+    },
+    {
+      "phase": "two_validator_stop_no_confirmation",
+      "at": "2026-10-29T11:02:44.469642+00:00",
+      "passed": true,
+      "tx_hash": "0x0016b9c9acf9d30a70881c97c741a41222e48021f632ba776530b659f60f97b2",
+      "observation_seconds": 15.0,
+      "observations": [
+        {
+          "elapsed_seconds": 0.012537799993879162,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 0.5185926999984076,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 1.025743699996383,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 1.5332408999965992,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 2.0403770999982953,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 2.5471892999921693,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 3.05501959999674,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 3.561437600001227,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 4.067292299994733,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 4.573596599992015,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 5.080342699991888,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 5.595807199992123,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 6.102943599995342,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 6.610125799998059,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 7.1169711999973515,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 7.624733699994977,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 8.132695499996771,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 8.642595899989828,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 9.150776199996471,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 9.658092400000896,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 10.16453249999904,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 10.670367500002612,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 11.175875399989309,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 11.681791399998474,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 12.18791739999142,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 12.694369199991343,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 13.202037299997755,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 13.709340599991265,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 14.216233999992255,
+          "block_number": 110
+        },
+        {
+          "elapsed_seconds": 14.722682799998438,
+          "block_number": 110
+        }
+      ]
+    },
+    {
+      "phase": "validators_restarted",
+      "at": "2026-10-29T11:02:52.629165+00:00",
+      "network_status": [
+        {
+          "node": 1,
+          "pid": 70596,
+          "running": true,
+          "rpc": "http://127.0.0.1:8545",
+          "block_number": 110
+        },
+        {
+          "node": 2,
+          "pid": 62368,
+          "running": true,
+          "rpc": "http://127.0.0.1:8546",
+          "block_number": 110
+        },
+        {
+          "node": 3,
+          "pid": 65408,
+          "running": true,
+          "rpc": "http://127.0.0.1:8547",
+          "block_number": null
+        },
+        {
+          "node": 4,
+          "pid": 58908,
+          "running": true,
+          "rpc": "http://127.0.0.1:8548",
+          "block_number": null
+        }
+      ]
+    },
+    {
+      "phase": "pending_transfer_confirmed_after_recovery",
+      "at": "2026-10-29T11:03:57.991602+00:00",
+      "passed": true,
+      "receipt": {
+        "blockHash": "0x8add9ab48b1041c442c68da3e942a524dd7ba02eb19549edc74daf39d597e7c9",
+        "blockNumber": 111,
+        "contractAddress": null,
+        "cumulativeGasUsed": 21000,
+        "from": "0xFbd91fc7F4c3d5D512980e4C2e43fBBA78823428",
+        "gasUsed": 21000,
+        "effectiveGasPrice": 0,
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "status": 1,
+        "to": "0x5fc8C0d9022dcF65a79b3221d11B169dc2cd140c",
+        "transactionHash": "0x0016b9c9acf9d30a70881c97c741a41222e48021f632ba776530b659f60f97b2",
+        "transactionIndex": 0,
+        "type": 0
+      },
+      "confirmation_seconds": 88.52860629999486
+    },
+    {
+      "phase": "recovered_submitted",
+      "at": "2026-10-29T11:03:58.012534+00:00",
+      "tx_hash": "0xdcf325d857546b4821246bb160e69a964761ec1a44974f01b0e316de51e32802",
+      "nonce": 17,
+      "block_number": 111
+    },
+    {
+      "phase": "recovered_new_transfer_confirmation",
+      "at": "2026-10-29T11:03:59.287711+00:00",
+      "passed": true,
+      "receipt": {
+        "blockHash": "0x7341187f219b16e1dab2193ad86c049cfd7d2144ae23d831ba866e17128895b6",
+        "blockNumber": 113,
+        "contractAddress": null,
+        "cumulativeGasUsed": 21000,
+        "from": "0xFbd91fc7F4c3d5D512980e4C2e43fBBA78823428",
+        "gasUsed": 21000,
+        "effectiveGasPrice": 0,
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "status": 1,
+        "to": "0x5fc8C0d9022dcF65a79b3221d11B169dc2cd140c",
+        "transactionHash": "0xdcf325d857546b4821246bb160e69a964761ec1a44974f01b0e316de51e32802",
+        "transactionIndex": 0,
+        "type": 0
+      },
+      "confirmation_seconds": 1.283286500009126
+    }
+  ],
+  "passed": true,
+  "limitation": "Local stop failures only; not a Byzantine attack or network-partition test.",
+  "chain_id": 1337,
+  "validators": [
+    "0x00d7f6a01e3d3ff3f95ba3b59d0b61e39b67d969",
+    "0x220509ef9a5551545b60818c95ad0e08fb63f450",
+    "0x290b14a318167d8b39a32fae977190914c26a11e",
+    "0xae432141b948aff4a846d7e0ff273a9cc14e5c30"
+  ],
+  "finished_at": "2026-10-29T11:03:59.289817+00:00"
+}
